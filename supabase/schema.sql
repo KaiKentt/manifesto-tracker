@@ -5,6 +5,8 @@
 --  recreates the app's own objects only.
 -- ════════════════════════════════════════════════════════════════════
 
+create schema if not exists private;
+
 -- ── Clean slate (app objects only) ──────────────────────────────────
 drop table if exists public.votes cascade;
 drop table if exists public.politician_requests cascade;
@@ -15,7 +17,7 @@ drop function if exists public.handle_new_user() cascade;
 drop function if exists public.set_updated_at() cascade;
 drop function if exists public.apply_vote() cascade;
 drop function if exists public.clear_votes() cascade;
-drop function if exists public.can_edit_entity(uuid) cascade;
+drop function if exists private.can_edit_entity(uuid) cascade;
 drop type if exists public.entity_type cascade;
 drop type if exists public.bloc_side cascade;
 drop type if exists public.milestone_status cascade;
@@ -204,7 +206,7 @@ create trigger entities_clear_votes after delete on public.entities
 
 -- Can the current user publish on this entity?
 -- Yes when they own it, are a politician and their subscription is active.
-create function public.can_edit_entity(eid uuid)
+create function private.can_edit_entity(eid uuid)
 returns boolean language sql stable security definer set search_path = '' as $$
   select exists (
     select 1
@@ -242,8 +244,8 @@ create policy "entities are public" on public.entities
   for select to anon, authenticated using (true);
 create policy "owner edits own entity" on public.entities
   for update to authenticated
-  using (public.can_edit_entity(id))
-  with check (public.can_edit_entity(id));
+  using (private.can_edit_entity(id))
+  with check (private.can_edit_entity(id));
 
 -- Profiles: users see and rename themselves only
 grant select on public.profiles to authenticated;
@@ -266,14 +268,14 @@ grant delete on public.milestones to authenticated;
 create policy "milestones are public" on public.milestones
   for select to anon, authenticated using (true);
 create policy "politician adds own milestone" on public.milestones
-  for insert to authenticated with check (public.can_edit_entity(entity_id));
+  for insert to authenticated with check (private.can_edit_entity(entity_id));
 create policy "politician edits own milestone" on public.milestones
   for update to authenticated
-  using (public.can_edit_entity(entity_id) and source_type = 'self_reported')
-  with check (public.can_edit_entity(entity_id));
+  using (private.can_edit_entity(entity_id) and source_type = 'self_reported')
+  with check (private.can_edit_entity(entity_id));
 create policy "politician deletes own milestone" on public.milestones
   for delete to authenticated
-  using (public.can_edit_entity(entity_id) and source_type = 'self_reported');
+  using (private.can_edit_entity(entity_id) and source_type = 'self_reported');
 
 -- Votes: each user manages their own
 grant select, delete on public.votes to authenticated;
@@ -298,4 +300,12 @@ create policy "create own request" on public.politician_requests
   with check (user_id = (select auth.uid()) and status = 'awaiting_payment');
 
 -- Functions used by policies must be callable
-grant execute on function public.can_edit_entity(uuid) to anon, authenticated;
+-- Keep authorization helpers outside the exposed API schema.
+revoke all on schema private from public, anon;
+grant usage on schema private to authenticated;
+revoke execute on function private.can_edit_entity(uuid) from public, anon;
+grant execute on function private.can_edit_entity(uuid) to authenticated;
+
+-- Trigger functions are internal and must not be callable through the Data API.
+revoke execute on function public.handle_new_user(), public.apply_vote(),
+  public.clear_votes(), public.set_updated_at() from public, anon, authenticated;
