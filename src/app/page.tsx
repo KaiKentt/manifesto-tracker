@@ -7,7 +7,7 @@ import { SITE } from "@/lib/config";
 import { MilestoneCard } from "@/components/MilestoneCard";
 import { EntityCard } from "@/components/EntityCard";
 import { UpvoteButton } from "@/components/UpvoteButton";
-import { StatTile, StatusMix, statusCounts } from "@/components/ui";
+import { Avatar, StatTile, StatusMix, statusCounts } from "@/components/ui";
 
 export default async function HomePage() {
   const supabase = await createClient();
@@ -50,7 +50,8 @@ export default async function HomePage() {
         </Form>
         <div className="mt-4 flex flex-wrap gap-2">
           {alliances.map((a) => (
-            <Link key={a.id} href={`/e/${a.slug}`} className="chip">
+            <Link key={a.id} href={`/e/${a.slug}`} className="chip gap-1.5">
+              <Avatar name={a.name} slug={a.slug} short={a.short_name} size={22} />
               {a.short_name ?? a.name}
             </Link>
           ))}

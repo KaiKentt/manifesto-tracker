@@ -10,7 +10,7 @@ export function EntityCard({ entity: e, parentName }: { entity: Entity; parentNa
         ? e.short_name
         : null;
   return (
-    <Link href={`/e/${e.slug}`} className="card group flex items-center gap-3.5 p-4 transition hover:border-slate-300 hover:shadow-md">
+    <Link href={`/e/${e.slug}`} className="card group flex min-w-0 items-center gap-3.5 p-4 transition hover:border-slate-300 hover:shadow-md">
       <Avatar name={e.name} slug={e.slug} short={e.short_name} />
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2">

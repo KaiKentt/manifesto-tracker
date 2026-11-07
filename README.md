@@ -17,6 +17,10 @@ Editorial records and politician self-reported records carry separate labels. Th
 - Demo upgrades without payment for development.
 - Database Row Level Security (RLS), column-level grants and vote-count triggers.
 
+## Branding
+
+The supplied Manifesto Tracker logo and favicon are used in navigation and browser icons. All 14 coalition and party profiles currently included in the app use locally hosted SPR logos. See [branding assets and sources](docs/branding.md) for the artwork inventory and maintenance instructions.
+
 ## Technology
 
 | Layer | Implementation |

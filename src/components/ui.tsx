@@ -1,8 +1,10 @@
+import Image from "next/image";
 import Link from "@/components/NavigationLink";
 import { BLOC_LABEL, STATUS_LABEL, TYPE_LABEL, type MilestoneStatus } from "@/lib/config";
 import type { Bloc, EntityType, Milestone } from "@/lib/types";
+import { ENTITY_LOGOS } from "@/lib/entity-logos";
 
-// ── Avatar: initials on a soft colour derived from the slug ─────────
+// Party/coalition logos, with initials for politicians and other profiles.
 const AVATAR_COLOURS = [
   ["#eef2ff", "#4338ca"],
   ["#ecfeff", "#0e7490"],
@@ -15,6 +17,19 @@ const AVATAR_COLOURS = [
 ];
 
 export function Avatar({ name, slug, short, size = 44 }: { name: string; slug: string; short?: string | null; size?: number }) {
+  const logo = Object.hasOwn(ENTITY_LOGOS, slug) ? ENTITY_LOGOS[slug] : undefined;
+  if (logo) {
+    return (
+      <span
+        aria-hidden="true"
+        className="inline-flex shrink-0 items-center justify-center overflow-hidden rounded-xl border border-line bg-white"
+        style={{ width: size, height: size, padding: size < 28 ? 1 : 3 }}
+      >
+        <Image src={logo} alt="" width={size} height={size} sizes={`${size}px`} className="h-full w-full object-contain" />
+      </span>
+    );
+  }
+
   const hash = [...slug].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
   const [bg, fg] = AVATAR_COLOURS[hash % AVATAR_COLOURS.length];
   const initials = short && short.length <= 4 && short !== name ? short.toUpperCase() : name
