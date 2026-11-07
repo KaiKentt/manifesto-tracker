@@ -4,7 +4,8 @@ import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/politician";
-import { CATEGORIES, STATUSES, type MilestoneStatus } from "@/lib/config";
+import { CATEGORIES } from "@/lib/config";
+import { parseProgress, parseStatus } from "@/lib/milestones";
 import { fail, type FormState } from "@/lib/forms";
 
 // Every action re-checks that the caller is an admin before using the
@@ -86,18 +87,18 @@ export async function addEditorialMilestone(_prev: FormState, formData: FormData
   const entityId = String(formData.get("entity_id") ?? "");
   if (title.length < 3 || !entityId) return fail("Pick an entity and give the milestone a title.", formData);
 
-  const status = String(formData.get("status") ?? "pledged") as MilestoneStatus;
+  const status = parseStatus(formData.get("status"));
   const category = String(formData.get("category") ?? "Other");
   const evidence = String(formData.get("evidence_url") ?? "").trim();
-  const progress = Math.max(0, Math.min(100, Number(formData.get("progress") ?? 0) || 0));
+  const progress = parseProgress(formData.get("progress"));
 
   const { error } = await admin.from("milestones").insert({
     entity_id: entityId,
     title,
     description: String(formData.get("description") ?? "").trim().slice(0, 2000) || null,
     category: (CATEGORIES as readonly string[]).includes(category) ? category : "Other",
-    status: (STATUSES as readonly string[]).includes(status) ? status : "pledged",
-    progress: status === "achieved" ? 100 : progress,
+    status,
+    progress,
     target_date: String(formData.get("target_date") ?? "") || null,
     evidence_url: /^https?:\/\//i.test(evidence) ? evidence : null,
     source_type: "editorial",

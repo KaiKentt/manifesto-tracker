@@ -162,7 +162,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
                     <summary className="flex cursor-pointer list-none flex-wrap items-center gap-3">
                       <StatusBadge status={m.status} />
                       <span className="flex-1 font-semibold">{m.title}</span>
-                      <span className="text-xs text-muted">{m.progress}% · {m.upvotes} upvotes · updated {formatDate(m.updated_at.slice(0, 10))}</span>
+                      <span className="text-xs text-muted">{m.progress === null ? "Progress unknown" : `${m.progress}%`} · {m.upvotes} upvotes · updated {formatDate(m.updated_at.slice(0, 10))}</span>
                       <span className="text-xs font-semibold text-brand-700 group-open:hidden">Edit</span>
                     </summary>
                     <div className="mt-5 border-t border-line pt-5">

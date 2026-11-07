@@ -321,3 +321,7 @@ Run `npm run typecheck` and `npm run build`, then verify against a configured de
 Keep changes focused, document new configuration, and run type checking plus a production build. Regenerate the SQL bundle after schema or seed changes. Never commit credentials or local environment files.
 
 No license file was included in the supplied archive. The repository owner should establish reuse and distribution permissions before third-party adoption.
+
+## Sourced politician imports
+
+CAB-0001 adds Anwar Ibrahim and Ahmad Zahid Hamidi, their Parliament portraits and four dated, sourced milestones. See [the evidence and import guide](docs/imports/CAB-0001/README.md). Unknown status and completion are stored as null; no progress percentage is invented. Editorial profiles remain unclaimed. For existing installations, apply the additive migration in `supabase/migrations` rather than rerunning the clean-install database bundle.

@@ -34,8 +34,11 @@ export const CATEGORIES = [
 
 export const STATUSES = ["pledged", "in_progress", "achieved", "delayed", "broken"] as const;
 export type MilestoneStatus = (typeof STATUSES)[number];
+export const STATUS_FILTERS = [...STATUSES, "unknown"] as const;
+export type StatusFilter = (typeof STATUS_FILTERS)[number];
 
-export const STATUS_LABEL: Record<MilestoneStatus, string> = {
+export const STATUS_LABEL: Record<StatusFilter, string> = {
+  unknown: "Unknown",
   pledged: "Pledged",
   in_progress: "In progress",
   achieved: "Achieved",

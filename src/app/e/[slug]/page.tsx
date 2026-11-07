@@ -5,11 +5,13 @@ import { createClient } from "@/lib/supabase/server";
 import { getEntityBySlug } from "@/lib/entities";
 import { getVotedIds, getViewer } from "@/lib/auth";
 import { MILESTONE_SELECT, type Entity, type Milestone } from "@/lib/types";
-import { STATUSES, STATUS_LABEL, TYPE_LABEL, type MilestoneStatus } from "@/lib/config";
+import { STATUS_FILTERS, STATUS_LABEL, TYPE_LABEL, type StatusFilter } from "@/lib/config";
+import { achievementSummary, publicUrl } from "@/lib/milestones";
+import { formatDate } from "@/components/ui";
 import { MilestoneCard } from "@/components/MilestoneCard";
 import { EntityCard } from "@/components/EntityCard";
 import { UpvoteButton } from "@/components/UpvoteButton";
-import { Avatar, BackLink, BlocBadge, EmptyState, StatTile, StatusMix, TypeBadge, statusCounts } from "@/components/ui";
+import { Avatar, BackLink, BlocBadge, EmptyState, StatTile, StatusMix, TypeBadge } from "@/components/ui";
 
 type Params = { params: Promise<{ slug: string }>; searchParams: Promise<{ status?: string }> };
 
@@ -23,7 +25,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
 export default async function EntityPage({ params, searchParams }: Params) {
   const { slug } = await params;
   const { status } = await searchParams;
-  const filter = (STATUSES as readonly string[]).includes(status ?? "") ? (status as MilestoneStatus) : null;
+  const filter = (STATUS_FILTERS as readonly string[]).includes(status ?? "") ? (status as StatusFilter) : null;
 
   const supabase = await createClient();
   const viewerPromise = getViewer();
@@ -59,9 +61,8 @@ export default async function EntityPage({ params, searchParams }: Params) {
     .order("updated_at", { ascending: false });
   const parent = (parentRes?.data ?? null) as Entity | null;
   const all = (milestoneRows ?? []) as unknown as Milestone[];
-  const list = filter ? all.filter((m) => m.status === filter) : all;
-  const counts = statusCounts(all);
-  const rate = all.length ? Math.round((counts.achieved / all.length) * 100) : 0;
+  const list = filter ? all.filter((m) => (m.status ?? "unknown") === filter) : all;
+  const { counts, rate, recorded } = achievementSummary(all);
 
   const votedMilestones = await getVotedIds("milestone", all.map((m) => m.id));
   const loggedIn = Boolean(viewer);
@@ -79,7 +80,7 @@ export default async function EntityPage({ params, searchParams }: Params) {
       {/* Header */}
       <section className="card p-6 sm:p-8">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
-          <Avatar name={entity.name} slug={entity.slug} short={entity.short_name} size={72} />
+          <Avatar name={entity.name} slug={entity.slug} short={entity.short_name} photoPath={entity.photo_path} size={88} />
           <div className="min-w-0 flex-1">
             <div className="flex flex-wrap items-center gap-2">
               <TypeBadge type={entity.type} />
@@ -106,6 +107,17 @@ export default async function EntityPage({ params, searchParams }: Params) {
               </p>
             ) : null}
             {entity.description ? <p className="mt-4 max-w-3xl text-[15px] leading-relaxed text-slate-700">{entity.description}</p> : null}
+            {entity.profile_sources?.length ? (
+              <div className="mt-4 text-xs text-muted">
+                <p>Profile sources{entity.profile_checked_at ? ` · checked ${formatDate(entity.profile_checked_at)}` : ""}</p>
+                <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
+                  {entity.profile_sources.filter((s) => publicUrl(s.url)).map((s) => (
+                    <li key={s.url}><a href={publicUrl(s.url)!} target="_blank" rel="noopener noreferrer" className="text-brand-700 hover:underline">{s.label} ↗</a></li>
+                  ))}
+                </ul>
+                {entity.photo_credit && publicUrl(entity.photo_source_url) ? <p className="mt-2">Photo: <a href={publicUrl(entity.photo_source_url)!} target="_blank" rel="noopener noreferrer" className="hover:underline">{entity.photo_credit} ↗</a></p> : null}
+              </div>
+            ) : null}
             {entity.website ? (
               <a href={entity.website} target="_blank" rel="noopener noreferrer nofollow" className="mt-3 inline-block text-sm font-medium text-brand-700 hover:underline">
                 Official website ↗
@@ -122,12 +134,13 @@ export default async function EntityPage({ params, searchParams }: Params) {
 
         <div className="mt-6 grid grid-cols-2 gap-4 border-t border-line pt-5 sm:grid-cols-4">
           <StatTile label="Milestones" value={all.length} />
-          <StatTile label="Achieved" value={`${rate}%`} hint={`${counts.achieved} of ${all.length}`} />
+          <StatTile label="Achieved" value={rate === null ? "—" : `${rate}%`} hint={`${counts.achieved} of ${recorded} with recorded status`} />
           <StatTile label="In progress" value={counts.in_progress} />
           <StatTile label="Delayed or broken" value={counts.delayed + counts.broken} />
         </div>
         <div className="mt-5">
           <StatusMix milestones={all} />
+          <p className="mt-3 text-xs text-muted">Based on tracked milestones only, not an overall performance rating. Unknown statuses are excluded from the achieved rate.</p>
         </div>
       </section>
 
@@ -162,7 +175,7 @@ export default async function EntityPage({ params, searchParams }: Params) {
             <Link href={`/e/${entity.slug}`} className={`chip ${!filter ? "border-ink bg-ink text-white hover:text-white" : ""}`}>
               All {all.length}
             </Link>
-            {STATUSES.map((s) => (
+            {STATUS_FILTERS.filter((s) => s !== "unknown" || counts.unknown > 0).map((s) => (
               <Link key={s} href={`/e/${entity.slug}?status=${s}`} className={`chip ${filter === s ? "border-ink bg-ink text-white hover:text-white" : ""}`}>
                 {STATUS_LABEL[s]} {counts[s]}
               </Link>

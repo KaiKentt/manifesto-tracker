@@ -1,10 +1,13 @@
 import Image from "next/image";
 import Link from "@/components/NavigationLink";
-import { BLOC_LABEL, STATUS_LABEL, TYPE_LABEL, type MilestoneStatus } from "@/lib/config";
+import { BLOC_LABEL, STATUS_LABEL, TYPE_LABEL, type StatusFilter } from "@/lib/config";
 import type { Bloc, EntityType, Milestone } from "@/lib/types";
+import { Portrait } from "./Portrait";
+import { statusCounts } from "@/lib/milestones";
+export { statusCounts } from "@/lib/milestones";
 import { ENTITY_LOGOS } from "@/lib/entity-logos";
 
-// Party/coalition logos, with initials for politicians and other profiles.
+// Official logos and sourced portraits, with initials when no image is available.
 const AVATAR_COLOURS = [
   ["#eef2ff", "#4338ca"],
   ["#ecfeff", "#0e7490"],
@@ -16,7 +19,7 @@ const AVATAR_COLOURS = [
   ["#fff7ed", "#c2410c"],
 ];
 
-export function Avatar({ name, slug, short, size = 44 }: { name: string; slug: string; short?: string | null; size?: number }) {
+export function Avatar({ name, slug, short, photoPath, size = 44 }: { name: string; slug: string; short?: string | null; photoPath?: string | null; size?: number }) {
   const logo = Object.hasOwn(ENTITY_LOGOS, slug) ? ENTITY_LOGOS[slug] : undefined;
   if (logo) {
     return (
@@ -39,6 +42,9 @@ export function Avatar({ name, slug, short, size = 44 }: { name: string; slug: s
     .slice(0, 2)
     .map((w) => w[0]!.toUpperCase())
     .join("");
+  if (photoPath && /^\/portraits\/[a-z0-9-]+\.webp$/.test(photoPath)) {
+    return <Portrait src={photoPath} name={name} size={size} initials={initials || "?"} background={bg} color={fg} />;
+  }
   return (
     <span
       aria-hidden
@@ -51,7 +57,8 @@ export function Avatar({ name, slug, short, size = 44 }: { name: string; slug: s
 }
 
 // ── Badges ───────────────────────────────────────────────────────────
-const STATUS_STYLE: Record<MilestoneStatus, string> = {
+const STATUS_STYLE: Record<StatusFilter, string> = {
+  unknown: "bg-slate-100 text-slate-500",
   pledged: "bg-slate-100 text-slate-700",
   in_progress: "bg-sky-50 text-sky-700",
   achieved: "bg-emerald-50 text-emerald-700",
@@ -59,7 +66,8 @@ const STATUS_STYLE: Record<MilestoneStatus, string> = {
   broken: "bg-rose-50 text-rose-700",
 };
 
-export const STATUS_BAR: Record<MilestoneStatus, string> = {
+export const STATUS_BAR: Record<StatusFilter, string> = {
+  unknown: "bg-slate-200",
   pledged: "bg-slate-300",
   in_progress: "bg-sky-500",
   achieved: "bg-emerald-500",
@@ -67,10 +75,11 @@ export const STATUS_BAR: Record<MilestoneStatus, string> = {
   broken: "bg-rose-500",
 };
 
-export function StatusBadge({ status }: { status: MilestoneStatus }) {
+export function StatusBadge({ status: raw }: { status: Milestone["status"] }) {
+  const status = raw ?? "unknown";
   return (
     <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS_STYLE[status]}`}>
-      <span className={`h-1.5 w-1.5 rounded-full ${STATUS_BAR[status]}`} />
+      <span className={`h-1.5 w-1.5 rounded-full ${STATUS_BAR[status ?? "unknown"]}`} />
       {STATUS_LABEL[status]}
     </span>
   );
@@ -115,11 +124,12 @@ export function SampleBadge() {
 }
 
 // ── Progress ─────────────────────────────────────────────────────────
-export function ProgressBar({ value, status }: { value: number; status: MilestoneStatus }) {
+export function ProgressBar({ value, status }: { value: number | null; status: Milestone["status"] }) {
+  if (value === null) return <p className="text-xs text-muted">Progress percentage not established</p>;
   return (
     <div className="flex items-center gap-3">
       <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
-        <div className={`h-full rounded-full ${STATUS_BAR[status]}`} style={{ width: `${value}%` }} />
+        <div className={`h-full rounded-full ${STATUS_BAR[status ?? "unknown"]}`} style={{ width: `${value}%` }} />
       </div>
       <span className="w-9 text-right text-xs font-semibold tabular-nums text-slate-500">{value}%</span>
     </div>
@@ -127,16 +137,10 @@ export function ProgressBar({ value, status }: { value: number; status: Mileston
 }
 
 // ── Status mix: stacked bar + legend ─────────────────────────────────
-export function statusCounts(milestones: Pick<Milestone, "status">[]) {
-  const counts: Record<MilestoneStatus, number> = { pledged: 0, in_progress: 0, achieved: 0, delayed: 0, broken: 0 };
-  milestones.forEach((m) => counts[m.status]++);
-  return counts;
-}
-
 export function StatusMix({ milestones }: { milestones: Pick<Milestone, "status">[] }) {
   const counts = statusCounts(milestones);
   const total = milestones.length;
-  const order: MilestoneStatus[] = ["achieved", "in_progress", "delayed", "pledged", "broken"];
+  const order: StatusFilter[] = ["achieved", "in_progress", "delayed", "pledged", "broken", "unknown"];
   if (!total) return <p className="text-sm text-muted">No milestones tracked yet.</p>;
   return (
     <div>
@@ -148,7 +152,7 @@ export function StatusMix({ milestones }: { milestones: Pick<Milestone, "status"
         )}
       </div>
       <ul className="mt-3 flex flex-wrap gap-x-4 gap-y-1.5">
-        {order.map((s) => (
+        {order.filter((s) => s !== "unknown" || counts.unknown > 0).map((s) => (
           <li key={s} className="flex items-center gap-1.5 text-xs text-slate-600">
             <span className={`h-2 w-2 rounded-full ${STATUS_BAR[s]}`} />
             {STATUS_LABEL[s]} <span className="font-semibold tabular-nums text-ink">{counts[s]}</span>

@@ -69,15 +69,16 @@ export function MilestoneForm({ entityId, milestone, disabled }: { entityId: str
         </div>
         <div className="sm:col-span-2">
           <label className="label">Status</label>
-          <select name="status" defaultValue={v.status ?? m?.status ?? "pledged"} className="input">
+          <select name="status" defaultValue={v.status ?? m?.status ?? "unknown"} className="input">
+            <option value="unknown">Unknown</option>
             {STATUSES.map((s) => (
               <option key={s} value={s}>{STATUS_LABEL[s]}</option>
             ))}
           </select>
         </div>
         <div className="sm:col-span-2">
-          <label className="label">Progress (%)</label>
-          <input name="progress" type="number" min={0} max={100} defaultValue={v.progress ?? m?.progress ?? 0} className="input" />
+          <label className="label">Progress (%) · leave blank if unknown</label>
+          <input name="progress" type="number" min={0} max={100} defaultValue={v.progress ?? m?.progress ?? ""} className="input" />
         </div>
         <div className="sm:col-span-2">
           <label className="label">Target date</label>

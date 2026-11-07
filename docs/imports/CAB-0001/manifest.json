@@ -1,0 +1,144 @@
+{
+  "batch_id": "CAB-0001",
+  "checked_at": "2026-11-08",
+  "profiles": [
+    {
+      "record_id": "MECO-4XZBA",
+      "slug": "anwar-ibrahim",
+      "position": "Prime Minister; Minister of Finance; President of PKR",
+      "constituency": "Tambun",
+      "state": "Perak",
+      "description": "Anwar Ibrahim is Malaysia’s tenth Prime Minister and Minister of Finance. He represents Tambun in Perak and is President of Parti Keadilan Rakyat (PKR), a member of Pakatan Harapan. He was sworn in as Prime Minister on 24 November 2022.",
+      "website": "https://www.pmo.gov.my/",
+      "photo_path": "/portraits/anwar-ibrahim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P063.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "PMO · biography",
+          "url": "https://www.pmo.gov.my/ms/profil-pm/"
+        },
+        {
+          "label": "Parliament · Tambun",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4102"
+        }
+      ]
+    },
+    {
+      "record_id": "MECO-YGBJT",
+      "slug": "ahmad-zahid-hamidi",
+      "position": "Deputy Prime Minister; Minister of Rural and Regional Development; President of UMNO",
+      "constituency": "Bagan Datuk",
+      "state": "Perak",
+      "description": "Ahmad Zahid Hamidi is Deputy Prime Minister and Minister of Rural and Regional Development. He represents Bagan Datuk in Perak and is President of UMNO, a member of Barisan Nasional. As chair of the National TVET Council, he has announced national targets for participation in technical and vocational education and training.",
+      "website": "https://www.rurallink.gov.my/",
+      "photo_path": "/portraits/ahmad-zahid-hamidi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/YAB%20TPM%201.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Bagan Datuk",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4114"
+        },
+        {
+          "label": "UMNO · president’s address (11 Sep 2026)",
+          "url": "https://umno-online.my/2026/09/11/ucapan-dasar-presiden-umno-datuk-seri-dr-ahmad-zahid-hamidi/"
+        },
+        {
+          "label": "TVET council · role and targets",
+          "url": "https://www.tvet.gov.my/index.php/awam-berita/beritapenuh?id=1019"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "entity_slug": "anwar-ibrahim",
+      "import_key": "CAB-0001:anwar-ibrahim:minimum-wage-1700",
+      "title": "Raise the statutory monthly minimum wage to RM1,700",
+      "category": "Economy",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2025-08-01",
+      "promise_date": "2024-10-18",
+      "promise_url": "https://www.pmo.gov.my/ms/ucapanterkini/teks-ucapan-yab-perdana-menteri-pembentangan-rang-undang-undang-perbekalan-2025-2/",
+      "evidence_url": "https://www.jtkswk.gov.my/v2/?lang=en&page_id=3817",
+      "evidence_date": null,
+      "description": "In Budget 2025, Anwar announced a rise from RM1,500 to RM1,700 from 1 February 2025, with a six-month deferment for smaller employers.",
+      "progress_note": "The Labour Department lists the RM1,700 rate and its February and August 2025 implementation phases. Achieved refers to the statutory rate taking effect, not universal employer compliance or household outcomes. No numerical completion percentage is assigned. The department’s FAQ has no publication date shown.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "entity_slug": "anwar-ibrahim",
+      "import_key": "CAB-0001:anwar-ibrahim:budi95-launch",
+      "title": "Introduce targeted RON95 subsidies through BUDI95",
+      "category": "Economy",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2025-09-30",
+      "promise_date": "2025-09-22",
+      "promise_url": "https://www.mof.gov.my/portal/ms/berita/siaran-media/budi95-pastikan-penyasaran-subsidi-ron95-manfaat-rakyat",
+      "evidence_url": "https://www.mof.gov.my/portal/ms/berita/siaran-media/penambahbaikan-subsidi-ron95-bagi-pemandu-e-hailing-dan-teksi-lapangan-terbang",
+      "evidence_date": "2025-11-04",
+      "description": "Anwar announced BUDI95 for eligible Malaysians from 30 September 2025, with subsidised RON95 priced at RM1.99 per litre at launch.",
+      "progress_note": "The Finance Ministry’s November 2025 update describes actual September usage and changes to the operating scheme. This supports delivery of the programme launch. It does not establish long-term savings, universal access or today’s pump price; those outcomes are outside this milestone. No numerical completion percentage is assigned.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "entity_slug": "ahmad-zahid-hamidi",
+      "import_key": "CAB-0001:ahmad-zahid-hamidi:tvet-spm-70",
+      "title": "Reach 70% TVET participation among SPM leavers by 2030",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2025-12-15",
+      "promise_url": "https://bernama.com/en/general/news.php?id=2502879",
+      "evidence_url": "https://www.tvet.gov.my/index.php/awam-berita/beritapenuh?id=1019",
+      "evidence_date": "2026-03-05",
+      "description": "As National TVET Council chair, Ahmad Zahid set a 70% participation target for SPM leavers by the end of the Thirteenth Malaysia Plan.",
+      "progress_note": "The government TVET portal reported participation of 53.9% as of December 2025 and described continuing measures in March 2026. That is a dated participation metric, not a percentage of this promise completed, so completion remains blank. The target has not been recorded as achieved.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "entity_slug": "ahmad-zahid-hamidi",
+      "import_key": "CAB-0001:ahmad-zahid-hamidi:tvet-650000-2026",
+      "title": "Have at least 650,000 students enter TVET in 2026",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": "2026-12-31",
+      "promise_date": "2026-06-05",
+      "promise_url": "https://www.tvet.gov.my/awam-berita/beritapenuh?id=1151",
+      "evidence_url": null,
+      "evidence_date": null,
+      "description": "Ahmad Zahid announced a target of at least 650,000 students in TVET programmes across 1,395 institutions by 31 December 2026.",
+      "progress_note": "The June 2026 announcement cites roughly 587,000 entrants in the previous year. A comparable 2026 result was not established during this batch. Status and completion percentage remain unknown; the previous-year figure is not used as this year’s progress.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "missing_fields": {
+    "all_completion_percentages": "not_established; deliberately NULL",
+    "wage_evidence_publication_date": "not_shown_in_source",
+    "tvet_2026_outcome": "not_established_in_this_batch; status and progress NULL"
+  },
+  "methodology": "Editorial assessments of narrowly scoped promises. Ministry implementation is not sole personal credit. Government reports are attributed, not independently audited. No auth accounts or ownership claims are created."
+}

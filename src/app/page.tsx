@@ -4,10 +4,11 @@ import { createClient } from "@/lib/supabase/server";
 import { getVotedIds, getViewer } from "@/lib/auth";
 import { MILESTONE_SELECT, type Entity, type Milestone } from "@/lib/types";
 import { SITE } from "@/lib/config";
+import { achievementSummary } from "@/lib/milestones";
 import { MilestoneCard } from "@/components/MilestoneCard";
 import { EntityCard } from "@/components/EntityCard";
 import { UpvoteButton } from "@/components/UpvoteButton";
-import { Avatar, StatTile, StatusMix, statusCounts } from "@/components/ui";
+import { Avatar, StatTile, StatusMix } from "@/components/ui";
 
 export default async function HomePage() {
   const supabase = await createClient();
@@ -71,9 +72,8 @@ export default async function HomePage() {
         <div className="mt-4 grid gap-5 md:grid-cols-2">
           {blocs.map((bloc) => {
             const items = milestones.filter((m) => m.entity?.bloc === bloc.bloc);
-            const counts = statusCounts(items);
-            const rate = items.length ? Math.round((counts.achieved / items.length) * 100) : 0;
-            const best = [...items].sort((a, b) => b.upvotes - a.upvotes || b.progress - a.progress).slice(0, 3);
+            const { counts, rate, recorded } = achievementSummary(items);
+            const best = [...items].sort((a, b) => b.upvotes - a.upvotes || (b.progress ?? -1) - (a.progress ?? -1)).slice(0, 3);
             return (
               <div key={bloc.id} className="card flex flex-col p-6">
                 <div className="flex items-start justify-between gap-4">
@@ -89,7 +89,7 @@ export default async function HomePage() {
 
                 <div className="mt-5 grid grid-cols-3 gap-4 border-y border-line py-4">
                   <StatTile label="Milestones tracked" value={items.length} />
-                  <StatTile label="Achieved" value={`${rate}%`} hint={`${counts.achieved} of ${items.length}`} />
+                  <StatTile label="Achieved" value={rate === null ? "—" : `${rate}%`} hint={`${counts.achieved} of ${recorded} with recorded status`} />
                   <StatTile label="In progress" value={counts.in_progress} />
                 </div>
                 <div className="mt-4">

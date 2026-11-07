@@ -2,7 +2,8 @@
 
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
-import { CATEGORIES, STATUSES, type MilestoneStatus } from "@/lib/config";
+import { CATEGORIES } from "@/lib/config";
+import { parseProgress, parseStatus } from "@/lib/milestones";
 import { fail, type FormState } from "@/lib/forms";
 
 // All writes here run as the logged-in politician. Row Level Security only
@@ -16,16 +17,16 @@ function str(formData: FormData, key: string, max = 500) {
 
 function milestoneFields(formData: FormData) {
   const title = str(formData, "title", 200);
-  const status = String(formData.get("status") ?? "pledged") as MilestoneStatus;
+  const status = parseStatus(formData.get("status"));
   const category = String(formData.get("category") ?? "Other");
-  const progress = Math.max(0, Math.min(100, Number(formData.get("progress") ?? 0) || 0));
+  const progress = parseProgress(formData.get("progress"));
   const evidence = str(formData, "evidence_url", 500);
   return {
     title,
     description: str(formData, "description", 2000),
     category: (CATEGORIES as readonly string[]).includes(category) ? category : "Other",
-    status: (STATUSES as readonly string[]).includes(status) ? status : "pledged",
-    progress: status === "achieved" ? 100 : progress,
+    status,
+    progress,
     target_date: str(formData, "target_date", 10),
     evidence_url: evidence && /^https?:\/\//i.test(evidence) ? evidence : null,
   };

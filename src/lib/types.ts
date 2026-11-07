@@ -18,6 +18,11 @@ export interface Entity {
   state: string | null;
   description: string | null;
   website: string | null;
+  photo_path?: string | null;
+  photo_source_url?: string | null;
+  photo_credit?: string | null;
+  profile_sources?: { label: string; url: string }[];
+  profile_checked_at?: string | null;
   owner_id: string | null;
   upvotes: number;
   is_sample: boolean;
@@ -33,8 +38,14 @@ export interface Milestone {
   title: string;
   description: string | null;
   category: string;
-  status: MilestoneStatus;
-  progress: number;
+  status: MilestoneStatus | null;
+  progress: number | null;
+  import_key?: string | null;
+  promise_url?: string | null;
+  promise_date?: string | null;
+  evidence_date?: string | null;
+  progress_checked_at?: string | null;
+  progress_note?: string | null;
   target_date: string | null;
   evidence_url: string | null;
   source_type: "editorial" | "self_reported";
@@ -72,4 +83,4 @@ export interface PoliticianRequest {
 }
 
 export const MILESTONE_SELECT =
-  "id, entity_id, title, description, category, status, progress, target_date, evidence_url, source_type, is_sample, upvotes, created_at, updated_at, entity:entities(id, slug, name, short_name, type, bloc)";
+  "id, entity_id, title, description, category, status, progress, target_date, evidence_url, import_key, promise_url, promise_date, evidence_date, progress_checked_at, progress_note, source_type, is_sample, upvotes, created_at, updated_at, entity:entities(id, slug, name, short_name, type, bloc)";

@@ -11,7 +11,7 @@ export function EntityCard({ entity: e, parentName }: { entity: Entity; parentNa
         : null;
   return (
     <Link href={`/e/${e.slug}`} className="card group flex min-w-0 items-center gap-3.5 p-4 transition hover:border-slate-300 hover:shadow-md">
-      <Avatar name={e.name} slug={e.slug} short={e.short_name} />
+      <Avatar name={e.name} slug={e.slug} short={e.short_name} photoPath={e.photo_path} />
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2">
           <span className="truncate font-semibold text-ink group-hover:text-brand-700">{e.name}</span>

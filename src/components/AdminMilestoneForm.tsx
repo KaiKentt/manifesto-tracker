@@ -37,13 +37,14 @@ export function AdminMilestoneForm({ entities }: { entities: { id: string; label
       </div>
       <div className="sm:col-span-2">
         <label className="label">Status</label>
-        <select name="status" className="input" defaultValue={v.status ?? "pledged"}>
-          {STATUSES.map((s) => <option key={s} value={s}>{STATUS_LABEL[s]}</option>)}
+        <select name="status" className="input" defaultValue={v.status ?? "unknown"}>
+          <option value="unknown">Unknown</option>
+            {STATUSES.map((s) => <option key={s} value={s}>{STATUS_LABEL[s]}</option>)}
         </select>
       </div>
       <div className="sm:col-span-2">
-        <label className="label">Progress (%)</label>
-        <input name="progress" type="number" min={0} max={100} defaultValue={v.progress ?? 0} className="input" />
+        <label className="label">Progress (%) · leave blank if unknown</label>
+        <input name="progress" type="number" min={0} max={100} defaultValue={v.progress ?? ""} className="input" />
       </div>
       <div className="sm:col-span-2">
         <label className="label">Target date</label>
