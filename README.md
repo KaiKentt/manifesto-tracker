@@ -101,6 +101,23 @@ To create an administrator:
 
 Keep email confirmation enabled for public deployments.
 
+### Google sign-in
+
+Both `/login` and `/signup` offer **Continue with Google**. Supabase creates an account on the first successful Google sign-in and signs the user in on subsequent visits. New accounts receive the default rakyat role through the existing database trigger.
+
+Enable the provider before using the button:
+
+1. In Google Auth Platform, configure the app branding and audience, then create a **Web application** OAuth client.
+2. Add your application origin, such as `https://manifesto-tracker-zeta.vercel.app`, to its authorized JavaScript origins.
+3. Add the Supabase callback `https://YOUR-PROJECT-REF.supabase.co/auth/v1/callback` to its authorized redirect URIs. For the current project, the reference is `zixwmvofvqlmsaovmnwk`.
+4. In Supabase **Authentication → Sign In / Providers → Google**, enter the client ID and client secret and enable Google.
+5. Ensure the app's `/auth/callback` URL is allowed in Supabase URL Configuration and `NEXT_PUBLIC_SITE_URL` matches the deployed origin.
+6. If the Google app audience is in testing mode, add the intended test users. Configure the audience for public use when ready.
+
+Store the Google client secret in the Supabase provider settings. The application uses the existing publishable Supabase key to start OAuth. Successful sign-in returns to the requested internal page. Cancellation or an unsuccessful callback displays a retry message on the login page.
+
+Setup reference: [Supabase Google sign-in guide](https://supabase.com/docs/guides/auth/social-sign-in/auth-google).
+
 ## Environment variables
 
 Use `.env.local` locally and your host's environment settings for deployed values. Commit only `.env.example`, which contains placeholders.
