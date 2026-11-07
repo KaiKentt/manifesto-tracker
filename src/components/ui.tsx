@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import { BLOC_LABEL, STATUS_LABEL, TYPE_LABEL, type MilestoneStatus } from "@/lib/config";
 import type { Bloc, EntityType, Milestone } from "@/lib/types";
 

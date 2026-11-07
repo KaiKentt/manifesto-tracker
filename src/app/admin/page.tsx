@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import type { Metadata } from "next";
 import { requireAdmin } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";

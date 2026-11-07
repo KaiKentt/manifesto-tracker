@@ -20,23 +20,26 @@ export function UpvoteButton({
   size?: "sm" | "md";
 }) {
   const router = useRouter();
-  const [state, setState] = useState({ count, voted });
-  const [optimistic, setOptimistic] = useOptimistic(state);
+  const [optimistic, setOptimistic] = useOptimistic({ count, voted });
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
   function onClick() {
     if (!loggedIn) {
-      router.push(`/login?next=${encodeURIComponent(window.location.pathname)}`);
+      router.push(`/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
       return;
     }
     setError(null);
     startTransition(async () => {
-      setOptimistic({ voted: !state.voted, count: state.count + (state.voted ? -1 : 1) });
-      const res = await toggleVote(targetType, targetId);
-      if (res.ok) setState({ voted: res.voted, count: res.count });
-      else if (res.reason === "login") router.push("/login");
-      else setError(res.message ?? "Could not save your vote");
+      setOptimistic({ voted: !voted, count: Math.max(0, count + (voted ? -1 : 1)) });
+      try {
+        const res = await toggleVote(targetType, targetId);
+        if (res.ok) setOptimistic({ voted: res.voted, count: res.count });
+        else if (res.reason === "login") router.push("/login");
+        else setError(res.message ?? "Could not save your vote");
+      } catch {
+        setError("Could not save your vote. Please try again.");
+      }
     });
   }
 
@@ -47,6 +50,7 @@ export function UpvoteButton({
       onClick={onClick}
       disabled={pending}
       aria-pressed={optimistic.voted}
+      aria-busy={pending}
       title={error ?? (loggedIn ? (optimistic.voted ? "Remove upvote" : "Upvote") : "Log in to upvote")}
       className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border font-semibold tabular-nums transition ${pad} ${
         optimistic.voted

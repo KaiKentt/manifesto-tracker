@@ -199,6 +199,8 @@ No automated unit/integration test suite or lint script is included. Type checki
 
 ### Vercel
 
+`vercel.json` places the application functions in Singapore (`sin1`), alongside the current Supabase database. Update this setting if the database moves to another region.
+
 1. Import `Kaikentt/manifesto-tracker` and use the Next.js framework configuration.
 2. Set environment variables for each intended environment.
 3. Connect the initialized Supabase project.

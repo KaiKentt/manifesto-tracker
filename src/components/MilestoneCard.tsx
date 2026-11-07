@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import type { Milestone } from "@/lib/types";
 import { UpvoteButton } from "./UpvoteButton";
 import { ProgressBar, SampleBadge, SourceBadge, StatusBadge, formatDate } from "./ui";

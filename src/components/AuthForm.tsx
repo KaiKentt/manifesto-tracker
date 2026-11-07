@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import { useActionState } from "react";
 import { signIn, signUp, signInWithGoogle } from "@/actions/auth";
 import type { FormState } from "@/lib/forms";

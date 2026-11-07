@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import type { Metadata } from "next";
 import { requireViewer } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";

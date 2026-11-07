@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Form from "next/form";
+import Link from "@/components/NavigationLink";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
 import { getVotedIds, getViewer } from "@/lib/auth";
@@ -53,11 +54,11 @@ export default async function SearchPage({ searchParams }: { searchParams: Promi
     <div className="space-y-8">
       <div>
         <h1 className="text-2xl font-extrabold tracking-tight">{q ? `Results for “${q}”` : "Explore"}</h1>
-        <form action="/search" className="mt-4 flex max-w-xl gap-2">
+        <Form action="/search" className="mt-4 flex max-w-xl gap-2">
           {type !== "all" ? <input type="hidden" name="type" value={type} /> : null}
           <input name="q" defaultValue={q} placeholder="Name, party, constituency or state" className="input h-11" />
           <button className="btn-primary h-11">Search</button>
-        </form>
+        </Form>
         <div className="mt-4 flex flex-wrap gap-2">
           {TABS.map((t) => (
             <Link

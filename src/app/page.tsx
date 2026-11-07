@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Form from "next/form";
+import Link from "@/components/NavigationLink";
 import { createClient } from "@/lib/supabase/server";
 import { getVotedIds, getViewer } from "@/lib/auth";
 import { MILESTONE_SELECT, type Entity, type Milestone } from "@/lib/types";
@@ -43,10 +44,10 @@ export default async function HomePage() {
           Follow the pledges of the government and the opposition, then dig into any coalition, party or politician. Upvote the
           promises that matter to you.
         </p>
-        <form action="/search" className="mt-6 flex max-w-xl gap-2">
+        <Form action="/search" className="mt-6 flex max-w-xl gap-2">
           <input name="q" placeholder="Try “PKR”, “Perikatan”, or a politician’s name" className="input h-12 text-base" />
           <button className="btn-primary h-12 px-5">Search</button>
-        </form>
+        </Form>
         <div className="mt-4 flex flex-wrap gap-2">
           {alliances.map((a) => (
             <Link key={a.id} href={`/e/${a.slug}`} className="chip">

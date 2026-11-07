@@ -2,6 +2,7 @@
 
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
+import { getCurrentUser } from "@/lib/auth";
 
 export type VoteResult = { ok: true; voted: boolean; count: number } | { ok: false; reason: "login" | "error"; message?: string };
 
@@ -10,8 +11,8 @@ export type VoteResult = { ok: true; voted: boolean; count: number } | { ok: fal
 // a database trigger keeps the counter in sync.
 export async function toggleVote(targetType: "milestone" | "entity", targetId: string): Promise<VoteResult> {
   const supabase = await createClient();
-  const { data: auth } = await supabase.auth.getUser();
-  if (!auth.user) return { ok: false, reason: "login" };
+  const user = await getCurrentUser();
+  if (!user) return { ok: false, reason: "login" };
 
   const { data: existing } = await supabase
     .from("votes")
@@ -28,6 +29,9 @@ export async function toggleVote(targetType: "milestone" | "entity", targetId: s
   const table = targetType === "milestone" ? "milestones" : "entities";
   const { data: row } = await supabase.from(table).select("upvotes").eq("id", targetId).maybeSingle();
 
-  revalidatePath("/", "layout");
+  revalidatePath("/", "page");
+  revalidatePath("/e/[slug]", "page");
+  revalidatePath("/search", "page");
+  revalidatePath("/dashboard", "page");
   return { ok: true, voted: !existing, count: row?.upvotes ?? 0 };
 }

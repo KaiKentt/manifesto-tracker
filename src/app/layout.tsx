@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Suspense } from "react";
+import Link from "@/components/NavigationLink";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { SITE, isSupabaseConfigured } from "@/lib/config";
@@ -22,7 +23,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="flex min-h-screen flex-col">
-        {configured ? <Header /> : null}
+        {configured ? (
+          <Suspense fallback={<header aria-label="Loading navigation" className="sticky top-0 z-30 h-16 border-b border-line bg-white" />}>
+            <Header />
+          </Suspense>
+        ) : null}
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{configured ? children : <SetupNotice />}</main>
         <footer className="border-t border-line bg-white">
           <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">

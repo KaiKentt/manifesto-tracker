@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import type { Entity } from "@/lib/types";
 import { Avatar, BlocBadge, TypeBadge } from "./ui";
 

@@ -1,7 +1,8 @@
-import Link from "next/link";
+import Link from "@/components/NavigationLink";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { createClient } from "@/lib/supabase/server";
+import { getEntityBySlug } from "@/lib/entities";
 import { getVotedIds, getViewer } from "@/lib/auth";
 import { MILESTONE_SELECT, type Entity, type Milestone } from "@/lib/types";
 import { STATUSES, STATUS_LABEL, TYPE_LABEL, type MilestoneStatus } from "@/lib/config";
@@ -14,8 +15,7 @@ type Params = { params: Promise<{ slug: string }>; searchParams: Promise<{ statu
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
-  const supabase = await createClient();
-  const { data } = await supabase.from("entities").select("name, type, description").eq("slug", slug).maybeSingle();
+  const data = await getEntityBySlug(slug);
   if (!data) return { title: "Not found" };
   return { title: `${data.name} — milestones`, description: data.description ?? `${TYPE_LABEL[data.type as Entity["type"]]} profile and tracked milestones.` };
 }
@@ -26,18 +26,23 @@ export default async function EntityPage({ params, searchParams }: Params) {
   const filter = (STATUSES as readonly string[]).includes(status ?? "") ? (status as MilestoneStatus) : null;
 
   const supabase = await createClient();
-  const { data: row } = await supabase.from("entities").select("*").eq("slug", slug).maybeSingle();
-  if (!row) notFound();
-  const entity = row as Entity;
+  const viewerPromise = getViewer();
+  const entity = await getEntityBySlug(slug);
+  if (!entity) notFound();
 
   // Which entities' milestones roll up into this page?
   //  bloc → everything on that side; coalition/party → itself and its members.
   let scopeIds: string[] = [entity.id];
-  const { data: childRows } = await supabase.from("entities").select("*").eq("parent_id", entity.id).order("type").order("name");
+  const [{ data: childRows }, parentRes, blocRes, votedEntities, viewer] = await Promise.all([
+    supabase.from("entities").select("*").eq("parent_id", entity.id).order("type").order("name"),
+    entity.parent_id ? supabase.from("entities").select("*").eq("id", entity.parent_id).maybeSingle() : null,
+    entity.type === "bloc" ? supabase.from("entities").select("id").eq("bloc", entity.bloc) : null,
+    getVotedIds("entity", [entity.id]),
+    viewerPromise,
+  ]);
   const children = (childRows ?? []) as Entity[];
   if (entity.type === "bloc") {
-    const { data } = await supabase.from("entities").select("id").eq("bloc", entity.bloc);
-    scopeIds = (data ?? []).map((e) => e.id as string);
+    scopeIds = (blocRes?.data ?? []).map((e) => e.id as string);
   } else if (entity.type !== "politician") {
     const childIds = children.map((c) => c.id);
     const { data: grand } = childIds.length
@@ -46,18 +51,19 @@ export default async function EntityPage({ params, searchParams }: Params) {
     scopeIds = [entity.id, ...childIds, ...(grand ?? []).map((g) => g.id as string)];
   }
 
-  const [viewer, parentRes, { data: milestoneRows }] = await Promise.all([
-    getViewer(),
-    entity.parent_id ? supabase.from("entities").select("*").eq("id", entity.parent_id).maybeSingle() : null,
-    supabase.from("milestones").select(MILESTONE_SELECT).in("entity_id", scopeIds).order("upvotes", { ascending: false }).order("updated_at", { ascending: false }),
-  ]);
+  const { data: milestoneRows } = await supabase
+    .from("milestones")
+    .select(MILESTONE_SELECT)
+    .in("entity_id", scopeIds)
+    .order("upvotes", { ascending: false })
+    .order("updated_at", { ascending: false });
   const parent = (parentRes?.data ?? null) as Entity | null;
   const all = (milestoneRows ?? []) as unknown as Milestone[];
   const list = filter ? all.filter((m) => m.status === filter) : all;
   const counts = statusCounts(all);
   const rate = all.length ? Math.round((counts.achieved / all.length) * 100) : 0;
 
-  const [votedMilestones, votedEntities] = await Promise.all([getVotedIds("milestone", all.map((m) => m.id)), getVotedIds("entity", [entity.id])]);
+  const votedMilestones = await getVotedIds("milestone", all.map((m) => m.id));
   const loggedIn = Boolean(viewer);
   const isOwner = viewer?.userId && viewer.userId === entity.owner_id;
   const facts = [
