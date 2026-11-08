@@ -1,0 +1,142 @@
+{
+  "batch_id": "CAB-0008",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0008",
+      "record_id": "MECO-MMPK6",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "tiong-king-sing",
+      "name": "Tiong King Sing",
+      "parent_slug": "pdp",
+      "bloc": "government",
+      "position": "Minister of Tourism, Arts and Culture",
+      "constituency": "Bintulu",
+      "state": "Sarawak",
+      "description": "Tiong King Sing is Minister of Tourism, Arts and Culture. He represents Bintulu, Sarawak, in the Dewan Rakyat. He is a member of the Progressive Democratic Party (PDP).",
+      "website": "https://www.motac.gov.my/",
+      "photo_path": "/portraits/tiong-king-sing.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P217.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Bintulu",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4256"
+        },
+        {
+          "label": "PDP · 2026 party meeting",
+          "url": "https://www.bernama.com/bm/news.php?id=2557971"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0008",
+      "record_id": "MECO-6HJHC",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "fahmi-fadzil",
+      "name": "Fahmi Fadzil",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Communications",
+      "constituency": "Lembah Pantai",
+      "state": "Kuala Lumpur",
+      "description": "Fahmi Fadzil is Minister of Communications. He represents Lembah Pantai, Kuala Lumpur, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.komunikasi.gov.my/",
+      "photo_path": "/portraits/fahmi-fadzil.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/yb%20Fahmi.jpeg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Lembah Pantai",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4160"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0008",
+      "entity_slug": "tiong-king-sing",
+      "import_key": "CAB-0008:tiong-king-sing:vm2026-47m-visitors",
+      "title": "Attract 47 million visitors during Visit Malaysia 2026",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": "2026-12-31",
+      "promise_date": "2026-02-11",
+      "promise_url": "https://www.motac.gov.my/en/galeri-aktiviti/ucapan-ybm-dato-seri-tiong-king-sing-di-majlis-peluncuran-kempen-mesra-malaysia-2026/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "MOTAC’s account of Tiong’s Mesra Malaysia campaign launch states a target of 47 million visitors for Visit Malaysia 2026.",
+      "progress_note": "The campaign launch is confirmed, but the comparable full-year visitor result was not established. Visitors and overnight tourists are different measures; no tourist-arrivals figure is substituted. Target outcome and completion percentage remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0008",
+      "entity_slug": "fahmi-fadzil",
+      "import_key": "CAB-0008:fahmi-fadzil:internet-populated-areas",
+      "title": "Extend Internet coverage to all populated areas",
+      "category": "Digital",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-26",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2626023",
+      "evidence_date": "2026-10-27",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2626023",
+      "description": "Fahmi said JENDELA would use satellite and small-cell solutions to reach 100% Internet coverage in populated areas, including remote settlements.",
+      "progress_note": "The 27 October report gives a 99% coverage baseline and describes the planned technology changes. Coverage is a sector metric, not a completion score. This is an ongoing expansion; the source supplies no firm overall deadline.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "pdp",
+      "type": "party",
+      "parent_slug": "gabungan-parti-sarawak",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Progressive Democratic Party",
+      "short_name": "PDP",
+      "description": "A component party of Gabungan Parti Sarawak (GPS).",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "SPR · registered party symbols",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        },
+        {
+          "label": "PDP · 2026 party meeting",
+          "url": "https://www.bernama.com/bm/news.php?id=2557971"
+        }
+      ],
+      "logo_path": "/logos/pdp.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Mask-group-1.webp"
+    }
+  ],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  }
+}

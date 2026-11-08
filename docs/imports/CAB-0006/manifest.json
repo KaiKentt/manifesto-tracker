@@ -1,0 +1,118 @@
+{
+  "batch_id": "CAB-0006",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0006",
+      "record_id": "MECO-NMB2G",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "chang-lih-kang",
+      "name": "Chang Lih Kang",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Science, Technology and Innovation",
+      "constituency": "Tanjong Malim",
+      "state": "Perak",
+      "description": "Chang Lih Kang is Minister of Science, Technology and Innovation. He represents Tanjong Malim, Perak, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.mosti.gov.my/",
+      "photo_path": "/portraits/chang-lih-kang.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P077.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Tanjong Malim",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4116"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0006",
+      "record_id": "MECO-NS53C",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "nancy-shukri",
+      "name": "Nancy Shukri",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Minister of Women, Family and Community Development",
+      "constituency": "Santubong",
+      "state": "Sarawak",
+      "description": "Nancy Shukri is Minister of Women, Family and Community Development. She represents Santubong, Sarawak, in the Dewan Rakyat. She is a member of Parti Pesaka Bumiputera Bersatu (PBB).",
+      "website": "https://www.kpwkm.gov.my/",
+      "photo_path": "/portraits/nancy-shukri.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/santubong.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Santubong",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4232"
+        },
+        {
+          "label": "PBB · Nancy Shukri (22 Oct 2026)",
+          "url": "https://www.bernama.com/en/politics/news.php?id=2624300"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0006",
+      "entity_slug": "chang-lih-kang",
+      "import_key": "CAB-0006:chang-lih-kang:dstin-gerd-floor-2030",
+      "title": "Raise R&D spending to at least 2.5% of GDP by 2030 under DSTIN",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2025-07-17",
+      "promise_url": "https://www.mosti.gov.my/wp-content/uploads/2025/07/17072025.1080073394.pdf",
+      "evidence_date": "2025-07-17",
+      "evidence_url": "https://www.mosti.gov.my/wp-content/uploads/2025/07/17072025.1080073394.pdf",
+      "description": "MOSTI’s release, quoting Chang on strengthening research, commits to the DSTIN 2021–2030 spending floor of at least 2.5% of GDP by 2030.",
+      "progress_note": "The release lists active research-funding and commercialisation initiatives and a 2022 GERD baseline of 1.01%. It separately mentions a broader 3.5% MADANI ambition. This record tracks the explicitly dated DSTIN floor; neither figure is a completion score or a current spending result.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0006",
+      "entity_slug": "nancy-shukri",
+      "import_key": "CAB-0006:nancy-shukri:mammograms-38000-2027",
+      "title": "Support mammogram screening for 38,000 women under Budget 2027",
+      "category": "Social welfare",
+      "status": null,
+      "progress": null,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-10-21",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2623525",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Nancy said the Budget 2027 mammogram subsidy allocation was expected to benefit 38,000 women.",
+      "progress_note": "The report establishes the 2027 target and allocation, not delivery to those 38,000 women. Cumulative screenings since 2007 are not this target’s outcome. Completion and status remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  }
+}

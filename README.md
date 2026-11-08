@@ -338,3 +338,5 @@ CAB-0001 adds Anwar Ibrahim and Ahmad Zahid Hamidi, their Parliament portraits a
 Check with `npm run typecheck`, `npm run build`, `node scripts/check-auth-redirects.cjs` and the existing milestone-data checks. Verify the landing-page CTA, direct tracker visit, profile navigation, login return paths and a mobile viewport. No Supabase schema or provider configuration changes are required for these route changes.
 
 CAB-0002, CAB-0003 and CAB-0004 add six Parliament portraits and 11 sourced milestones for Fadillah Yusof, Anthony Loke Siew Fook, Mohamad Sabu, Nga Kor Ming, Mohamad Hasan and Alexander Nanta Linggi. See the corresponding directories under `docs/imports/` for guarded imports, evidence and intentionally blank fields. Anthony Loke retains his existing profile identity and address.
+
+CAB-0005 through CAB-0008 add eight current Cabinet profiles, eight Parliament portraits and nine sourced milestones. Their evidence registers and repeatable imports are in the corresponding directories under `docs/imports/`. Appointed senators keep elected-constituency fields blank. PDP is added under GPS with its registered SPR symbol.

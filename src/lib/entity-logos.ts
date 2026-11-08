@@ -14,4 +14,5 @@ export const ENTITY_LOGOS: Readonly<Record<string, string>> = {
   "bersatu": "/logos/bersatu.webp",
   "wawasan": "/logos/wawasan.png",
   "umno": "/logos/umno.webp",
+  "pdp": "/logos/pdp.webp",
 };

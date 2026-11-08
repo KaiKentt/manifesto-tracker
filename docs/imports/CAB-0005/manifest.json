@@ -1,0 +1,118 @@
+{
+  "batch_id": "CAB-0005",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0005",
+      "record_id": "MECO-G6B66",
+      "office_kind": "senator",
+      "parent_kind": "party",
+      "slug": "saifuddin-nasution-ismail",
+      "name": "Saifuddin Nasution Ismail",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Home Affairs",
+      "constituency": null,
+      "state": null,
+      "description": "Saifuddin Nasution Ismail is Minister of Home Affairs. He serves as a senator appointed by the Yang di-Pertuan Agong. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.moha.gov.my/",
+      "photo_path": "/portraits/saifuddin-nasution-ismail.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/Saifuddin1.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Dewan Negara",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dn&id=4033"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0005",
+      "record_id": "MECO-5VHT8",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohamed-khaled-nordin",
+      "name": "Mohamed Khaled Nordin",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister of Defence",
+      "constituency": "Kota Tinggi",
+      "state": "Johor",
+      "description": "Mohamed Khaled Nordin is Minister of Defence. He represents Kota Tinggi, Johor, in the Dewan Rakyat. He is a member of UMNO.",
+      "website": "https://www.mod.gov.my/",
+      "photo_path": "/portraits/mohamed-khaled-nordin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P156.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Kota Tinggi",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4195"
+        },
+        {
+          "label": "UMNO · 2023–2026 supreme council",
+          "url": "https://umno-online.my/wp-content/uploads/2026/01/Senarai-MKT-2023-2026-update-Januari-2026-jan-2026-final.pdf"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0005",
+      "entity_slug": "saifuddin-nasution-ismail",
+      "import_key": "CAB-0005:saifuddin-nasution-ismail:myniise-rollout-2026",
+      "title": "Roll out MyNIISe fully in September 2026",
+      "category": "Digital",
+      "status": null,
+      "progress": null,
+      "target_date": "2026-09-30",
+      "promise_date": "2026-05-04",
+      "promise_url": "https://bernama.com/tv/news.php?id=2552525",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Saifuddin announced full implementation of MyNIISe in September 2026 as part of immigration-system reforms.",
+      "progress_note": "The announcement describes preparations and data migration. Full national rollout against this specific September commitment was not established in the reviewed evidence. Status and completion remain unknown; earlier component or project percentages are not substituted for full-rollout evidence.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0005",
+      "entity_slug": "mohamed-khaled-nordin",
+      "import_key": "CAB-0005:mohamed-khaled-nordin:plkn-pilot-2025",
+      "title": "Restart the PLKN 3.0 pilot in January 2025",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2025-01-12",
+      "promise_date": "2024-12-16",
+      "promise_url": "https://bernama.com/bm/news.php?id=2374197",
+      "evidence_date": "2025-02-04",
+      "evidence_url": "https://www.bernama.com/bm/news.php?id=2389134",
+      "description": "Mohamed Khaled announced a PLKN 3.0 trial starting on 12 January 2025, initially describing an intake of 200 participants.",
+      "progress_note": "His parliamentary update confirms the pilot began on 12 January with 120 trainees. Achieved covers the restart only: the originally announced 200-person intake is not marked fulfilled. Longer-term training outcomes and sole personal credit are not implied.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  }
+}

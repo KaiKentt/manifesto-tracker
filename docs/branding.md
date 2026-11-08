@@ -11,7 +11,7 @@ The web assets in `public/branding/` remove transparent outer margins and are re
 
 ## Party and coalition logos
 
-All 14 party/coalition profiles currently in the database are covered by `src/lib/entity-logos.ts`. Politician and generic bloc profiles continue to use initials. Add a logo mapping when introducing another party or coalition.
+Party and coalition profiles use the registered symbols mapped in `src/lib/entity-logos.ts`. Politicians use verified portraits where available, with initials as the fallback. Add a logo mapping when introducing another party or coalition.
 
 Source: [Suruhanjaya Pilihan Raya Malaysia — registered party symbols](https://www.spr.gov.my/parti-parti-yang-berdaftar/), listed as updated 11 July 2026. Retrieved 8 November 2026. The files below are unmodified copies of the images published by SPR and are served locally so visitors do not depend on external image hosts.
 
@@ -33,3 +33,5 @@ Party names and emblems belong to their respective organisations. They identify 
 | Parti Pribumi Bersatu Malaysia | `/logos/bersatu.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-111.webp) |
 | Parti Wawasan Negara | `/logos/wawasan.png` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/PARTI-WAWASAN-NEGARA.png) |
 | United Malays National Organisation | `/logos/umno.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Pertubuhan-Kebangsaan-Melayu-Bersatu-UMNO.webp) |
+
+| Progressive Democratic Party | `/logos/pdp.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Mask-group-1.webp) |

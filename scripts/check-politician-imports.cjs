@@ -16,7 +16,11 @@ for (const batch of batches) {
   for (const p of m.profiles) {
     assert.ok(!identities.has(p.record_id) && !slugs.has(p.slug), 'A person must not be duplicated across batches.');
     identities.add(p.record_id); slugs.add(p.slug); people++;
-    assert.ok(p.name && p.parent_slug && p.constituency && p.state);
+    assert.ok(p.name && p.parent_slug);
+    if (p.office_kind === 'senator') {
+      assert.equal(p.constituency, null, 'Senators must not inherit an elected constituency.');
+      assert.equal(p.state, null, 'An appointed senator must not inherit a constituency state.');
+    } else assert.ok(p.constituency && p.state);
     assert.ok(p.profile_sources.length >= 2);
     p.profile_sources.forEach(s => source(s.url)); source(p.photo_source_url);
     assert.ok(/^\/portraits\/[a-z0-9-]+\.webp$/.test(p.photo_path));

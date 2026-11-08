@@ -1,0 +1,137 @@
+{
+  "batch_id": "CAB-0007",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0007",
+      "record_id": "MECO-EE9Q7",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "azalina-othman-said",
+      "name": "Azalina Othman Said",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister in the Prime Minister’s Department (Law and Institutional Reform)",
+      "constituency": "Pengerang",
+      "state": "Johor",
+      "description": "Azalina Othman Said is Minister in the Prime Minister’s Department (Law and Institutional Reform). She represents Pengerang, Johor, in the Dewan Rakyat. She is a member of UMNO.",
+      "website": "https://www.bheuu.gov.my/",
+      "photo_path": "/portraits/azalina-othman-said.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P157.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Pengerang",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4196"
+        },
+        {
+          "label": "UMNO · 2023–2026 supreme council",
+          "url": "https://umno-online.my/wp-content/uploads/2026/01/Senarai-MKT-2023-2026-update-Januari-2026-jan-2026-final.pdf"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0007",
+      "record_id": "MECO-JSX3Q",
+      "office_kind": "senator",
+      "parent_kind": "party",
+      "slug": "zambry-abdul-kadir",
+      "name": "Zambry Abdul Kadir",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister of Higher Education",
+      "constituency": null,
+      "state": null,
+      "description": "Zambry Abdul Kadir is Minister of Higher Education. He serves as a senator appointed by the Yang di-Pertuan Agong. He is a member of UMNO.",
+      "website": "https://www.mohe.gov.my/",
+      "photo_path": "/portraits/zambry-abdul-kadir.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/Zambry2.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Dewan Negara",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dn&id=4034"
+        },
+        {
+          "label": "UMNO · 2023–2026 supreme council",
+          "url": "https://umno-online.my/wp-content/uploads/2026/01/Senarai-MKT-2023-2026-update-Januari-2026-jan-2026-final.pdf"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0007",
+      "entity_slug": "azalina-othman-said",
+      "import_key": "CAB-0007:azalina-othman-said:freedom-information-bill",
+      "title": "Develop and table a Freedom of Information Bill",
+      "category": "Governance",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-08-03",
+      "promise_url": "https://www.bernama.com/en/news.php/?id=2589631",
+      "evidence_date": "2026-09-07",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2604269",
+      "description": "Azalina said a parliamentary select committee would scrutinise the proposed Freedom of Information Bill before its tabling.",
+      "progress_note": "Her September update describes committee deliberations and planned public consultation. This supports ongoing development, not enactment or operation of an access-to-information law. A final delivery date and completion percentage were not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0007",
+      "entity_slug": "azalina-othman-said",
+      "import_key": "CAB-0007:azalina-othman-said:political-financing-policy-jkpk",
+      "title": "Submit Political Financing Bill policy proposals to the select committee",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-27",
+      "promise_url": "https://bernama.com/en/news.php?id=2626264",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Azalina said prepared policy recommendations for drafting the Political Financing Bill would be presented to the parliamentary select committee.",
+      "progress_note": "The written reply describes research and stakeholder engagement already undertaken. Actual submission of these proposals was not verified in this pass; it is not treated as passage of a financing law. No exact deadline or completion percentage is assigned.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0007",
+      "entity_slug": "zambry-abdul-kadir",
+      "import_key": "CAB-0007:zambry-abdul-kadir:replace-auku",
+      "title": "Develop a new law to replace AUKU",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-09-12",
+      "promise_url": "https://www.bernama.com/en/region/news.php?id=2606398",
+      "evidence_date": "2026-09-12",
+      "evidence_url": "https://www.bernama.com/en/region/news.php?id=2606398",
+      "description": "Zambry said the ministry was discussing a new law to replace the Universities and University Colleges Act with relevant stakeholders.",
+      "progress_note": "The minister reported meetings with academics and university administrators, with student engagement to follow. The verified update supports drafting and consultation only; enactment, a firm deadline and numerical completion were not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  }
+}
