@@ -340,3 +340,5 @@ Check with `npm run typecheck`, `npm run build`, `node scripts/check-auth-redire
 CAB-0002, CAB-0003 and CAB-0004 add six Parliament portraits and 11 sourced milestones for Fadillah Yusof, Anthony Loke Siew Fook, Mohamad Sabu, Nga Kor Ming, Mohamad Hasan and Alexander Nanta Linggi. See the corresponding directories under `docs/imports/` for guarded imports, evidence and intentionally blank fields. Anthony Loke retains his existing profile identity and address.
 
 CAB-0005 through CAB-0008 add eight current Cabinet profiles, eight Parliament portraits and nine sourced milestones. Their evidence registers and repeatable imports are in the corresponding directories under `docs/imports/`. Appointed senators keep elected-constituency fields blank. PDP is added under GPS with its registered SPR symbol.
+
+CAB-0009 through CAB-0012 add another eight Cabinet profiles, eight official portraits and 11 sourced milestones. PRS is added under GPS with its SPR symbol. Three progress bars use explicitly dated counts and documented calculations; sector ratios remain separate from completion scores. Professional senators have no inferred party affiliation.

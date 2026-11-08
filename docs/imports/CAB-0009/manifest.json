@@ -1,0 +1,190 @@
+{
+  "batch_id": "CAB-0009",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0009",
+      "record_id": "MECO-3VYX1",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "fadhlina-sidek",
+      "name": "Fadhlina Sidek",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Education",
+      "constituency": "Nibong Tebal",
+      "state": "Pulau Pinang",
+      "description": "Fadhlina Sidek is Minister of Education. She represents Nibong Tebal, Pulau Pinang, in the Dewan Rakyat. She is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.moe.gov.my/",
+      "photo_path": "/portraits/fadhlina-sidek.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P047.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Nibong Tebal",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4086"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0009",
+      "record_id": "MECO-PD370",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "aaron-ago-dagang",
+      "name": "Aaron Ago Dagang",
+      "parent_slug": "prs",
+      "bloc": "government",
+      "position": "Minister of National Unity",
+      "constituency": "Kanowit",
+      "state": "Sarawak",
+      "description": "Aaron Ago Dagang is Minister of National Unity. He represents Kanowit, Sarawak, in the Dewan Rakyat. He is a member of Parti Rakyat Sarawak (PRS).",
+      "website": "https://www.perpaduan.gov.my/",
+      "photo_path": "/portraits/aaron-ago-dagang.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P210.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Kanowit",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4249"
+        },
+        {
+          "label": "PRS · 2025–2028 leadership",
+          "url": "https://www.bernama.com/en/news.php?id=2480720"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0009",
+      "entity_slug": "fadhlina-sidek",
+      "import_key": "CAB-0009:fadhlina-sidek:sabah-curriculum-2027",
+      "title": "Include Sabah’s identity in the new Year One and Form One curriculum",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-09-11",
+      "promise_url": "https://www.bernama.com/radio/news.php?id=2606122",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Fadhlina said elements of Sabah’s identity would be included in the new Year One and Form One curriculum from the 2027 academic session.",
+      "progress_note": "The statement establishes an agreed curriculum commitment following the MA63 implementation meeting. Delivery in the 2027 school session was not verified. The year-end date marks the target year, not a promised exact day.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0009",
+      "entity_slug": "fadhlina-sidek",
+      "import_key": "CAB-0009:fadhlina-sidek:sabah-416-school-replacements",
+      "title": "Fully replace 416 identified dilapidated schools in Sabah",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": 59,
+      "target_date": null,
+      "promise_date": "2026-09-11",
+      "promise_url": "https://www.bernama.com/radio/news.php?id=2606122",
+      "evidence_date": "2026-09-11",
+      "evidence_url": "https://www.bernama.com/radio/news.php?id=2606122",
+      "description": "Fadhlina described a full-replacement programme covering 416 identified dilapidated schools in Sabah.",
+      "progress_note": "As reported on 11 September 2026, 245 were fully rebuilt and 63 were under construction. The bar is 245 ÷ 416 × 100 = 58.89%, rounded to 59%. It counts completed school replacements, not expenditure or the later construction stages. No overall deadline was established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0009",
+      "entity_slug": "aaron-ago-dagang",
+      "import_key": "CAB-0009:aaron-ago-dagang:mediators-1280-2030",
+      "title": "Produce 1,280 certified community mediators by 2030",
+      "category": "Social welfare",
+      "status": null,
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-08-03",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2589635",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Aaron set a ministry target of producing 1,280 certified community mediators by 2030 to strengthen local dispute resolution.",
+      "progress_note": "The statement establishes the target. A comparable certified-mediator total and target-specific outcome were not verified in this pass. Planned mediation centres are not counted as certified people; status and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0009",
+      "entity_slug": "aaron-ago-dagang",
+      "import_key": "CAB-0009:aaron-ago-dagang:active-krt-grant-2027",
+      "title": "Raise the annual Active KRT Grant to RM10,000 from 2027",
+      "category": "Social welfare",
+      "status": null,
+      "progress": null,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-10-12",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2619248",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Aaron announced that the annual grant for active Rukun Tetangga areas would rise from RM6,000 to RM10,000 starting in 2027.",
+      "progress_note": "This is a future grant-rate commitment. The Budget 2027 announcement is not evidence that recipients have received the higher grant. Outcome and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "prs",
+      "type": "party",
+      "parent_slug": "gabungan-parti-sarawak",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Parti Rakyat Sarawak",
+      "short_name": "PRS",
+      "description": "A component party of Gabungan Parti Sarawak (GPS).",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "SPR · registered party symbols",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        },
+        {
+          "label": "PRS · 2025–2028 leadership",
+          "url": "https://www.bernama.com/en/news.php?id=2480720"
+        }
+      ],
+      "logo_path": "/logos/prs.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Rakyat-Sarawak-PRS.webp"
+    }
+  ],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  },
+  "progress_calculations": {
+    "CAB-0009:fadhlina-sidek:sabah-416-school-replacements": {
+      "numerator": 245,
+      "denominator": 416,
+      "unit": "fully replaced schools",
+      "metric_date": "2026-09-11",
+      "source_url": "https://www.bernama.com/radio/news.php?id=2606122",
+      "rounding": "nearest whole percent"
+    }
+  }
+}

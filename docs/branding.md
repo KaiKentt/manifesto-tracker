@@ -35,3 +35,5 @@ Party names and emblems belong to their respective organisations. They identify 
 | United Malays National Organisation | `/logos/umno.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Pertubuhan-Kebangsaan-Melayu-Bersatu-UMNO.webp) |
 
 | Progressive Democratic Party | `/logos/pdp.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Mask-group-1.webp) |
+
+| Parti Rakyat Sarawak | `/logos/prs.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Rakyat-Sarawak-PRS.webp) |

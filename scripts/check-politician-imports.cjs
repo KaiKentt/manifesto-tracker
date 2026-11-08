@@ -13,6 +13,13 @@ for (const batch of batches) {
   const m = JSON.parse(fs.readFileSync(path.join(__dirname, '../docs/imports', batch, 'manifest.json'), 'utf8'));
   assert.equal(m.batch_id, batch);
   const localSlugs = new Set(m.profiles.map(p => p.slug));
+  for (const [key, calc] of Object.entries(m.progress_calculations || {})) {
+    const entry = m.milestones.find(v => v.import_key === key);
+    assert.ok(entry && calc.denominator > 0 && calc.numerator >= 0 && calc.numerator <= calc.denominator);
+    assert.equal(entry.progress, Math.round(calc.numerator / calc.denominator * 100), 'Published count and completion bar disagree.');
+    assert.equal(entry.evidence_url, calc.source_url);
+    assert.ok(calc.metric_date && calc.unit);
+  }
   for (const p of m.profiles) {
     assert.ok(!identities.has(p.record_id) && !slugs.has(p.slug), 'A person must not be duplicated across batches.');
     identities.add(p.record_id); slugs.add(p.slug); people++;

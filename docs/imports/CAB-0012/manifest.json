@@ -1,0 +1,117 @@
+{
+  "batch_id": "CAB-0012",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0012",
+      "record_id": "MECO-YZTTD",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "dzulkefly-ahmad",
+      "name": "Dzulkefly Ahmad",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Minister of Health",
+      "constituency": "Kuala Selangor",
+      "state": "Selangor",
+      "description": "Dzulkefly Ahmad is Minister of Health. He represents Kuala Selangor, Selangor, in the Dewan Rakyat. He is a member of Parti Amanah Negara (AMANAH).",
+      "website": "https://www.moh.gov.my/",
+      "photo_path": "/portraits/dzulkefly-ahmad.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P096.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Kuala Selangor",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4135"
+        },
+        {
+          "label": "AMANAH · Dzulkefly Ahmad (July 2026)",
+          "url": "https://www.bernama.com/en/news.php?id=2588546"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0012",
+      "record_id": "ROSTER-215E22A0DB87",
+      "office_kind": "senator",
+      "parent_kind": "bloc",
+      "slug": "amir-hamzah-azizan",
+      "name": "Amir Hamzah Azizan",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Minister of Finance II",
+      "constituency": null,
+      "state": null,
+      "description": "Amir Hamzah Azizan is Minister of Finance II. He serves as a senator appointed by the Yang di-Pertuan Agong.",
+      "website": "https://www.mof.gov.my/",
+      "photo_path": "/portraits/amir-hamzah-azizan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2023/MK2.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Dewan Negara",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dn&id=4289"
+        }
+      ],
+      "affiliation_note": "Parliament lists PROFESIONAL. No political-party membership is inferred; the profile is attached directly to the government bloc."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0012",
+      "entity_slug": "dzulkefly-ahmad",
+      "import_key": "CAB-0012:dzulkefly-ahmad:emr-national-2029",
+      "title": "Equip all public hospitals and primary health facilities with EMR by 2029",
+      "category": "Health",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2029-12-31",
+      "promise_date": "2025-11-15",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2491200",
+      "evidence_date": "2026-08-31",
+      "evidence_url": "https://bernama.com/en/general/news.php?id=2601235",
+      "description": "Dzulkefly set a 2029 target covering 150 public hospitals and more than 3,000 primary health facilities through hospital and clinic digital-record systems.",
+      "progress_note": "The initial statement records existing clinic deployment. His August 2026 update describes accelerated expansion supported by additional funding. Funding is not proof of universal coverage; no comparable completed-facility total for the entire hospital-and-clinic scope was verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0012",
+      "entity_slug": "amir-hamzah-azizan",
+      "import_key": "CAB-0012:amir-hamzah-azizan:fiscal-deficit-below-3",
+      "title": "Reduce the fiscal deficit below 3% of GDP within two years",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-13",
+      "promise_url": "https://web26.bernama.com/en/region/news.php?id=2619840",
+      "evidence_date": "2026-10-13",
+      "evidence_url": "https://web26.bernama.com/en/region/news.php?id=2619840",
+      "description": "Amir Hamzah said Malaysia aimed to reduce its fiscal deficit below 3% of GDP within two years through fiscal consolidation and subsidy reforms.",
+      "progress_note": "The October statement reports a 3.7% deficit for 2025 and continuing reforms. That GDP ratio is not a completion score. A result for the two-year horizon was not established; no exact day is imposed on the stated horizon.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist.",
+    "amir-hamzah-azizan_affiliation": "Parliament lists PROFESIONAL. No political-party membership is inferred; the profile is attached directly to the government bloc."
+  },
+  "progress_calculations": {}
+}

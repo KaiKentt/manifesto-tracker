@@ -1,0 +1,130 @@
+{
+  "batch_id": "CAB-0011",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0011",
+      "record_id": "MECO-R779F",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "armizan-mohd-ali",
+      "name": "Armizan Mohd Ali",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "bloc": "government",
+      "position": "Minister of Domestic Trade and Cost of Living",
+      "constituency": "Papar",
+      "state": "Sabah",
+      "description": "Armizan Mohd Ali is Minister of Domestic Trade and Cost of Living. He represents Papar, Sabah, in the Dewan Rakyat. He is affiliated with Gabungan Rakyat Sabah (GRS).",
+      "website": "https://www.kpdn.gov.my/",
+      "photo_path": "/portraits/armizan-mohd-ali.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P175.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Papar",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4214"
+        },
+        {
+          "label": "GRS · Armizan (6 Oct 2026)",
+          "url": "https://bernama.com/en/politics/news.php?id=2616296"
+        }
+      ],
+      "affiliation_note": "GRS coalition affiliation is verified. No constituent-party membership is inferred."
+    },
+    {
+      "batch_id": "CAB-0011",
+      "record_id": "MECO-NV73R",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "gobind-singh-deo",
+      "name": "Gobind Singh Deo",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Minister of Digital",
+      "constituency": "Damansara",
+      "state": "Selangor",
+      "description": "Gobind Singh Deo is Minister of Digital. He represents Damansara, Selangor, in the Dewan Rakyat. He is a member of DAP.",
+      "website": "https://www.digital.gov.my/",
+      "photo_path": "/portraits/gobind-singh-deo.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P106.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Damansara",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4145"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0011",
+      "entity_slug": "armizan-mohd-ali",
+      "import_key": "CAB-0011:armizan-mohd-ali:pjrm-30000-2026",
+      "title": "Organise 30,000 Rahmah MADANI sales sessions in 2026",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": 53,
+      "target_date": "2026-12-31",
+      "promise_date": "2026-06-30",
+      "promise_url": "https://www.bernama.com/misc/rss/news.php?id=2574887",
+      "evidence_date": "2026-06-30",
+      "evidence_url": "https://www.bernama.com/misc/rss/news.php?id=2574887",
+      "description": "Armizan stated the revised annual target of 30,000 Rahmah MADANI sales sessions for 2026, increased from 23,040.",
+      "progress_note": "His parliamentary update reports 15,881 sessions from 1 January to 30 June 2026. The bar is 15,881 ÷ 30,000 × 100 = 52.94%, rounded to 53%. It is the dated half-year delivery count, not a live November result or a measure of household savings.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0011",
+      "entity_slug": "gobind-singh-deo",
+      "import_key": "CAB-0011:gobind-singh-deo:digital-economy-30-2030",
+      "title": "Grow the digital economy’s contribution to 30% of GDP by 2030",
+      "category": "Digital",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-08-18",
+      "promise_url": "https://www.bernama.com/radio/news.php?id=2595809",
+      "evidence_date": "2026-08-18",
+      "evidence_url": "https://www.bernama.com/radio/news.php?id=2595809",
+      "description": "Gobind reaffirmed a 30% digital-economy contribution to GDP by 2030 and linked delivery to the national AI and MD2030 plans.",
+      "progress_note": "The minister described launched policies and implementation responsibilities. He cited a provisional 25.5% GDP share for 2025 while seeking confirmation of the exact figure. A sector share is not promise completion, so no numerical completion is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist.",
+    "armizan-mohd-ali_affiliation": "GRS coalition affiliation is verified. No constituent-party membership is inferred."
+  },
+  "progress_calculations": {
+    "CAB-0011:armizan-mohd-ali:pjrm-30000-2026": {
+      "numerator": 15881,
+      "denominator": 30000,
+      "unit": "2026 sales sessions",
+      "metric_date": "2026-06-30",
+      "source_url": "https://www.bernama.com/misc/rss/news.php?id=2574887",
+      "rounding": "nearest whole percent"
+    }
+  }
+}

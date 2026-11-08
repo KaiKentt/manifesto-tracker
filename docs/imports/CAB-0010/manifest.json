@@ -1,0 +1,147 @@
+{
+  "batch_id": "CAB-0010",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0010",
+      "record_id": "MECO-ZVB8Z",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "hannah-yeoh",
+      "name": "Hannah Yeoh",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Minister in the Prime Minister’s Department (Federal Territories)",
+      "constituency": "Segambut",
+      "state": "Kuala Lumpur",
+      "description": "Hannah Yeoh is Minister in the Prime Minister’s Department (Federal Territories). She represents Segambut, Kuala Lumpur, in the Dewan Rakyat. She is a member of DAP.",
+      "website": "https://www.jwp.gov.my/",
+      "photo_path": "/portraits/hannah-yeoh.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P117.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Segambut",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4156"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0010",
+      "record_id": "MECO-PA0B7",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "johari-abdul-ghani",
+      "name": "Johari Abdul Ghani",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister of Investment, Trade and Industry",
+      "constituency": "Titiwangsa",
+      "state": "Kuala Lumpur",
+      "description": "Johari Abdul Ghani is Minister of Investment, Trade and Industry. He represents Titiwangsa, Kuala Lumpur, in the Dewan Rakyat. He is a member of UMNO.",
+      "website": "https://www.miti.gov.my/",
+      "photo_path": "/portraits/johari-abdul-ghani.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P119.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Titiwangsa",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4158"
+        },
+        {
+          "label": "UMNO · 2023–2026 supreme council",
+          "url": "https://umno-online.my/wp-content/uploads/2026/01/Senarai-MKT-2023-2026-update-Januari-2026-jan-2026-final.pdf"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0010",
+      "entity_slug": "hannah-yeoh",
+      "import_key": "CAB-0010:hannah-yeoh:resurface-51-pa-ppr",
+      "title": "Resurface roads in all 51 DBKL PA and PPR housing areas",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": 14,
+      "target_date": null,
+      "promise_date": "2026-03-16",
+      "promise_url": "https://jwp.gov.my/storage/media/KENYATAAN-MEDIA-BELANJA-UNTUK-RAKYAT--BUAT-PERTAMA-KALI-KERJA-PENURAPAN-JALAN-DILAKSANAKAN-SECARA-MENYELURUH-DI-SEMUA-51-PA-DAN-PPR-SELIAAN-DBKL-DI-KUALA-LUM.pdf",
+      "evidence_date": "2026-03-16",
+      "evidence_url": "https://jwp.gov.my/storage/media/KENYATAAN-MEDIA-BELANJA-UNTUK-RAKYAT--BUAT-PERTAMA-KALI-KERJA-PENURAPAN-JALAN-DILAKSANAKAN-SECARA-MENYELURUH-DI-SEMUA-51-PA-DAN-PPR-SELIAAN-DBKL-DI-KUALA-LUM.pdf",
+      "description": "Hannah’s signed statement commits to comprehensive road resurfacing in all 51 public-housing areas under DBKL.",
+      "progress_note": "The statement’s first-quarter snapshot reports seven completed locations and two under way. The bar is 7 ÷ 51 × 100 = 13.73%, rounded to 14%. It measures completed locations, not road length or expenditure. This is the verified 16 March snapshot; later completion was not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0010",
+      "entity_slug": "hannah-yeoh",
+      "import_key": "CAB-0010:hannah-yeoh:resurface-59km-main-roads",
+      "title": "Resurface 59 kilometres of Kuala Lumpur’s protocol and main roads",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-08-19",
+      "promise_url": "https://bernama.com/en/general/news.php?id=2596675",
+      "evidence_date": "2026-08-20",
+      "evidence_url": "https://bernama.com/en/general/news.php?id=2596675",
+      "description": "Hannah outlined DBKL’s staged Eight-Road Resurfacing Programme covering 59 kilometres of protocol and main roads.",
+      "progress_note": "The 20 August report records her inspection of active resurfacing works. It describes two phases and phase-specific schedules, not a verified completed distance for the whole programme. Overall completion and a single final deadline remain blank.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0010",
+      "entity_slug": "johari-abdul-ghani",
+      "import_key": "CAB-0010:johari-abdul-ghani:nif-jobs-supply-chain",
+      "title": "Link NIF investment incentives to high-value jobs and local suppliers",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-21",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2623543",
+      "evidence_date": "2026-10-21",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2623543",
+      "description": "In Parliament, Johari said investment-incentive applicants must demonstrate local supply-chain links and high-income, high-value job creation under NIF.",
+      "progress_note": "His update describes the framework operating since March and its continuing conditions for applicants. This records his stated implementation commitment, not personal credit for the original launch. Actual job and supplier outcomes against those conditions were not quantified; no completion score is assigned.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  },
+  "progress_calculations": {
+    "CAB-0010:hannah-yeoh:resurface-51-pa-ppr": {
+      "numerator": 7,
+      "denominator": 51,
+      "unit": "housing locations with completed resurfacing",
+      "metric_date": "2026-03-16",
+      "source_url": "https://jwp.gov.my/storage/media/KENYATAAN-MEDIA-BELANJA-UNTUK-RAKYAT--BUAT-PERTAMA-KALI-KERJA-PENURAPAN-JALAN-DILAKSANAKAN-SECARA-MENYELURUH-DI-SEMUA-51-PA-DAN-PPR-SELIAAN-DBKL-DI-KUALA-LUM.pdf",
+      "rounding": "nearest whole percent"
+    }
+  }
+}
