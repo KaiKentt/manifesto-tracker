@@ -1,0 +1,133 @@
+{
+  "batch_id": "CAB-0004",
+  "checked_at": "2026-11-08",
+  "profiles": [
+    {
+      "batch_id": "CAB-0004",
+      "record_id": "MECO-P455C",
+      "slug": "mohamad-hasan",
+      "name": "Mohamad Hasan",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister of Foreign Affairs; Deputy President of UMNO",
+      "constituency": "Rembau",
+      "state": "Negeri Sembilan",
+      "description": "Mohamad Hasan, also known as Tok Mat, is Minister of Foreign Affairs and represents Rembau in Negeri Sembilan. He is Deputy President of UMNO, a component of Barisan Nasional.",
+      "website": "https://www.kln.gov.my/",
+      "photo_path": "/portraits/mohamad-hasan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P131.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Rembau",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4170"
+        },
+        {
+          "label": "UMNO · deputy president (Nov 2026)",
+          "url": "https://umno.org.my/jangan-salah-tafsir-kerjasama-damaikan-politik-melayu-mohamad-hasan/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0004",
+      "record_id": "MECO-36916",
+      "slug": "alexander-nanta-linggi",
+      "name": "Alexander Nanta Linggi",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Minister of Works",
+      "constituency": "Kapit",
+      "state": "Sarawak",
+      "description": "Alexander Nanta Linggi is Minister of Works and Member of Parliament for Kapit in Sarawak. He is a member of PBB, a component of Gabungan Parti Sarawak (GPS).",
+      "website": "https://www.kkr.gov.my/",
+      "photo_path": "/portraits/alexander-nanta-linggi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P215.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Kapit",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4254"
+        },
+        {
+          "label": "PBB council meeting · 4 Nov 2026",
+          "url": "https://lifenewsagency.com/fadillah-pbb-supreme-council-sarawak-election-preparations/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0004",
+      "entity_slug": "mohamad-hasan",
+      "import_key": "CAB-0004:mohamad-hasan:asean-2045-launch",
+      "title": "Launch ASEAN Community Vision 2045 at the May 2025 summit",
+      "category": "Governance",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2025-05-31",
+      "promise_date": "2025-02-06",
+      "promise_url": "https://bernama.com/en/general/news.php?id=2389936",
+      "evidence_date": "2025-05-26",
+      "evidence_url": "https://asean.org/kuala-lumpur-declaration-on-asean-2045-our-shared-future/",
+      "description": "Mohamad Hasan announced that ASEAN Community Vision 2045 and its strategic plans would be launched at the 46th ASEAN Summit in Kuala Lumpur in May 2025.",
+      "progress_note": "ASEAN’s official Kuala Lumpur Declaration dated 26 May 2025 establishes adoption of the vision and accompanying plans. Achieved is limited to this shared ASEAN launch/adoption milestone, not delivery of the vision’s long-term goals or sole personal credit. No numerical completion score is assigned.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0004",
+      "entity_slug": "alexander-nanta-linggi",
+      "import_key": "CAB-0004:alexander-nanta-linggi:kbkk-2027",
+      "title": "Complete the Kota Bharu–Kuala Krai highway by 2027",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": 79,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-10-27",
+      "promise_url": "https://prn.bernama.com/sabah/news.php?id=2626275",
+      "evidence_date": "2026-10-27",
+      "evidence_url": "https://prn.bernama.com/sabah/news.php?id=2626275",
+      "description": "Nanta reported a 2027 completion forecast for the remaining packages of the 70.4-kilometre Kota Bharu–Kuala Krai highway.",
+      "progress_note": "Reported overall physical progress was 78.80% on 27 October 2026; the bar rounds this to 79%. Pasir Hor–Kadok was complete while five packages remained under construction. This is reported construction progress, not an independent audit or a percentage of time or cost saved. The date shown is the current delivery forecast, not an assessment of earlier schedules.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0004",
+      "entity_slug": "alexander-nanta-linggi",
+      "import_key": "CAB-0004:alexander-nanta-linggi:pan-borneo-sabah-2030",
+      "title": "Complete the remaining Pan Borneo Sabah Phase 1 packages by 2030",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-10-27",
+      "promise_url": "https://prn.bernama.com/sabah/news.php?id=2626275",
+      "evidence_date": "2026-10-27",
+      "evidence_url": "https://prn.bernama.com/sabah/news.php?id=2626275",
+      "description": "Nanta stated that the remaining 31 of 35 Pan Borneo Sabah Phase 1 work packages would be completed progressively by 2030.",
+      "progress_note": "The October 2026 statement reports four completed packages, Phase 1A physical progress of 89.54% and Phase 1B progress of 25.53%. These phase-specific percentages are not combined or presented as overall completion because the required weighting was not supplied. Overall completion therefore remains blank.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "methodology": "Editorial records of attributed commitments, not endorsements or independently audited political-performance scores. Outcome dates and review dates are distinct. Published sector metrics are not converted into completion scores. Year-only deadlines use year-end date markers.",
+  "missing_fields": {
+    "unsupported_completion_percentages": "NULL; only KBKK uses a source-backed rounded construction metric.",
+    "mohamad_hasan_second_milestone": "No second milestone imported: reviewed consular reports did not establish a sufficiently clear attributable pre-action commitment. This is a batch research limit, not proof that no other promises exist.",
+    "pan_borneo_overall_progress": "Phase-specific metrics have no supplied weighting; overall NULL"
+  }
+}

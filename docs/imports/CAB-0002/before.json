@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "id": "c2424aed-37c8-4d43-99f6-a2834e236d51",
+      "type": "politician",
+      "slug": "anthony-loke",
+      "name": "Anthony Loke",
+      "short_name": null,
+      "bloc": "government",
+      "parent_id": "7e842e1e-1cc4-4e38-8df2-489fee53a61b",
+      "position": "Secretary-General of DAP",
+      "constituency": "Seremban",
+      "state": "Negeri Sembilan",
+      "description": "DAP Secretary-General since March 2022.",
+      "website": null,
+      "owner_id": null,
+      "upvotes": 0,
+      "is_sample": false,
+      "created_at": "2026-11-02T17:12:58.760968+00:00",
+      "updated_at": "2026-11-02T17:12:58.760968+00:00",
+      "photo_path": null,
+      "photo_source_url": null,
+      "photo_credit": null,
+      "profile_sources": [],
+      "profile_checked_at": null
+    }
+  ],
+  "milestones": []
+}

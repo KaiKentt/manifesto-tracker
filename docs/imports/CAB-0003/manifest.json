@@ -1,0 +1,152 @@
+{
+  "batch_id": "CAB-0003",
+  "checked_at": "2026-11-08",
+  "profiles": [
+    {
+      "batch_id": "CAB-0003",
+      "record_id": "MECO-Q7726",
+      "slug": "mohamad-sabu",
+      "name": "Mohamad Sabu",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Minister of Agriculture and Food Security; President of AMANAH",
+      "constituency": "Kota Raja",
+      "state": "Selangor",
+      "description": "Mohamad Sabu is Minister of Agriculture and Food Security and represents Kota Raja in Selangor. He is President of Parti Amanah Negara (AMANAH), a component of Pakatan Harapan.",
+      "website": "https://www.kpkm.gov.my/",
+      "photo_path": "/portraits/mohamad-sabu.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P111.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Kota Raja",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4150"
+        },
+        {
+          "label": "BERNAMA · AMANAH leadership (16 Oct 2026)",
+          "url": "https://www.bernama.com/radio/news.php?id=2621528"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0003",
+      "record_id": "MECO-WG22B",
+      "slug": "nga-kor-ming",
+      "name": "Nga Kor Ming",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Minister of Housing and Local Government; Deputy Chairman of DAP",
+      "constituency": "Teluk Intan",
+      "state": "Perak",
+      "description": "Nga Kor Ming is Minister of Housing and Local Government and Member of Parliament for Teluk Intan, Perak. He is Deputy Chairman of DAP, a component of Pakatan Harapan.",
+      "website": "https://www.kpkt.gov.my/",
+      "photo_path": "/portraits/nga-kor-ming.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P076.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Teluk Intan",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4115"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0003",
+      "entity_slug": "mohamad-sabu",
+      "import_key": "CAB-0003:mohamad-sabu:rice-ssr-80-2030",
+      "title": "Raise rice self-sufficiency to 80% by 2030",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2023-11-10",
+      "promise_url": "https://www.kpkm.gov.my/images/06-informasi/keratan-akhbar/2023/november/10-min.pdf",
+      "evidence_date": "2026-10-02",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2614495",
+      "description": "Mohamad Sabu set an 80% rice self-sufficiency target for 2030 in remarks carried by the ministry’s November 2023 media archive.",
+      "progress_note": "KPKM’s October 2026 statement, reported by BERNAMA after a meeting chaired by Mohamad, gives a 2025 rice self-sufficiency ratio of 54.3% and describes measures to protect padi land. This dated food-supply ratio is not a completion score. The target remains in progress, not achieved.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0003",
+      "entity_slug": "mohamad-sabu",
+      "import_key": "CAB-0003:mohamad-sabu:beef-ssr-50-2030",
+      "title": "Reach 50% beef and buffalo-meat self-sufficiency by 2030",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2025-12-11",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2501519",
+      "evidence_date": "2026-09-29",
+      "evidence_url": "https://www.dosm.gov.my/uploads/release-content/file_20260929091755.pdf",
+      "description": "Mohamad Sabu reaffirmed a 50% beef/buffalo-meat self-sufficiency target for 2030 and described support for livestock investment and production.",
+      "progress_note": "The minister’s December 2025 statement reported roughly 17% beef self-sufficiency for the preceding year. DOSM’s September 2026 release reports 82.6% beef import dependency for 2025. Import dependency is a different indicator; it is not converted into self-sufficiency or a completion percentage. The numerical completion field remains blank.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0003",
+      "entity_slug": "nga-kor-ming",
+      "import_key": "CAB-0003:nga-kor-ming:affordable-homes-2035",
+      "title": "Provide one million affordable homes by 2035",
+      "category": "Housing",
+      "status": null,
+      "progress": null,
+      "target_date": "2035-12-31",
+      "promise_date": "2026-08-10",
+      "promise_url": "https://www.kpkt.gov.my/kpkt/resources/user_1/media_akhbar/2026/SM_10082026_KPKT_LUNCUR_DASAR_PERUMAHAN_NEGARA_2026-2035.pdf",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "At the launch of the National Housing Policy 2026–2035, Nga announced a target of one million affordable homes by 2035.",
+      "progress_note": "The ministry release establishes the target and the policy launch. It does not establish delivery of one million homes. A target-specific delivery total was not verified in this batch, so outcome status and completion percentage remain unknown.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0003",
+      "entity_slug": "nga-kor-ming",
+      "import_key": "CAB-0003:nga-kor-ming:rmr-10000-annually",
+      "title": "Increase Rumah Mesra Rakyat delivery to 10,000 homes a year",
+      "category": "Housing",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2025-09-18",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2468901",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Nga said the annual Rumah Mesra Rakyat target would be raised to 10,000 homes through collaboration with government, private-sector and community partners.",
+      "progress_note": "The announcement does not establish a particular calendar-year deadline or a completed annual delivery total. Those fields remain blank rather than turning an annual target into a dated achievement.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "methodology": "Editorial records of attributed commitments, not endorsements or independently audited political-performance scores. Outcome dates and review dates are distinct. Published sector metrics are not converted into completion scores. Year-only deadlines use year-end date markers.",
+  "missing_fields": {
+    "unsupported_completion_percentages": "NULL; only KBKK uses a source-backed rounded construction metric.",
+    "nga_outcomes": "not_established_in_reviewed_sources; both statuses and percentages NULL",
+    "rmr_target_date": "annual target without a specific calendar year; NULL"
+  }
+}

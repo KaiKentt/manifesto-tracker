@@ -1,0 +1,11 @@
+# CAB-0003
+
+Researched 2026-11-08 for Mohamad Sabu, Nga Kor Ming. This batch contains 2 public editorial profiles, their Parliament portraits and 4 attributed milestones. See `manifest.json` for sources, dates, assessment notes and explicitly unfilled fields. Existing politician identities, vote counts and owner claims are protected by the guarded import; no accounts or verification badges are created.
+
+`import.sql` is transactional and repeatable by profile slug and milestone import key. It refuses ownership, type, parent-party and constituency collisions. Reruns preserve UUIDs, votes and creation dates. Use the existing CAB-0001 schema; no new migration or permissions are needed. Deploy the portrait files first, then apply the import through the trusted database connection. Do not run the destructive clean-install SQL bundle on the live database.
+
+Completion is NULL where not established. Housing target outcomes remain unknown; an announcement is not evidence of delivered housing. Sector shares and phase-specific project figures are not treated as overall promise completion. KBKK alone uses its published 78.80% physical-progress figure rounded transparently to 79% for the bar. Sources remain attributed government, party or media reports; editorial status does not imply independent auditing or sole personal credit. Year-end target dates represent the stated year, rather than an invented specific announcement deadline.
+
+Parliament of Malaysia owns the source portraits, linked and credited in each profile. Only local WebP optimisation is applied; no synthetic faces. `before.json` captures affected public records before import. For recovery, review intervening votes or owner claims before reverting only this batch's content; never reset the database. Keep any new identity that has since been claimed or referenced.
+
+Validation: `npm run typecheck`, `npm run build`, `node scripts/check-politician-imports.cjs CAB-0002 CAB-0003 CAB-0004`, then confirm public pages, images, sources, unknown status, party rollups, mobile layout, rerun stability and unchanged out-of-scope records. Deployment and live verification are recorded separately in the fixed batch-plan export after completion.

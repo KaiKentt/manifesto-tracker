@@ -1,0 +1,161 @@
+{
+  "batch_id": "CAB-0002",
+  "checked_at": "2026-11-08",
+  "profiles": [
+    {
+      "batch_id": "CAB-0002",
+      "record_id": "MECO-9V49B",
+      "slug": "fadillah-yusof",
+      "name": "Fadillah Yusof",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Deputy Prime Minister; Minister of Energy Transition and Water Transformation",
+      "constituency": "Petra Jaya",
+      "state": "Sarawak",
+      "description": "Fadillah Yusof is Deputy Prime Minister and Minister of Energy Transition and Water Transformation. He represents Petra Jaya in Sarawak. He is a member of Parti Pesaka Bumiputera Bersatu (PBB), part of Gabungan Parti Sarawak (GPS).",
+      "website": "https://www.petra.gov.my/",
+      "photo_path": "/portraits/fadillah-yusof.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P194.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Petra Jaya",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4233"
+        },
+        {
+          "label": "PBB council meeting · 4 Nov 2026",
+          "url": "https://lifenewsagency.com/fadillah-pbb-supreme-council-sarawak-election-preparations/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0002",
+      "record_id": "MECO-VVDYK",
+      "slug": "anthony-loke",
+      "name": "Anthony Loke Siew Fook",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Minister of Transport; Secretary-General of DAP",
+      "constituency": "Seremban",
+      "state": "Negeri Sembilan",
+      "description": "Anthony Loke Siew Fook is Minister of Transport and Member of Parliament for Seremban, Negeri Sembilan. He is Secretary-General of the Democratic Action Party (DAP), a component of Pakatan Harapan.",
+      "website": "https://www.mot.gov.my/",
+      "photo_path": "/portraits/anthony-loke.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P128.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-08",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Seremban",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4167"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0002",
+      "entity_slug": "fadillah-yusof",
+      "import_key": "CAB-0002:fadillah-yusof:re-capacity-35-2030",
+      "title": "Reach 35% installed renewable-energy capacity by 2030",
+      "category": "Environment",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-04-21",
+      "promise_url": "https://www.bernama.com/en/news.php/?id=2547401",
+      "evidence_date": "2026-04-21",
+      "evidence_url": "https://www.bernama.com/en/news.php/?id=2547401",
+      "description": "Fadillah stated that installed renewable-energy capacity should rise to 35% by 2030 or earlier under the national energy transition programme.",
+      "progress_note": "His April 2026 statement reported 31% installed renewable capacity as of December 2025 and continuing solar and storage programmes. That is a capacity-share metric, not promise-completion progress. Completion is left blank; the target is not recorded as achieved.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0002",
+      "entity_slug": "fadillah-yusof",
+      "import_key": "CAB-0002:fadillah-yusof:nrw-28-8-2030",
+      "title": "Reduce national non-revenue water to 28.8% by 2030",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-02-24",
+      "promise_url": "https://bernama.com/bm/news.php?id=2526991",
+      "evidence_date": "2026-02-24",
+      "evidence_url": "https://bernama.com/bm/news.php?id=2526991",
+      "description": "In Parliament, Fadillah stated a 28.8% national non-revenue-water target for 2030 while explaining the shortcomings of earlier targets.",
+      "progress_note": "The minister reported ongoing pipe-replacement and national NRW programmes. This record uses his stated 28.8% target, rather than the older 25% figure mentioned in the question. A dated, comparable national outcome against the revised target was not established in this batch, so no completion percentage is assigned.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0002",
+      "entity_slug": "anthony-loke",
+      "import_key": "CAB-0002:anthony-loke:digital-my50-launch",
+      "title": "Enable digital My50 pass purchase and renewal from July 2025",
+      "category": "Digital",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2025-07-01",
+      "promise_date": "2025-06-26",
+      "promise_url": "https://www.mot.gov.my/my/Ucapan%20YBM/Tahun%202025/My50%20Digitalisation%20talking%20points%5B1%5D.pdf",
+      "evidence_date": "2026-01-07",
+      "evidence_url": "https://www.mot.gov.my/my/Kenyataan%20Media/Tahun%202025/SIARAN%20MEDIA%20-%20PRASARANA%20CATAT%20JUMLAH%20PENUMPANG%20TERTINGGI%20DALAM%20SEJARAH%20PADA%20TAHUN%202025.pdf",
+      "description": "Loke announced that eligible My50 users could use TNG eWallet for digital pass purchase and renewal from 1 July 2025.",
+      "progress_note": "Prasarana’s January 2026 report confirms the 1 July 2025 launch and reports 556,618 digital passes purchased cumulatively in July–December 2025. Achieved refers to the service launch, not universal adoption, accessibility or the elimination of queues. No completion percentage is invented.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0002",
+      "entity_slug": "anthony-loke",
+      "import_key": "CAB-0002:anthony-loke:road-fatalities-2030",
+      "title": "Reduce road-traffic fatalities by 50% by 2030",
+      "category": "Security",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-10-21",
+      "promise_url": "https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-21",
+      "evidence_date": "2026-10-21",
+      "evidence_url": "https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-21",
+      "description": "Loke reaffirmed the 50% reduction target under Malaysia’s Road Safety Plan 2022–2030 during a parliamentary answer.",
+      "progress_note": "The parliamentary transcript records ongoing enforcement measures and development of the plan’s second phase, including motorcycle-safety interventions. It is marked draft by Parliament. A comparable fatality baseline and current outcome series were not established here, so the completion percentage remains blank. Delivery involves multiple agencies.",
+      "progress_checked_at": "2026-11-08",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "methodology": "Editorial records of attributed commitments, not endorsements or independently audited political-performance scores. Outcome dates and review dates are distinct. Published sector metrics are not converted into completion scores. Year-only deadlines use year-end date markers.",
+  "missing_fields": {
+    "unsupported_completion_percentages": "NULL; only KBKK uses a source-backed rounded construction metric."
+  },
+  "identity_resolution": {
+    "MECO-VVDYK": {
+      "existing_slug": "anthony-loke",
+      "aliases": [
+        "Loke Siew Fook",
+        "Anthony Loke",
+        "Anthony Loke Siew Fook"
+      ],
+      "action": "update existing UUID; preserve votes and ownership"
+    }
+  }
+}
