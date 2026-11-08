@@ -325,3 +325,14 @@ No license file was included in the supplied archive. The repository owner shoul
 ## Sourced politician imports
 
 CAB-0001 adds Anwar Ibrahim and Ahmad Zahid Hamidi, their Parliament portraits and four dated, sourced milestones. See [the evidence and import guide](docs/imports/CAB-0001/README.md). Unknown status and completion are stored as null; no progress percentage is invented. Editorial profiles remain unclaimed. For existing installations, apply the additive migration in `supabase/migrations` rather than rerunning the clean-install database bundle.
+
+## Landing page and tracker routes
+
+- `/` serves the supplied investor landing page (`src/app/page.tsx`). It has its own navigation and footer, model-based charts, animations and founder portraits.
+- `/tracker` serves the original public tracker dashboard (`src/app/tracker/page.tsx`). Every “Open the tracker” button opens this route on the same host.
+- `/pitch` redirects to `/` so existing pitch-page bookmarks remain usable.
+- `/search`, `/e/[slug]`, `/login`, `/signup`, `/dashboard` and `/admin` keep their existing addresses. Tracker navigation and default sign-in destinations use `/tracker`; explicit safe return paths are preserved.
+
+`src/components/AppShell.tsx` gives the landing page its full-page layout and retains the standard app layout elsewhere. `src/app/pitch/pitch.css` contains the scoped landing-page styles. Financial figures remain in `src/lib/pitch-data.ts`; regenerate them from the workbook with `scripts/generate-pitch-data.py` (requires Python `openpyxl`). No new runtime packages are needed.
+
+Check with `npm run typecheck`, `npm run build`, `node scripts/check-auth-redirects.cjs` and the existing milestone-data checks. Verify the landing-page CTA, direct tracker visit, profile navigation, login return paths and a mobile viewport. No Supabase schema or provider configuration changes are required for these route changes.

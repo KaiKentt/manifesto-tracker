@@ -73,7 +73,7 @@ export function AuthForm({ mode, next, notice }: { mode: "login" | "signup"; nex
 
       <p className="mt-6 text-center text-sm text-muted">
         {isLogin ? "New here? " : "Already have an account? "}
-        <Link href={`/${isLogin ? "signup" : "login"}${next !== "/" ? `?next=${encodeURIComponent(next)}` : ""}`} className="font-semibold text-brand-700 hover:underline">
+        <Link href={`/${isLogin ? "signup" : "login"}${next !== "/tracker" ? `?next=${encodeURIComponent(next)}` : ""}`} className="font-semibold text-brand-700 hover:underline">
           {isLogin ? "Create an account" : "Log in"}
         </Link>
       </p>

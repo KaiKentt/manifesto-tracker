@@ -7,7 +7,7 @@ export function safeRedirectPath(value: string | null | undefined): string {
     value.includes("\\") ||
     /[\u0000-\u001f\u007f]/.test(value)
   ) {
-    return "/";
+    return "/tracker";
   }
   return value;
 }

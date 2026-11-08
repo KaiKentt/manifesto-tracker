@@ -1,0 +1,189 @@
+/* Investor landing page. Colours come from the Manifesto Tracker logo; type and
+   status colours come from the app, so the page reads as the same product. */
+.pitch {
+  --navy: #002a4d;
+  --navy-deep: #001f3a;
+  --blue: #0052a0;
+  --gold: #f9bb00;
+  --gold-ink: #d99a00;
+  --leaf: #00843a;
+  --hair: #e3e9f0;
+  --mist: #eef3f8;
+}
+
+.pitch section[id] {
+  scroll-margin-top: 72px;
+}
+
+.pitch :where(a, button, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+.pitch .on-navy :where(a, button, summary, [tabindex]):focus-visible {
+  outline-color: var(--gold);
+}
+
+/* Section the reader is in (set by PitchMotion). */
+.pitch nav a[aria-current="true"] {
+  color: var(--navy);
+  background: var(--mist);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:has(.pitch) {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Hero: one pledge moving from promise to evidence, played once on load. */
+.pd-stack > * {
+  grid-area: 1 / 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .pd-s1,
+  .pd-s2,
+  .pd-s3,
+  .pd-bar,
+  .pd-r2,
+  .pd-r3 {
+    animation-duration: 4.2s;
+    animation-delay: 1.2s;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .pd-s1 { animation-name: pd-s1; }
+  .pd-s2 { animation-name: pd-s2; }
+  .pd-s3 { animation-name: pd-s3; }
+  .pd-bar { animation-name: pd-bar; }
+  .pd-r2 { animation-name: pd-r2; }
+  .pd-r3 { animation-name: pd-r3; }
+}
+
+/* Reduced motion and the end of the animation share the same final state. */
+.pd-s1,
+.pd-s2 {
+  opacity: 0;
+}
+.pd-bar {
+  width: 100%;
+  background: #10b981;
+}
+
+@keyframes pd-s1 {
+  0%, 26% { opacity: 1; }
+  32%, 100% { opacity: 0; }
+}
+@keyframes pd-s2 {
+  0%, 26% { opacity: 0; }
+  32%, 62% { opacity: 1; }
+  68%, 100% { opacity: 0; }
+}
+@keyframes pd-s3 {
+  0%, 62% { opacity: 0; }
+  68%, 100% { opacity: 1; }
+}
+@keyframes pd-bar {
+  0%, 20% { width: 0%; background: #0ea5e9; }
+  40%, 58% { width: 45%; background: #0ea5e9; }
+  80%, 100% { width: 100%; background: #10b981; }
+}
+@keyframes pd-r2 {
+  0%, 28% { opacity: 0; transform: translateY(6px); }
+  38%, 100% { opacity: 1; transform: none; }
+}
+@keyframes pd-r3 {
+  0%, 64% { opacity: 0; transform: translateY(6px); }
+  74%, 100% { opacity: 1; transform: none; }
+}
+
+/* ── Hero headline: words rise into place, then the rest follows ───── */
+.hw-mask {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  padding: 0 0.04em 0.14em;
+  margin: 0 -0.04em -0.14em;
+}
+.hw {
+  display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hw {
+    animation: hw-rise 0.9s cubic-bezier(0.2, 0.75, 0.2, 1) both;
+    animation-delay: calc(var(--i, 0) * 70ms + 80ms);
+  }
+  .hero-in {
+    animation: hero-in 0.8s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+    animation-delay: var(--delay, 0s);
+  }
+}
+
+@keyframes hw-rise {
+  from { transform: translateY(110%); }
+  to { transform: none; }
+}
+@keyframes hero-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: none; }
+}
+
+/* ── Scroll reveals (only once PitchMotion has marked the page) ─────── */
+@media (prefers-reduced-motion: no-preference) {
+  .pitch[data-motion] [data-reveal] {
+    transition:
+      opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+      transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+    transition-delay: calc(var(--d, 0) * 90ms);
+  }
+  .pitch[data-motion] [data-reveal]:not([data-in]) {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  /* Market squares grow out of their shared corner, largest first. */
+  .pitch[data-motion] [data-reveal="grow"] {
+    transform-origin: bottom left;
+    transition:
+      transform 1s cubic-bezier(0.2, 0.75, 0.2, 1),
+      opacity 0.3s;
+    transition-delay: calc(var(--d, 0) * 260ms);
+  }
+  .pitch[data-motion] [data-reveal="grow"]:not([data-in]) {
+    opacity: 0;
+    transform: scale(0.02);
+  }
+
+  /* Rules that draw from left to right. */
+  .pitch[data-motion] [data-reveal="line"] {
+    transform-origin: left center;
+    transition: transform 0.9s cubic-bezier(0.5, 0, 0.2, 1);
+    transition-delay: calc(var(--d, 0) * 150ms + 150ms);
+  }
+  .pitch[data-motion] [data-reveal="line"]:not([data-in]) {
+    opacity: 1;
+    transform: scaleX(0);
+  }
+
+  /* Wrappers that only trigger their children (bars filling in the product example). */
+  .pitch[data-motion] [data-reveal="bare"]:not([data-in]) {
+    opacity: 1;
+    transform: none;
+  }
+  .pitch[data-motion] .mix-fill > div > :first-child {
+    transition: clip-path 1.3s cubic-bezier(0.3, 0.6, 0.2, 1) 0.25s;
+  }
+  .pitch[data-motion] .mix-fill:not([data-in]) > div > :first-child {
+    clip-path: inset(0 100% 0 0 round 999px);
+  }
+  .pitch[data-motion] .bar-fill > div > div > div {
+    transform-origin: left center;
+    transition: transform 1.2s cubic-bezier(0.3, 0.6, 0.2, 1);
+    transition-delay: calc(var(--d, 0) * 150ms + 0.45s);
+  }
+  .pitch[data-motion] .bar-fill:not([data-in]) > div > div > div {
+    transform: scaleX(0);
+  }
+}

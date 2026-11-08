@@ -68,7 +68,7 @@ export async function approveRequest(formData: FormData) {
   await admin.from("profiles").update({ politician_entity_id: entityId }).eq("id", req.user_id);
   await admin.from("politician_requests").update({ status: "approved", admin_note: null }).eq("id", requestId);
   revalidatePath("/admin");
-  revalidatePath("/");
+  revalidatePath("/tracker");
 }
 
 export async function rejectRequest(formData: FormData) {

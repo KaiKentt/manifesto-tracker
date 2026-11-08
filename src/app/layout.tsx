@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import Link from "@/components/NavigationLink";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { AppShell } from "@/components/AppShell";
 import { SITE, isSupabaseConfigured } from "@/lib/config";
 
 export const metadata: Metadata = {
@@ -23,21 +24,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="flex min-h-screen flex-col">
-        {configured ? (
-          <Suspense fallback={<header aria-label="Loading navigation" className="sticky top-0 z-30 h-16 border-b border-line bg-white" />}>
-            <Header />
-          </Suspense>
-        ) : null}
-        <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8">{configured ? children : <SetupNotice />}</main>
-        <footer className="border-t border-line bg-white">
-          <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-            <p>
-              {SITE.name} is independent and non-partisan. <strong className="text-slate-600">Editorial</strong> records are curated with
-              sources; <strong className="text-brand-700">self-reported</strong> records come from politicians and are not verified.
-            </p>
-            <Link href="/search" className="hover:text-ink">Explore all profiles</Link>
-          </div>
-        </footer>
+        <AppShell
+          configured={configured}
+          header={
+            configured ? (
+              <Suspense fallback={<header aria-label="Loading navigation" className="sticky top-0 z-30 h-16 border-b border-line bg-white" />}>
+                <Header />
+              </Suspense>
+            ) : null
+          }
+          setup={<SetupNotice />}
+          footer={
+            <footer className="border-t border-line bg-white">
+              <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+                <p>
+                  {SITE.name} is independent and non-partisan. <strong className="text-slate-600">Editorial</strong> records are curated with
+                  sources; <strong className="text-brand-700">self-reported</strong> records come from politicians and are not verified.
+                </p>
+                <div className="flex shrink-0 gap-4">
+                  <Link href="/search" className="hover:text-ink">Explore all profiles</Link>
+                  <Link href="/" className="hover:text-ink">About Manifesto</Link>
+                </div>
+              </div>
+            </footer>
+          }
+        >
+          {children}
+        </AppShell>
       </body>
     </html>
   );

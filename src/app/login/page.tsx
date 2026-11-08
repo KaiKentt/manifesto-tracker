@@ -7,7 +7,7 @@ import { safeRedirectPath } from "@/lib/redirects";
 export const metadata: Metadata = { title: "Log in" };
 
 export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string; error?: string }> }) {
-  const { next = "/", error } = await searchParams;
+  const { next = "/tracker", error } = await searchParams;
   const safe = safeRedirectPath(next);
   const notice = error === "google"
     ? "Google sign-in could not be completed. Please try again or use your email."

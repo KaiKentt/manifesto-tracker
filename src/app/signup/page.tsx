@@ -7,7 +7,7 @@ import { safeRedirectPath } from "@/lib/redirects";
 export const metadata: Metadata = { title: "Sign up" };
 
 export default async function SignupPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
-  const { next = "/" } = await searchParams;
+  const { next = "/tracker" } = await searchParams;
   const safe = safeRedirectPath(next);
   if (await getViewer()) redirect(safe);
   return (

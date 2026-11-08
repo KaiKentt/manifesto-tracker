@@ -11,7 +11,7 @@ export async function Header() {
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-white/85 backdrop-blur">
       <div className="mx-auto flex min-h-16 max-w-6xl items-center gap-3 px-4 py-1 sm:gap-4 sm:py-0">
-        <Link prefetch={true} href="/" aria-label={SITE.name} className="flex shrink-0 items-center">
+        <Link prefetch={true} href="/tracker" aria-label={SITE.name} className="flex shrink-0 items-center">
           <Image
             src="/branding/manifesto-tracker-mark.webp"
             alt=""

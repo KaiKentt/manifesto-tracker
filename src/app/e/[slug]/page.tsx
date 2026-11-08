@@ -75,7 +75,7 @@ export default async function EntityPage({ params, searchParams }: Params) {
 
   return (
     <div className="space-y-8">
-      <BackLink href={parent ? `/e/${parent.slug}` : "/"}>{parent ? parent.name : "Home"}</BackLink>
+      <BackLink href={parent ? `/e/${parent.slug}` : "/tracker"}>{parent ? parent.name : "Tracker"}</BackLink>
 
       {/* Header */}
       <section className="card p-6 sm:p-8">
