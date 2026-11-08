@@ -33,9 +33,8 @@ Party names and emblems belong to their respective organisations. They identify 
 | Parti Pribumi Bersatu Malaysia | `/logos/bersatu.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-111.webp) |
 | Parti Wawasan Negara | `/logos/wawasan.png` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/PARTI-WAWASAN-NEGARA.png) |
 | United Malays National Organisation | `/logos/umno.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Pertubuhan-Kebangsaan-Melayu-Bersatu-UMNO.webp) |
-
 | Progressive Democratic Party | `/logos/pdp.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Mask-group-1.webp) |
-
 | Parti Rakyat Sarawak | `/logos/prs.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/logo-parti-Parti-Rakyat-Sarawak-PRS.webp) |
-
 | Parti Bersatu Rakyat Sabah | `/logos/pbrs.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-115.webp) |
+
+PDP, PRS and PBRS symbols were retrieved from the same SPR register on 9 November 2026 for CAB-0008, CAB-0009 and CAB-0014 respectively.
