@@ -13,6 +13,7 @@ for (const batch of batches) {
   const m = JSON.parse(fs.readFileSync(path.join(__dirname, '../docs/imports', batch, 'manifest.json'), 'utf8'));
   assert.equal(m.batch_id, batch);
   const localSlugs = new Set(m.profiles.map(p => p.slug));
+  const before = JSON.parse(fs.readFileSync(path.join(__dirname, '../docs/imports', batch, 'before.json'), 'utf8'));
   for (const [key, calc] of Object.entries(m.progress_calculations || {})) {
     const entry = m.milestones.find(v => v.import_key === key);
     assert.ok(entry && calc.denominator > 0 && calc.numerator >= 0 && calc.numerator <= calc.denominator);
@@ -23,7 +24,9 @@ for (const batch of batches) {
   for (const p of m.profiles) {
     assert.ok(!identities.has(p.record_id) && !slugs.has(p.slug), 'A person must not be duplicated across batches.');
     identities.add(p.record_id); slugs.add(p.slug); people++;
-    assert.ok(p.name && p.parent_slug);
+    const existing = (before.entities || []).find(e => e.slug === p.slug);
+    assert.ok((p.name || existing?.name) && (p.parent_slug || existing?.parent_id));
+    if (!p.name || !p.parent_slug) assert.equal(existing?.type, 'politician', 'An enrichment must retain an existing politician identity.');
     if (p.office_kind === 'senator') {
       assert.equal(p.constituency, null, 'Senators must not inherit an elected constituency.');
       assert.equal(p.state, null, 'An appointed senator must not inherit a constituency state.');
@@ -47,7 +50,10 @@ for (const batch of batches) {
       assert.ok(v.evidence_url && v.evidence_date, 'Numerical progress needs dated evidence.');
     }
     if (v.status === null) assert.equal(v.progress, null);
-    if (v.status === 'achieved') assert.ok(v.evidence_url && v.evidence_date);
+    if (v.status === 'achieved') {
+      assert.ok(v.evidence_url, 'An achieved status needs outcome evidence.');
+      assert.ok(v.evidence_date || /no publication date shown|undated/i.test(v.progress_note), 'An undated source must be identified explicitly.');
+    }
   }
 }
 console.log(`Passed ${people} unique profiles, ${milestones} sourced milestones, photo assets and evidence rules.`);

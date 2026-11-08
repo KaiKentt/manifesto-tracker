@@ -1,0 +1,162 @@
+{
+  "batch_id": "CAB-0014",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0014",
+      "record_id": "MECO-QKYWD",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "arthur-joseph-kurup",
+      "name": "Arthur Joseph Kurup",
+      "parent_slug": "pbrs",
+      "bloc": "government",
+      "position": "Minister of Natural Resources and Environmental Sustainability",
+      "constituency": "Pensiangan",
+      "state": "Sabah",
+      "description": "Arthur Joseph Kurup is Minister of Natural Resources and Environmental Sustainability. He represents Pensiangan, Sabah, in the Dewan Rakyat. He is a member of Parti Bersatu Rakyat Sabah (PBRS).",
+      "website": "https://www.nres.gov.my/",
+      "photo_path": "/portraits/arthur-joseph-kurup.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P182.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Pensiangan",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4221"
+        },
+        {
+          "label": "PBRS · Arthur Kurup (1 Jun 2026)",
+          "url": "https://bernama.com/en/news.php?id=2563552"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0014",
+      "record_id": "MECO-KRVWF",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ramanan-ramakrishnan",
+      "name": "Ramanan Ramakrishnan",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Human Resources",
+      "constituency": "Sungai Buloh",
+      "state": "Selangor",
+      "description": "Ramanan Ramakrishnan is Minister of Human Resources. He represents Sungai Buloh, Selangor, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.mohr.gov.my/",
+      "photo_path": "/portraits/ramanan-ramakrishnan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P107.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Sungai Buloh",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4146"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0014",
+      "entity_slug": "arthur-joseph-kurup",
+      "import_key": "CAB-0014:arthur-joseph-kurup:climate-change-bill",
+      "title": "Table the Climate Change Bill, subject to Cabinet approval",
+      "category": "Environment",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-07",
+      "promise_url": "https://web26.bernama.com/en/region/news.php?id=2616564",
+      "evidence_date": "2026-10-07",
+      "evidence_url": "https://web26.bernama.com/en/region/news.php?id=2616564",
+      "description": "Arthur said the Climate Change Bill was intended for the current parliamentary sitting once Cabinet approval was obtained.",
+      "progress_note": "His update reports drafting approval in principle and completed state-government engagement. This supports ongoing preparation, not first reading, passage or commencement. The tabling condition remains explicit; a firm unconditional deadline and completion percentage were not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0014",
+      "entity_slug": "ramanan-ramakrishnan",
+      "import_key": "CAB-0014:ramanan-ramakrishnan:skilled-workforce-35-2030",
+      "title": "Reach a 35% skilled workforce by 2030",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-01-15",
+      "promise_url": "https://www.mohr.gov.my/pdf/2026/KSM.%20100-2_1_1%20JLD5%20%2855%29.pdf",
+      "evidence_date": "2026-08-31",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2601331",
+      "description": "KESUMA’s account of Ramanan’s 2026 address states a 35% skilled-workforce target by 2030, supported by TVET and targeted training.",
+      "progress_note": "His August update describes continuing workforce-skills programmes. Programme offers and training capacity do not establish the national skilled-workforce share. The target remains in progress with no numerical completion assigned.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0014",
+      "entity_slug": "ramanan-ramakrishnan",
+      "import_key": "CAB-0014:ramanan-ramakrishnan:ai-access-100000-youths",
+      "title": "Provide AI-learning access for 100,000 youths",
+      "category": "Digital",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-08-31",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2601331",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Ramanan endorsed the shared AI for the People initiative targeting 100,000 youths aged 18–30 and broader access to AI skills.",
+      "progress_note": "The report describes the new initiative and related workforce programmes. It does not establish 100,000 participants completing the prescribed modules. Separate MyMahir training capacity is not substituted for this target; outcome status, deadline and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "pbrs",
+      "type": "party",
+      "parent_slug": "barisan-nasional",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Parti Bersatu Rakyat Sabah",
+      "short_name": "PBRS",
+      "description": "A component party of Barisan Nasional (BN).",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "SPR · registered party symbols",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        },
+        {
+          "label": "PBRS · Arthur Kurup (1 Jun 2026)",
+          "url": "https://bernama.com/en/news.php?id=2563552"
+        }
+      ],
+      "logo_path": "/logos/pbrs.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Group-115.webp"
+    }
+  ],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  },
+  "progress_calculations": {}
+}

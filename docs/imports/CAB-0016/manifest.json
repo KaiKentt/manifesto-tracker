@@ -1,0 +1,155 @@
+{
+  "batch_id": "CAB-0016",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0016",
+      "record_id": "ROSTER-069CB490CD20",
+      "office_kind": "senator",
+      "parent_kind": "bloc",
+      "slug": "zulkifli-hasan",
+      "name": "Zulkifli Hasan",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Minister in the Prime Minister’s Department (Religious Affairs)",
+      "constituency": null,
+      "state": null,
+      "description": "Zulkifli Hasan is Minister in the Prime Minister’s Department (Religious Affairs). He serves as a senator appointed by the Yang di-Pertuan Agong.",
+      "website": "https://www.islam.gov.my/",
+      "photo_path": "/portraits/zulkifli-hasan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2023/TMA.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Dewan Negara",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dn&id=4290"
+        }
+      ],
+      "affiliation_note": "Parliament lists PROFESIONAL. No political-party membership is inferred; the profile is attached directly to the government bloc."
+    },
+    {
+      "batch_id": "CAB-0016",
+      "record_id": "MECO-5248R",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohammed-taufiq-johari",
+      "name": "Mohammed Taufiq Johari",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Youth and Sports",
+      "constituency": "Sungai Petani",
+      "state": "Kedah",
+      "description": "Mohammed Taufiq Johari is Minister of Youth and Sports. He represents Sungai Petani, Kedah, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.kbs.gov.my/",
+      "photo_path": "/portraits/mohammed-taufiq-johari.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P015.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Sungai Petani",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4054"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0016",
+      "entity_slug": "zulkifli-hasan",
+      "import_key": "CAB-0016:zulkifli-hasan:pondok-education-framework",
+      "title": "Develop a strengthened national pondok-education framework",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-06-08",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2566228",
+      "evidence_date": "2026-06-08",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2566228",
+      "description": "Zulkifli said religious agencies and pondok institutions were developing a more dynamic educational framework while preserving their study traditions.",
+      "progress_note": "The minister described ongoing engagement and framework development involving JAKIM, YADIM and pondok institutions. Maintenance funding and previous-year repairs do not establish completion of this framework. A final framework, deadline and numerical completion were not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0016",
+      "entity_slug": "zulkifli-hasan",
+      "import_key": "CAB-0016:zulkifli-hasan:kafa-pretahfiz-federal-territories",
+      "title": "Expand KAFA Pre-Tahfiz to the Federal Territories",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-28",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2626832",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Zulkifli announced expansion of the KAFA Pre-Tahfiz programme from its Melaka pilot to suitable schools in the Federal Territories.",
+      "progress_note": "The announcement describes the intended expansion. Pilot pupil results and nationwide enrolment are not proof of delivery in the Federal Territories. No completed rollout, firm deadline or completion percentage was established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0016",
+      "entity_slug": "mohammed-taufiq-johari",
+      "import_key": "CAB-0016:mohammed-taufiq-johari:asian-games-six-gold",
+      "title": "Meet the six-gold target at the 2026 Asian Games",
+      "category": "Other",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2026-10-04",
+      "promise_date": "2026-09-14",
+      "promise_url": "https://web26.bernama.com/en/news.php?id=2607338",
+      "evidence_date": "2026-09-28",
+      "evidence_url": "https://web26.bernama.com/en/news.php?id=2612757",
+      "description": "Mohammed Taufiq publicly supported the national contingent’s six-gold target for the Aichi-Nagoya 2026 Asian Games.",
+      "progress_note": "His 28 September update confirms six gold medals had been won. Achieved is limited to this gold-medal threshold. Credit belongs collectively to athletes, coaches, associations and supporting agencies; this is not an overall ministerial or Games performance score.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0016",
+      "entity_slug": "mohammed-taufiq-johari",
+      "import_key": "CAB-0016:mohammed-taufiq-johari:asian-para-games-medal-target",
+      "title": "Pursue the 2026 Asian Para Games target of 6 gold, 10 silver and 16 bronze",
+      "category": "Other",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-08",
+      "promise_url": "https://web26.bernama.com/en/sports/news.php?id=2617105",
+      "evidence_date": "2026-10-24",
+      "evidence_url": "https://web26.bernama.com/en/news.php?id=2625079",
+      "description": "Mohammed Taufiq backed the national para contingent’s target of six gold, ten silver and sixteen bronze medals.",
+      "progress_note": "The 24 October report gives a 10 am snapshot of six gold, eight silver and thirteen bronze medals. The gold threshold was met, but the other two targets were below their thresholds in that snapshot. A comparable final Games total was not verified, so overall status and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist.",
+    "zulkifli-hasan_affiliation": "Parliament lists PROFESIONAL. No political-party membership is inferred; the profile is attached directly to the government bloc."
+  },
+  "progress_calculations": {}
+}

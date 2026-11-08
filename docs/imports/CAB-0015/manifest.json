@@ -1,0 +1,157 @@
+{
+  "batch_id": "CAB-0015",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0015",
+      "record_id": "MECO-RSE80",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "akmal-nasrullah-mohd-nasir",
+      "name": "Akmal Nasrullah Mohd Nasir",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister of Economy",
+      "constituency": "Johor Bahru",
+      "state": "Johor",
+      "description": "Akmal Nasrullah Mohd Nasir is Minister of Economy. He represents Johor Bahru, Johor, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://www.ekonomi.gov.my/",
+      "photo_path": "/portraits/akmal-nasrullah-mohd-nasir.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P160.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Johor Bahru",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4199"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0015",
+      "record_id": "MECO-TAKNQ",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mustapha-sakmud",
+      "name": "Mustapha Sakmud",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Minister in the Prime Minister’s Department (Sabah and Sarawak)",
+      "constituency": "Sepanggar",
+      "state": "Sabah",
+      "description": "Mustapha Sakmud is Minister in the Prime Minister’s Department (Sabah and Sarawak). He represents Sepanggar, Sabah, in the Dewan Rakyat. He is a member of Parti Keadilan Rakyat (PKR).",
+      "website": "https://bhess.jpm.gov.my/",
+      "photo_path": "/portraits/mustapha-sakmud.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P171.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Sepanggar",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4210"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0015",
+      "entity_slug": "akmal-nasrullah-mohd-nasir",
+      "import_key": "CAB-0015:akmal-nasrullah-mohd-nasir:kl20-vc-700m-2030",
+      "title": "Attract RM700 million in venture-capital investment through KL20 by 2030",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-10-14",
+      "promise_url": "https://web26.bernama.com/en/region/news.php?id=2620217",
+      "evidence_date": "2026-10-19",
+      "evidence_url": "https://web26.bernama.com/en/region/news.php?id=2622558",
+      "description": "Akmal set a KL20 target of RM700 million in venture-capital investment by 2030.",
+      "progress_note": "His 19 October update describes continued startup support. Broader investment and sales-proceeds totals in that report are not comparable to this specific venture-capital target. No target-specific completion percentage is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0015",
+      "entity_slug": "akmal-nasrullah-mohd-nasir",
+      "import_key": "CAB-0015:akmal-nasrullah-mohd-nasir:kl20-additional-startups-2030",
+      "title": "Add 2,000–3,500 active startups through KL20 by 2030",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-10-14",
+      "promise_url": "https://web26.bernama.com/en/region/news.php?id=2620217",
+      "evidence_date": "2026-10-19",
+      "evidence_url": "https://web26.bernama.com/en/region/news.php?id=2622558",
+      "description": "Akmal stated an estimated target range of 2,000 to 3,500 additional active startups by 2030 through KL20.",
+      "progress_note": "The later update describes agencies continuing to support startup development. A baseline and verified count of additional active companies against this range were not established. Ecosystem valuation, funding and unicorn counts are not substitutes for this metric.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0015",
+      "entity_slug": "mustapha-sakmud",
+      "import_key": "CAB-0015:mustapha-sakmud:ma63-dashboard-launch",
+      "title": "Launch the first phase of the public MA63 progress dashboard",
+      "category": "Governance",
+      "status": "achieved",
+      "progress": null,
+      "target_date": "2026-01-31",
+      "promise_date": "2026-01-01",
+      "promise_url": "https://www.bernama.com/tv/news.php?id=2507928",
+      "evidence_date": "2026-01-28",
+      "evidence_url": "https://www.bernama.com/bm/am/news.php?id=2517860",
+      "description": "Mustapha announced that the public dashboard for tracking MA63 implementation would be made available by the end of January 2026.",
+      "progress_note": "The 28 January launch report confirms public access to Phase 1 through BHESS, launched by Fadillah Yusof. Achieved covers this shared dashboard launch only, not Phase 2 integration or settlement of MA63 demands. No sole personal credit or completion percentage is implied.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0015",
+      "entity_slug": "mustapha-sakmud",
+      "import_key": "CAB-0015:mustapha-sakmud:sabah-special-grant-negotiations",
+      "title": "Advance federal-state negotiations on Sabah’s special grant",
+      "category": "Governance",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-02-10",
+      "promise_url": "https://www.bernama.com/bm/news.php?id=2522382",
+      "evidence_date": "2026-05-04",
+      "evidence_url": "https://bernama.com/en/news.php?id=2552789",
+      "description": "Mustapha reaffirmed continued federal-state negotiations on MA63 matters, including Sabah’s constitutional special grant, in his coordinating role.",
+      "progress_note": "His May update describes negotiations progressing across four areas and the coordinating process. It does not establish a final agreed formula or payment of the 40% claim. No numerical completion or invented settlement deadline is assigned.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  },
+  "progress_calculations": {}
+}

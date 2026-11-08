@@ -1,0 +1,138 @@
+{
+  "batch_id": "CAB-0013",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "CAB-0013",
+      "record_id": "MECO-57M06",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "steven-sim-chee-keong",
+      "name": "Steven Sim Chee Keong",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Minister of Entrepreneur and Cooperatives Development",
+      "constituency": "Bukit Mertajam",
+      "state": "Pulau Pinang",
+      "description": "Steven Sim Chee Keong is Minister of Entrepreneur and Cooperatives Development. He represents Bukit Mertajam, Pulau Pinang, in the Dewan Rakyat. He is a member of DAP.",
+      "website": "https://www.kuskop.gov.my/",
+      "photo_path": "/portraits/steven-sim-chee-keong.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P045.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Bukit Mertajam",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4084"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    },
+    {
+      "batch_id": "CAB-0013",
+      "record_id": "MECO-NTH3M",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "noraini-ahmad",
+      "name": "Noraini Ahmad",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Minister of Plantation and Commodities",
+      "constituency": "Parit Sulong",
+      "state": "Johor",
+      "description": "Noraini Ahmad is Minister of Plantation and Commodities. She represents Parit Sulong, Johor, in the Dewan Rakyat. She is a member of UMNO.",
+      "website": "https://www.kpk.gov.my/",
+      "photo_path": "/portraits/noraini-ahmad.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P147.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Prime Minister’s Office · Cabinet",
+          "url": "https://www.pmo.gov.my/en/cabinet/"
+        },
+        {
+          "label": "Parliament · Parit Sulong",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4186"
+        },
+        {
+          "label": "UMNO · 2023–2026 supreme council",
+          "url": "https://umno-online.my/wp-content/uploads/2026/01/Senarai-MKT-2023-2026-update-Januari-2026-jan-2026-final.pdf"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "CAB-0013",
+      "entity_slug": "steven-sim-chee-keong",
+      "import_key": "CAB-0013:steven-sim-chee-keong:pks-bursa-200-2030",
+      "title": "Help 200 high-potential SMEs list on Bursa Malaysia by 2030",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": "2030-12-31",
+      "promise_date": "2026-06-04",
+      "promise_url": "https://bernama.com/en/news.php/world/crime_courts/target%3D%27_blank%27?id=2564638",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Steven said PKS@BURSA would build a pipeline to help 200 high-potential small and medium enterprises seek listing by 2030.",
+      "progress_note": "The statement establishes the programme target and financing support. Allocated funding and eligible loan amounts do not establish that 200 firms have listed. A verified listing count and outcome status were not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0013",
+      "entity_slug": "steven-sim-chee-keong",
+      "import_key": "CAB-0013:steven-sim-chee-keong:scale-sme-definition-2027",
+      "title": "Review the national SME definition under SCALE 2027",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-10-22",
+      "promise_url": "https://web26.bernama.com/en/region/news.php?id=2624266",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Steven announced that KUSKOP would review the SME definition in place since 2013 as a priority of the SCALE Action Plan for 2027.",
+      "progress_note": "The announcement describes the intended review and its purpose. A revised definition taking effect was not verified. The launch of an action plan is not treated as delivery of the definition reform.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "CAB-0013",
+      "entity_slug": "noraini-ahmad",
+      "import_key": "CAB-0013:noraini-ahmad:oil-palm-smallholder-replanting",
+      "title": "Strengthen support for smallholder oil-palm replanting",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-09-24",
+      "promise_url": "https://bernama.com/en/news.php?id=2611208",
+      "evidence_date": "2026-09-24",
+      "evidence_url": "https://bernama.com/en/news.php?id=2611208",
+      "description": "Noraini said her ministry and MPOB would support replacement of ageing oil palms through replanting assistance, including TSPKS.",
+      "progress_note": "She described assistance being implemented for smallholders. MSPO-certified hectares and the RM63.5 million market-support allocation are different measures, not completed replanted hectares. No target-specific completed area, overall deadline or numerical completion was established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of attributable commitments and dated evidence, not endorsements or independently audited performance scores. Promise dates use explicitly stated event dates where available. Year/month-only target dates use end-of-period markers, not an invented exact-day promise. Sector ratios, budget allocations and announcements are not completion scores.",
+  "missing_fields": {
+    "completion_percentages": "NULL unless a dated metric or transparent calculation is explicitly documented.",
+    "additional_milestones": "Up to two per person in this initial pass; unimported additional commitments are not_researched_to_completion, not proof none exist."
+  },
+  "progress_calculations": {}
+}

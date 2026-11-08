@@ -43,6 +43,14 @@ export default async function EntityPage({ params, searchParams }: Params) {
     viewerPromise,
   ]);
   const children = (childRows ?? []) as Entity[];
+  const memberGroups = [
+    { type: "bloc", label: "Blocs" },
+    { type: "alliance", label: "Coalitions" },
+    { type: "party", label: entity.type === "alliance" ? "Member parties" : "Parties" },
+    { type: "politician", label: "Politicians" },
+  ]
+    .map((group) => ({ ...group, members: children.filter((child) => child.type === group.type) }))
+    .filter((group) => group.members.length > 0);
   if (entity.type === "bloc") {
     scopeIds = (blocRes?.data ?? []).map((e) => e.id as string);
   } else if (entity.type !== "politician") {
@@ -154,18 +162,16 @@ export default async function EntityPage({ params, searchParams }: Params) {
       ) : null}
 
       {/* Members */}
-      {children.length ? (
-        <section>
-          <h2 className="section-title">
-            {entity.type === "bloc" ? "Coalitions" : entity.type === "alliance" ? "Member parties" : "Politicians"}
-          </h2>
+      {memberGroups.map((group) => (
+        <section key={group.type}>
+          <h2 className="section-title">{group.label}</h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {children.map((c) => (
-              <EntityCard key={c.id} entity={c} />
+            {group.members.map((member) => (
+              <EntityCard key={member.id} entity={member} />
             ))}
           </div>
         </section>
-      ) : null}
+      ))}
 
       {/* Milestones */}
       <section>
