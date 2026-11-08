@@ -42,7 +42,13 @@ export default async function TrackerPage() {
     <div className="space-y-12">
       {/* Hero */}
       <section className="pt-2">
-        <p className="text-sm font-semibold text-brand-700">{SITE.country}</p>
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <p className="text-sm font-semibold text-brand-700">{SITE.country}</p>
+          <Link href="/" prefetch={true} className="btn-ghost h-10 gap-2 px-3 text-sm">
+            <span aria-hidden="true">←</span>
+            Back to landing page
+          </Link>
+        </div>
         <h1 className="mt-1 max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">{SITE.tagline}</h1>
         <p className="mt-3 max-w-2xl text-muted">
           Follow the pledges of the government and the opposition, then dig into any coalition, party or politician. Upvote the
