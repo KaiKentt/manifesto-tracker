@@ -1,0 +1,125 @@
+{
+  "batch_id": "MP-0035",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0035",
+      "record_id": "MECO-N1DT9",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "zahir-hassan",
+      "name": "Zahir Hassan",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Wangsa Maju",
+      "state": "Kuala Lumpur",
+      "description": "Zahir Hassan represents Wangsa Maju, Kuala Lumpur, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4155",
+      "photo_path": "/portraits/zahir-hassan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P116.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4155"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0035",
+      "record_id": "MECO-G1GVR",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "fong-kui-lun",
+      "name": "Fong Kui Lun",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bukit Bintang",
+      "state": "Kuala Lumpur",
+      "description": "Fong Kui Lun represents Bukit Bintang, Kuala Lumpur, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4159",
+      "photo_path": "/portraits/fong-kui-lun.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P120.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4159"
+        },
+        {
+          "label": "DAP · current Kuala Lumpur representatives",
+          "url": "https://dapmalaysia.org/kuala-lumpur-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0035",
+      "record_id": "MECO-HYCN5",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "teresa-kok-suh-sim",
+      "name": "Teresa Kok Suh Sim",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Seputeh",
+      "state": "Kuala Lumpur",
+      "description": "Teresa Kok Suh Sim represents Seputeh, Kuala Lumpur, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4161",
+      "photo_path": "/portraits/teresa-kok-suh-sim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P122.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4161"
+        },
+        {
+          "label": "DAP · current Kuala Lumpur representatives",
+          "url": "https://dapmalaysia.org/kuala-lumpur-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "zahir-hassan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "fong-kui-lun": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "teresa-kok-suh-sim": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

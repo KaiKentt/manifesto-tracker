@@ -1,0 +1,146 @@
+{
+  "batch_id": "MP-0033",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0033",
+      "record_id": "MECO-2QG39",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "halimah-ali",
+      "name": "Halimah Ali",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kapar",
+      "state": "Selangor",
+      "description": "Halimah Ali represents Kapar, Selangor, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4148",
+      "photo_path": "/portraits/halimah-ali.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P109.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4148"
+        },
+        {
+          "label": "PAS · parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0033",
+      "record_id": "MECO-9A9B2",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ganabatirau-veraman",
+      "name": "Ganabatirau Veraman",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Klang",
+      "state": "Selangor",
+      "description": "Ganabatirau Veraman represents Klang, Selangor, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4149",
+      "photo_path": "/portraits/ganabatirau-veraman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P110.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4149"
+        },
+        {
+          "label": "DAP · current Selangor representatives",
+          "url": "https://dapmalaysia.org/selangor-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0033",
+      "record_id": "MECO-1JPQT",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-yunus-hairi",
+      "name": "Ahmad Yunus Hairi",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kuala Langat",
+      "state": "Selangor",
+      "description": "Ahmad Yunus Hairi represents Kuala Langat, Selangor, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4151",
+      "photo_path": "/portraits/ahmad-yunus-hairi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P112.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4151"
+        },
+        {
+          "label": "PAS · parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0033",
+      "entity_slug": "halimah-ali",
+      "record_kind": "commitment",
+      "import_key": "MP-0033:halimah-ali:meru-kapar-flood-pledge",
+      "title": "Address recurring flooding in Meru and Kapar",
+      "category": "Infrastructure",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2022-11-13",
+      "promise_url": "https://www.utusan.com.my/berita/2022/11/pru15-cuba-selesaikan-masalah-banjir-dalam-parlimen-kapar/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "During the GE15 campaign, Halimah pledged to tackle flooding and proposed retention ponds and closer scrutiny of local development.",
+      "progress_note": "This is the dated 2022 campaign pledge. Her account of earlier work in Kampung Delek does not prove delivery of the later Meru/Kapar pledge; completion and a comparable percentage remain unestablished.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "halimah-ali": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "ganabatirau-veraman": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "ahmad-yunus-hairi": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

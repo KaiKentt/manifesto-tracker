@@ -1,0 +1,188 @@
+{
+  "batch_id": "MP-0036",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0036",
+      "record_id": "MECO-015VP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "tan-kok-wai",
+      "name": "Tan Kok Wai",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Cheras",
+      "state": "Kuala Lumpur",
+      "description": "Tan Kok Wai represents Cheras, Kuala Lumpur, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4162",
+      "photo_path": "/portraits/tan-kok-wai.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P123.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4162"
+        },
+        {
+          "label": "DAP · current Kuala Lumpur representatives",
+          "url": "https://dapmalaysia.org/kuala-lumpur-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0036",
+      "record_id": "ROSTER-5FFCA8C7F6FC",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wan-azizah-wan-ismail",
+      "name": "Wan Azizah Wan Ismail",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bandar Tun Razak",
+      "state": "Kuala Lumpur",
+      "description": "Wan Azizah Wan Ismail represents Bandar Tun Razak, Kuala Lumpur, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4163",
+      "photo_path": "/portraits/wan-azizah-wan-ismail.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P124.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4163"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0036",
+      "record_id": "MECO-CBKB3",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "radzi-jidin",
+      "name": "Radzi Jidin",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Putrajaya",
+      "state": "Putrajaya",
+      "description": "Radzi Jidin represents Putrajaya, Putrajaya, in the Dewan Rakyat. A Bersatu member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4164",
+      "photo_path": "/portraits/radzi-jidin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P125.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4164"
+        },
+        {
+          "label": "Bersatu · reported CSA signatory, 29 October 2026",
+          "url": "https://bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "The CSA report explicitly says Bersatu remains in opposition. The party is not attached to PN in the existing hierarchy, and budget cooperation is not classified as joining government."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0036",
+      "entity_slug": "radzi-jidin",
+      "record_kind": "commitment",
+      "import_key": "MP-0036:radzi-jidin:budget-2027-csa",
+      "title": "Support Supply Bill 2027 under the confidence-and-supply agreement",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Signed the agreement to support the 2027 Supply Bill.",
+      "progress_note": "Signing is confirmed; subsequent voting and budget passage were not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0036",
+      "entity_slug": "wan-azizah-wan-ismail",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0036:wan-azizah-wan-ismail:600-school-vouchers",
+      "title": "Present RM150 school vouchers to 600 Bandar Tun Razak students",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-10",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2510899",
+      "description": "Wan Azizah presented RM90,000 in vouchers through an Amanah Ikhtiar Malaysia programme for primary and secondary pupils.",
+      "progress_note": "Achieved covers the documented voucher handover with AIM. It does not verify every redemption or imply that all students in the constituency received aid.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0036",
+      "entity_slug": "wan-azizah-wan-ismail",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0036:wan-azizah-wan-ismail:43-sspn-awards",
+      "title": "Support education savings and supplies for 43 eKasih students",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-11-01",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2628547",
+      "description": "The Sejahtera MADANI education programme reported SSPN certificates worth RM500 and RM100 school-supply vouchers for each of 43 students.",
+      "progress_note": "The report confirms this handover. Wan Azizah explicitly tied expansion to priorities and available resources; no universal entitlement or future intake target is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "tan-kok-wai": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "wan-azizah-wan-ismail": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "radzi-jidin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "The CSA report explicitly says Bersatu remains in opposition. The party is not attached to PN in the existing hierarchy, and budget cooperation is not classified as joining government."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {},
+  "portrait_processing_note": "Parliament serves Tan Kok Wai’s JPEG with incomplete trailing bytes on repeated retrieval. The available full portrait was decoded, visually checked and re-encoded as a valid WebP; no face or artwork was generated or altered."
+}

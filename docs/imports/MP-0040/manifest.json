@@ -1,0 +1,174 @@
+{
+  "batch_id": "MP-0040",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0040",
+      "record_id": "MECO-G93ST",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "adam-adli-abd-halim",
+      "name": "Adam Adli Abd Halim",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Deputy Minister of Higher Education",
+      "constituency": "Hang Tuah Jaya",
+      "state": "Melaka",
+      "description": "Adam Adli Abd Halim represents Hang Tuah Jaya, Melaka, in the Dewan Rakyat. Current role: Deputy Minister of Higher Education. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4176",
+      "photo_path": "/portraits/adam-adli-abd-halim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P137.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4176"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0040",
+      "record_id": "MECO-B74TX",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "khoo-poay-tiong",
+      "name": "Khoo Poay Tiong",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kota Melaka",
+      "state": "Melaka",
+      "description": "Khoo Poay Tiong represents Kota Melaka, Melaka, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4177",
+      "photo_path": "/portraits/khoo-poay-tiong.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/Kota%20Melaka_01%20P138.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4177"
+        },
+        {
+          "label": "DAP · current Melaka representatives",
+          "url": "https://dapmalaysia.org/melaka-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0040",
+      "record_id": "MECO-6GWH8",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "zulkifli-ismail",
+      "name": "Zulkifli Ismail",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Jasin",
+      "state": "Melaka",
+      "description": "Zulkifli Ismail represents Jasin, Melaka, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4178",
+      "photo_path": "/portraits/zulkifli-ismail.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P139.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4178"
+        },
+        {
+          "label": "PAS · state commissioners",
+          "url": "https://pas.org.my/pesuruhjaya-negeri/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0040",
+      "entity_slug": "adam-adli-abd-halim",
+      "record_kind": "commitment",
+      "import_key": "MP-0040:adam-adli-abd-halim:mohe-lmm-dialogue",
+      "title": "Hold an open MOHE dialogue with Liga Mahasiswa Malaysia",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2026-05-31",
+      "promise_date": "2026-04-18",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2546419",
+      "evidence_date": "2026-06-17",
+      "evidence_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/06/17/dialog-terbuka-dengan-kumpulan-mahasiswa-diteruskan-kata-adam-adli",
+      "description": "Adam Adli said a substantive student dialogue was being organised and was expected by May at the latest.",
+      "progress_note": "A 17 June follow-up says discussions would continue and his office would contact LMM. This does not confirm that the originally scheduled dialogue happened. The May target uses an end-of-month marker.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0040",
+      "entity_slug": "khoo-poay-tiong",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0040:khoo-poay-tiong:portuguese-settlement-tnb-home",
+      "title": "Hand over a TNB MeSRa home in the Portuguese Settlement",
+      "category": "Housing",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-10-04",
+      "evidence_url": "https://bernama.com/bm/news.php?id=2615150",
+      "description": "Khoo officiated the 3 October handover of a RM98,000 home built under TNB’s corporate social-responsibility programme, with household equipment also provided.",
+      "progress_note": "Achieved covers this home handover with TNB. The source was published after midnight on 4 October. It is not the MP’s sole construction delivery or a whole-constituency housing score.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "adam-adli-abd-halim": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "khoo-poay-tiong": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "zulkifli-ismail": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {
+    "MP-0040:adam-adli-abd-halim:mohe-lmm-dialogue": {
+      "target_date": "2026-05-31",
+      "date_precision": "month",
+      "source_date": "2026-04-18",
+      "url": "https://www.bernama.com/en/news.php?id=2546419",
+      "note": "End-of-period display marker for a published month-only schedule; not an exact-day promise."
+    }
+  }
+}

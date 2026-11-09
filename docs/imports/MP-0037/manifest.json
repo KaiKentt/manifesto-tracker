@@ -1,0 +1,146 @@
+{
+  "batch_id": "MP-0037",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0037",
+      "record_id": "MECO-APZK6",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "jalaluddin-alias",
+      "name": "Jalaluddin Alias",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Jelebu",
+      "state": "Negeri Sembilan",
+      "description": "Jalaluddin Alias represents Jelebu, Negeri Sembilan, in the Dewan Rakyat. A UMNO member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4165",
+      "photo_path": "/portraits/jalaluddin-alias.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P126.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4165"
+        },
+        {
+          "label": "UMNO · Negeri Sembilan chair, 2 May 2026",
+          "url": "https://malaysiagazette.com/2026/05/02/saya-nak-mampus-pertahankan-kerajaan-perpaduan-jalaluddin/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0037",
+      "record_id": "MECO-38BB4",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "shamshulkahar-mohd-deli",
+      "name": "Shamshulkahar Mohd Deli",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Jempol",
+      "state": "Negeri Sembilan",
+      "description": "Shamshulkahar Mohd Deli represents Jempol, Negeri Sembilan, in the Dewan Rakyat. A UMNO member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4166",
+      "photo_path": "/portraits/shamshulkahar-mohd-deli.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P127.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4166"
+        },
+        {
+          "label": "UMNO · Jempol representative, 22 October 2026",
+          "url": "https://umno-online.my/2026/10/22/jangan-jadikan-isu-dnaa-ahmad-zahid-modal-politik/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0037",
+      "record_id": "MECO-FTA8S",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "adnan-abu-hassan",
+      "name": "Adnan Abu Hassan",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Chair of the Special Committee on Corruption; Member of the Dewan Rakyat",
+      "constituency": "Kuala Pilah",
+      "state": "Negeri Sembilan",
+      "description": "Adnan Abu Hassan represents Kuala Pilah, Negeri Sembilan, in the Dewan Rakyat. Current role: Chair of the Special Committee on Corruption; Member of the Dewan Rakyat. A UMNO member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4168",
+      "photo_path": "/portraits/adnan-abu-hassan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P129.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4168"
+        },
+        {
+          "label": "UMNO · special committee chair appointment, 30 June 2026",
+          "url": "https://umno-online.my/2026/06/30/amanah-baharu-buat-adnan-abu-hassan-pengerusi-jawatankuasa-khas-mengenai-rasuah/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0037",
+      "entity_slug": "shamshulkahar-mohd-deli",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0037:shamshulkahar-mohd-deli:jeram-padang-ramadan",
+      "title": "Contribute to Jeram Padang asnaf aid and mosque support",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-02-26",
+      "evidence_url": "https://umno-online.my/2026/02/26/program-ihya-ramadhan-dun-jeram-padang-meriah-bantuan-asnaf-warga-emas-disalur/",
+      "description": "Shamshulkahar represented KPTM in assistance for 96 asnaf recipients and contributed RM30,000 to Masjid Felda Palong 2 plus RM6,000 for iftar.",
+      "progress_note": "This party-published handover report covers the stated contributions. The separate 230-person elderly assistance and 30 food-box distribution are not attributed solely to him.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "jalaluddin-alias": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "shamshulkahar-mohd-deli": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "adnan-abu-hassan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

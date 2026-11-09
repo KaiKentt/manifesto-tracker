@@ -1,0 +1,146 @@
+{
+  "batch_id": "MP-0032",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0032",
+      "record_id": "MECO-AMK13",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "syahredzan-johan",
+      "name": "Syahredzan Johan",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bangi",
+      "state": "Selangor",
+      "description": "Syahredzan Johan represents Bangi, Selangor, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4141",
+      "photo_path": "/portraits/syahredzan-johan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P102.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4141"
+        },
+        {
+          "label": "DAP · current Selangor representatives",
+          "url": "https://dapmalaysia.org/selangor-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0032",
+      "record_id": "MECO-XX3RW",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "yeo-bee-yin",
+      "name": "Yeo Bee Yin",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Puchong",
+      "state": "Selangor",
+      "description": "Yeo Bee Yin represents Puchong, Selangor, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4142",
+      "photo_path": "/portraits/yeo-bee-yin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P103.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4142"
+        },
+        {
+          "label": "DAP · current Selangor representatives",
+          "url": "https://dapmalaysia.org/selangor-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0032",
+      "record_id": "MECO-TM811",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "azli-yusof",
+      "name": "Azli Yusof",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Shah Alam",
+      "state": "Selangor",
+      "description": "Azli Yusof represents Shah Alam, Selangor, in the Dewan Rakyat. A AMANAH member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4147",
+      "photo_path": "/portraits/azli-yusof.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P108.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4147"
+        },
+        {
+          "label": "AMANAH · Selangor leadership, personal official website",
+          "url": "https://www.azliyusof.com/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0032",
+      "entity_slug": "syahredzan-johan",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0032:syahredzan-johan:gendang-sahur-prihatin",
+      "title": "Sponsor and distribute sahur meals to Bangi front-line workers",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-03-09",
+      "evidence_url": "https://www.ukm.my/beritaukm/fakulti-undang-undang-sampaikan-juadah-sahur-rai-petugas-barisan-hadapan/",
+      "description": "UKM reports a programme organised with Syahredzan’s parliamentary office, with meals sponsored by the MP and visits to police, fire and hospital teams.",
+      "progress_note": "This is a limited delivery report, not an earlier election pledge. The publication date is known; the article describes the event as recent without giving its exact day.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "syahredzan-johan": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "yeo-bee-yin": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "azli-yusof": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

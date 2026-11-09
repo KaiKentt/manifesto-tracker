@@ -1,0 +1,186 @@
+{
+  "batch_id": "MP-0034",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0034",
+      "record_id": "ROSTER-5AF369152099",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "aiman-athirah-sabu",
+      "name": "Aiman Athirah Sabu",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Deputy Minister of Housing and Local Government",
+      "constituency": "Sepang",
+      "state": "Selangor",
+      "description": "Aiman Athirah Sabu represents Sepang, Selangor, in the Dewan Rakyat. Current role: Deputy Minister of Housing and Local Government. A AMANAH member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4152",
+      "photo_path": "/portraits/aiman-athirah-sabu.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/YB%20Sepang.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4152"
+        },
+        {
+          "label": "AMANAH · women’s chief, 21 August 2026",
+          "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/08/21/peruntukan-sama-rata-perlu-kesepakatan-kerajaan-perpaduan-kata-pemimpin-amanah"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0034",
+      "record_id": "MECO-R43TJ",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "lim-lip-eng",
+      "name": "Lim Lip Eng",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kepong",
+      "state": "Kuala Lumpur",
+      "description": "Lim Lip Eng represents Kepong, Kuala Lumpur, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4153",
+      "photo_path": "/portraits/lim-lip-eng.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P114.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4153"
+        },
+        {
+          "label": "DAP · current Kuala Lumpur representatives",
+          "url": "https://dapmalaysia.org/kuala-lumpur-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0034",
+      "record_id": "ROSTER-5D01339AABA8",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "prabakaran-parameswaran",
+      "name": "Prabakaran Parameswaran",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Batu",
+      "state": "Kuala Lumpur",
+      "description": "Prabakaran Parameswaran represents Batu, Kuala Lumpur, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4154",
+      "photo_path": "/portraits/prabakaran-parameswaran.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P115.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4154"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0034",
+      "entity_slug": "aiman-athirah-sabu",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0034:aiman-athirah-sabu:sepang-school-supplies",
+      "title": "Provide school-supply packages to 500 Sepang children",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-10",
+      "evidence_url": "https://www.bernama.com/bm/am/news.php?id=2510995",
+      "description": "Aiman Athirah’s constituency centre reported packages worth RM183 each, delivered with Yayasan Taqwa MAIWP and the religious-affairs minister’s assistance.",
+      "progress_note": "Achieved covers the reported 500-child handover. The RM3.7 million wider constituency allocation and education budget are not this programme’s completion percentage.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0034",
+      "entity_slug": "aiman-athirah-sabu",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0034:aiman-athirah-sabu:ramadan-mosques-surau",
+      "title": "Distribute Ramadan contributions to Sepang mosques and suraus",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-02-20",
+      "evidence_url": "https://harapandaily.com/2026/02/20/aiman-athirah-lancar-ihya-ramadan-sepang-rm490000-diperuntuk-untuk-40-masjid-dan-20-surau/",
+      "description": "Aiman Athirah reported contributions to 40 mosques and about 20 Friday-prayer suraus at the 19 February Ihya Ramadan launch.",
+      "progress_note": "The reported institutional handover is complete. The RM490,380 overall Ramadan programme budget, later visits, rice distribution and planned March event are not all verified deliveries.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0034",
+      "entity_slug": "lim-lip-eng",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0034:lim-lip-eng:seroja-resurfacing",
+      "title": "Secure funding for resurfacing Seroja apartments’ road and parking area",
+      "category": "Infrastructure",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2024-02-28",
+      "evidence_url": "https://www.dbkl.gov.my/keratan-akhbar/lim-lip-eng-managed-to-receive-rm200k-allocation-seroja-apartments-parking-lot-and-road-repaved-china-press",
+      "description": "A China Press clipping archived by DBKL reports RM200,000 secured by Lim Lip Eng and completed road and parking resurfacing at Seroja apartments.",
+      "progress_note": "A historical February 2024 delivery report involving ICU funding and council coordination. The headline and clipping were checked; later road condition and satisfaction were not independently measured.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "aiman-athirah-sabu": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "lim-lip-eng": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "prabakaran-parameswaran": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

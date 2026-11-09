@@ -1,0 +1,190 @@
+{
+  "batch_id": "MP-0031",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0031",
+      "record_id": "MECO-FVP91",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "amirudin-shari",
+      "name": "Amirudin Shari",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Menteri Besar of Selangor; Member of the Dewan Rakyat",
+      "constituency": "Gombak",
+      "state": "Selangor",
+      "description": "Amirudin Shari represents Gombak, Selangor, in the Dewan Rakyat. Current role: Menteri Besar of Selangor; Member of the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4137",
+      "photo_path": "/portraits/amirudin-shari.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P098.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4137"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        },
+        {
+          "label": "Selangor · current Menteri Besar and flood response, 6 November 2026",
+          "url": "https://mediaselangor.com/ms/2026/11/405438"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0031",
+      "record_id": "MECO-5HY22",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "rodziah-ismail",
+      "name": "Rodziah Ismail",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Ampang",
+      "state": "Selangor",
+      "description": "Rodziah Ismail represents Ampang, Selangor, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4138",
+      "photo_path": "/portraits/rodziah-ismail.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P099.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4138"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0031",
+      "record_id": "MECO-7VGS0",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-sany-hamzan",
+      "name": "Mohd Sany Hamzan",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Hulu Langat",
+      "state": "Selangor",
+      "description": "Mohd Sany Hamzan represents Hulu Langat, Selangor, in the Dewan Rakyat. A AMANAH member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4140",
+      "photo_path": "/portraits/mohd-sany-hamzan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P101.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4140"
+        },
+        {
+          "label": "AMANAH · election director, 15 October 2026",
+          "url": "https://www.malaysiakini.com/news/887066-amanah-reps-open-to-selangor-harapan-bersatu-pact-wider-political-cooperation"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0031",
+      "entity_slug": "amirudin-shari",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0031:amirudin-shari:coastal-embankment-monitoring",
+      "title": "Intensify coastal embankment monitoring during the November high tides",
+      "category": "Environment",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-11-06",
+      "evidence_url": "https://mediaselangor.com/ms/2026/11/405438",
+      "description": "Amirudin reported heightened monitoring from Sabak Bernam through Kuala Selangor to Morib, alongside disaster preparedness and evacuation arrangements.",
+      "progress_note": "In progress reflects the 6 November operational report. It does not certify that all embankments were strengthened or that later flooding was prevented. The tide forecast is not a project completion deadline.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0031",
+      "entity_slug": "amirudin-shari",
+      "record_kind": "commitment",
+      "import_key": "MP-0031:amirudin-shari:puncak-alam-development-review",
+      "title": "Review development approvals and inspect projects after the Puncak Alam floods",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-11-06",
+      "promise_url": "https://berita.rtm.gov.my/kes/senarai-berita-kes/senarai-artikel/banjir-selangor-kenal-pasti-langkah-mitigasi-kawal-aliran-air/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Amirudin said the state would re-examine development approvals and investigate two projects around Saujana Aman following flash flooding.",
+      "progress_note": "The review and investigations are announced steps. Their conclusions, remedial construction and resolution of the wider flood problem were not established.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0031",
+      "entity_slug": "rodziah-ismail",
+      "record_kind": "commitment",
+      "import_key": "MP-0031:rodziah-ismail:projek-amal-rakyat",
+      "title": "Launch Projek Amal Rakyat fundraising for Ampang residents",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-08-06",
+      "promise_url": "https://www.sinarharian.com.my/article/790995/berita/politik/dua-mp-pkr-dakwa-peruntukan-kawasan-disekat-hak-rakyat-terjejas",
+      "evidence_date": "2026-08-08",
+      "evidence_url": "https://www.malaysiakini.com/news/781656",
+      "description": "Rodziah pledged a community fundraising initiative to sustain constituency assistance; an August interview documents its first asam pedas sales.",
+      "progress_note": "Achieved is limited to launching the initiative. Early sales and orders do not prove collection of the RM300,000 sought, payment of all pending aid or restoration of constituency allocations.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "amirudin-shari": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "rodziah-ismail": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "mohd-sany-hamzan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

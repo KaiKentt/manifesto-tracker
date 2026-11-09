@@ -1,0 +1,218 @@
+{
+  "batch_id": "MP-0023",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0023",
+      "record_id": "MECO-CZWKJ",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "chong-zhemin",
+      "name": "Chong Zhemin",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kampar",
+      "state": "Perak",
+      "description": "Chong Zhemin represents Kampar, Perak, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4109",
+      "photo_path": "/portraits/chong-zhemin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P070.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4109"
+        },
+        {
+          "label": "DAP · current Perak representatives",
+          "url": "https://dapmalaysia.org/perak-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0023",
+      "record_id": "MECO-3Q4JK",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "tan-kar-hing",
+      "name": "Tan Kar Hing",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Gopeng",
+      "state": "Perak",
+      "description": "Tan Kar Hing represents Gopeng, Perak, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4110",
+      "photo_path": "/portraits/tan-kar-hing.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P071.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4110"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0023",
+      "record_id": "MECO-Z05Z8",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "saravanan-murugan",
+      "name": "Saravanan Murugan",
+      "parent_slug": "mic",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; Deputy President of MIC",
+      "constituency": "Tapah",
+      "state": "Perak",
+      "description": "Saravanan Murugan represents Tapah, Perak, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; Deputy President of MIC. A MIC member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4111",
+      "photo_path": "/portraits/saravanan-murugan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P072.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4111"
+        },
+        {
+          "label": "MIC · parliamentary representative and deputy president",
+          "url": "https://mic.org.my/member-of-parliament/"
+        },
+        {
+          "label": "MIC · current BN campaign, 5 November 2026",
+          "url": "https://www.melakahariini.my/nadarajah-bukan-orang-baharu-dalam-khidmat-masyarakat-dun-gadek/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0023",
+      "entity_slug": "tan-kar-hing",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0023:tan-kar-hing:temu-rakyat-launch",
+      "title": "Hold the first Gopeng Temu Rakyat service programme",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-31",
+      "evidence_url": "https://www.bernama.com/bm/am/news.php?id=2518839",
+      "description": "Tan’s constituency programme brought government service counters and complaints channels to Sungai Rapat, with ten participating agencies.",
+      "progress_note": "Achieved covers the first event only. Expansion to Teja and Simpang Pulai and resolution of every complaint are separate, unverified outcomes.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0023",
+      "entity_slug": "tan-kar-hing",
+      "record_kind": "commitment",
+      "import_key": "MP-0023:tan-kar-hing:gopeng-tamil-school",
+      "title": "Advance preparations for a replacement Gopeng Tamil school building",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2025-11-18",
+      "promise_url": "https://varnam.my/111967/long-damaged-gopeng-tamil-school-set-for-rebuild-says-tan-kar-hing/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Tan announced preparations for a new building after federal funding approval following his earlier request.",
+      "progress_note": "The allocation and preparation announcement do not establish a finished building. A March 2026 report separately described a 22-month construction schedule; no completion percentage or exact final date is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0023",
+      "entity_slug": "saravanan-murugan",
+      "record_kind": "commitment",
+      "import_key": "MP-0023:saravanan-murugan:tapah-200-solar-lights",
+      "title": "Install 200 solar LED street lights in Tapah over three years",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-06-11",
+      "promise_url": "https://www.thestar.com.my/news/nation/2026/06/11/over-200-solar-led-street-lights-coming-to-tapah-over-next-three-years-says-saravanan",
+      "evidence_date": "2026-09-16",
+      "evidence_url": "https://www.kosmo.com.my/2026/09/16/saravanan-guna-peruntukan-sendiri-pasang-200-lampu-solar-di-tapah/",
+      "description": "Saravanan announced a phased installation funded from his parliamentary allocation, prioritising accident-prone stretches.",
+      "progress_note": "June coordination and a September plan for the first 20 lights are documented. Actual installation was not verified; 20 planned units are not a 10% completion score. The rolling three-year period is not converted into an exact-day deadline.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "mic",
+      "type": "party",
+      "parent_slug": "barisan-nasional",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Malaysian Indian Congress",
+      "short_name": "MIC",
+      "description": "A component party of Barisan Nasional (BN).",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "MIC · official representative and deputy president",
+          "url": "https://mic.org.my/member-of-parliament/"
+        },
+        {
+          "label": "MIC · current BN campaign, 5 November 2026",
+          "url": "https://www.melakahariini.my/nadarajah-bukan-orang-baharu-dalam-khidmat-masyarakat-dun-gadek/"
+        },
+        {
+          "label": "SPR · registered party symbols, October 2025",
+          "url": "https://spr.gov.my/wp-content/uploads/2025/11/SIMBOL-PARTI-YANG-BERDAFTAR-DENGAN-SPR-SEHINGGA-30-OKTOBER-2025.pdf"
+        }
+      ],
+      "logo_path": "/logos/mic.webp",
+      "logo_source_url": "https://mic.org.my/wp-content/uploads/2019/08/2000px-Malaysian_Indian_Congress_Logo.svg_-2.png"
+    }
+  ],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "chong-zhemin": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "tan-kar-hing": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "saravanan-murugan": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

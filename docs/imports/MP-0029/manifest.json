@@ -1,0 +1,128 @@
+{
+  "batch_id": "MP-0029",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0029",
+      "record_id": "MECO-WYGR3",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "abdul-khalib-abdullah",
+      "name": "Abdul Khalib Abdullah",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Rompin",
+      "state": "Pahang",
+      "description": "Abdul Khalib Abdullah represents Rompin, Pahang, in the Dewan Rakyat. Parliament records affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4130",
+      "photo_path": "/portraits/abdul-khalib-abdullah.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P091.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4130"
+        },
+        {
+          "label": "Parliament · current Dewan Rakyat directory",
+          "url": "https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    },
+    {
+      "batch_id": "MP-0029",
+      "record_id": "MECO-77JYY",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "kalam-salan",
+      "name": "Kalam Salan",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sabak Bernam",
+      "state": "Selangor",
+      "description": "Kalam Salan represents Sabak Bernam, Selangor, in the Dewan Rakyat. Parliament records affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4131",
+      "photo_path": "/portraits/kalam-salan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P092.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4131"
+        },
+        {
+          "label": "Parliament · current Dewan Rakyat directory",
+          "url": "https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    },
+    {
+      "batch_id": "MP-0029",
+      "record_id": "MECO-5E565",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "muslimin-yahaya",
+      "name": "Muslimin Yahaya",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sungai Besar",
+      "state": "Selangor",
+      "description": "Muslimin Yahaya represents Sungai Besar, Selangor, in the Dewan Rakyat. Parliament records affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4132",
+      "photo_path": "/portraits/muslimin-yahaya.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P093.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4132"
+        },
+        {
+          "label": "Parliament · current Dewan Rakyat directory",
+          "url": "https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "abdul-khalib-abdullah": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    },
+    "kalam-salan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    },
+    "muslimin-yahaya": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Only the current parliamentary coalition label is established in this pass. Earlier Bersatu membership, suspension reports, attendance alongside Wawasan leaders and candidate speculation are not treated as proof of current component-party membership."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

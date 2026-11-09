@@ -1,0 +1,206 @@
+{
+  "batch_id": "MP-0021",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0021",
+      "record_id": "ROSTER-6697B94DEC26",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "lee-chuan-how",
+      "name": "Lee Chuan How",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Ipoh Timor",
+      "state": "Perak",
+      "description": "Lee Chuan How represents Ipoh Timor, Perak, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4103",
+      "photo_path": "/portraits/lee-chuan-how.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P064.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4103"
+        },
+        {
+          "label": "DAP · current Perak representatives",
+          "url": "https://dapmalaysia.org/perak-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0021",
+      "record_id": "MECO-8H5R5",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "m-kulasegaran",
+      "name": "M. Kulasegaran",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister in the Prime Minister’s Department (Law and Institutional Reform)",
+      "constituency": "Ipoh Barat",
+      "state": "Perak",
+      "description": "M. Kulasegaran represents Ipoh Barat, Perak, in the Dewan Rakyat. Current role: Deputy Minister in the Prime Minister’s Department (Law and Institutional Reform). A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4104",
+      "photo_path": "/portraits/m-kulasegaran.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P065.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4104"
+        },
+        {
+          "label": "DAP · current Perak representatives",
+          "url": "https://dapmalaysia.org/perak-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0021",
+      "record_id": "MECO-BBKPY",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "sivakumar-varatharaju-naidu",
+      "name": "Sivakumar Varatharaju Naidu",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Batu Gajah",
+      "state": "Perak",
+      "description": "Sivakumar Varatharaju Naidu represents Batu Gajah, Perak, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4105",
+      "photo_path": "/portraits/sivakumar-varatharaju-naidu.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P066.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4105"
+        },
+        {
+          "label": "DAP · current Perak representatives",
+          "url": "https://dapmalaysia.org/perak-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0021",
+      "entity_slug": "lee-chuan-how",
+      "record_kind": "commitment",
+      "import_key": "MP-0021:lee-chuan-how:sri-kinta-flood-funding",
+      "title": "Seek emergency funding for the Jalan Sri Kinta 1 floodgate",
+      "category": "Infrastructure",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-05-15",
+      "promise_url": "https://themalaysiapress.com/2026/05/15/rtb-sungai-kampung-sri-kinta-peruntukan-khas-diperlukan/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Lee pledged to submit an emergency mitigation funding request after inspecting the floodgate with drainage officials.",
+      "progress_note": "Submission, approval and completed emergency work were not confirmed. The separate RM108 million Sungai Kinta Phase 2 scheme and its 2030 forecast are not completion of this request.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0021",
+      "entity_slug": "m-kulasegaran",
+      "record_kind": "commitment",
+      "import_key": "MP-0021:m-kulasegaran:articled-clerkship-taskforce",
+      "title": "Create a taskforce to review the articled clerkship curriculum",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-02-09",
+      "promise_url": "https://www.bernama.com/en/general/news.php?id=2521872",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Kulasegaran reported that the Legal Profession Qualifying Board had agreed to establish a taskforce to improve the curriculum.",
+      "progress_note": "The board’s agreement is documented; formation of the taskforce and delivery of a revised curriculum were not established. This is a reported institutional undertaking, not the deputy minister’s sole delivery.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0021",
+      "entity_slug": "sivakumar-varatharaju-naidu",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0021:sivakumar-varatharaju-naidu:ramadan-40-institutions",
+      "title": "Distribute RM200,000 to 40 Batu Gajah mosques and suraus",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-02-22",
+      "evidence_url": "https://www.thevibes.com/articles/news/119844/mp-distributes-rm200000-to-mosques-and-suraus-in-batu-gajah-in-month-of-ramadan",
+      "description": "The report records RM5,000 contributions to each institution through Sivakumar’s constituency initiative.",
+      "progress_note": "A dated handover report for this Ramadan round. It does not verify how recipients spent the funds or completion of later annual rounds.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0021",
+      "entity_slug": "sivakumar-varatharaju-naidu",
+      "record_kind": "commitment",
+      "import_key": "MP-0021:sivakumar-varatharaju-naidu:ladang-jeram-school",
+      "title": "Work with education authorities on the new Ladang Jeram Tamil school building",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2025-10-26",
+      "promise_url": "https://www.linkedin.com/posts/sivakumar-varatharaju-465633318_press-statement-by-yb-v-sivakumar-member-activity-7388102099051585536-hNbc",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Sivakumar committed to coordinating with the Education Ministry after the Budget 2026 allocation for SJK(T) Ladang Jeram.",
+      "progress_note": "The personal statement announces cooperation and funding; a construction start, completion date and completed building were not independently confirmed. The ministry and implementing authorities share responsibility.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "lee-chuan-how": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "m-kulasegaran": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "sivakumar-varatharaju-naidu": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

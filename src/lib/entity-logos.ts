@@ -1,4 +1,4 @@
-// Registered party and coalition symbols from SPR. See docs/branding.md.
+// Registered party and coalition symbols. See docs/branding.md.
 export const ENTITY_LOGOS: Readonly<Record<string, string>> = {
   "barisan-nasional": "/logos/barisan-nasional.webp",
   "gabungan-parti-sarawak": "/logos/gabungan-parti-sarawak.webp",
@@ -17,4 +17,5 @@ export const ENTITY_LOGOS: Readonly<Record<string, string>> = {
   "pdp": "/logos/pdp.webp",
   "prs": "/logos/prs.webp",
   "pbrs": "/logos/pbrs.webp",
+  "mic": "/logos/mic.webp",
 };

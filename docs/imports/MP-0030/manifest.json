@@ -1,0 +1,167 @@
+{
+  "batch_id": "MP-0030",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0030",
+      "record_id": "MECO-Y1JYF",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-hasnizan-harun",
+      "name": "Mohd Hasnizan Harun",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Hulu Selangor",
+      "state": "Selangor",
+      "description": "Mohd Hasnizan Harun represents Hulu Selangor, Selangor, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4133",
+      "photo_path": "/portraits/mohd-hasnizan-harun.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P094.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4133"
+        },
+        {
+          "label": "PAS · parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0030",
+      "record_id": "ROSTER-5D91D7D5F4DF",
+      "office_kind": "mp",
+      "parent_kind": "bloc",
+      "slug": "zulkafperi-hanapi",
+      "name": "Zulkafperi Hanapi",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tanjong Karang",
+      "state": "Selangor",
+      "description": "Zulkafperi Hanapi represents Tanjong Karang, Selangor, in the Dewan Rakyat. An independent MP supporting the government under the reported confidence-and-supply agreement.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4134",
+      "photo_path": "/portraits/zulkafperi-hanapi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P095.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4134"
+        },
+        {
+          "label": "Independent MP · confidence-and-supply agreement, 29 October 2026",
+          "url": "https://bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "Independent government support is distinct from membership of a political party. The 29 October agreement does not prove any subsequent parliamentary vote."
+    },
+    {
+      "batch_id": "MP-0030",
+      "record_id": "MECO-84ETM",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "william-leong-jee-keen",
+      "name": "William Leong Jee Keen",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Selayang",
+      "state": "Selangor",
+      "description": "William Leong Jee Keen represents Selayang, Selangor, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4136",
+      "photo_path": "/portraits/william-leong-jee-keen.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P097.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4136"
+        },
+        {
+          "label": "PKR · current representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0030",
+      "entity_slug": "zulkafperi-hanapi",
+      "record_kind": "commitment",
+      "import_key": "MP-0030:zulkafperi-hanapi:budget-2027-csa",
+      "title": "Support Supply Bill 2027 under the confidence-and-supply agreement",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Signed the agreement to support the 2027 Supply Bill.",
+      "progress_note": "Signing is confirmed; subsequent voting and budget passage were not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0030",
+      "entity_slug": "william-leong-jee-keen",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0030:william-leong-jee-keen:rawang-roadside-drain",
+      "title": "Fund drainage improvements along Jalan Rawang FT01",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2025-05-09",
+      "evidence_url": "https://mediaselangor.com/ms/2025/05/263899",
+      "description": "The Rawang representative reported a roadside drain funded through William Leong’s parliamentary allocation to reduce standing water.",
+      "progress_note": "The May 2025 report documents implementation by the constituency and road authorities. The separate nearly-80% figure covers nine road-safety locations and is not a completion metric for this drain.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "mohd-hasnizan-harun": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "zulkafperi-hanapi": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Independent government support is distinct from membership of a political party. The 29 October agreement does not prove any subsequent parliamentary vote."
+    },
+    "william-leong-jee-keen": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

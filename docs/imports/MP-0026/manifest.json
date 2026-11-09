@@ -1,0 +1,174 @@
+{
+  "batch_id": "MP-0026",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0026",
+      "record_id": "MECO-Q00F7",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "saifuddin-abdullah",
+      "name": "Saifuddin Abdullah",
+      "parent_slug": "wawasan",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat; Secretary-General of Parti Wawasan Negara",
+      "constituency": "Indera Mahkota",
+      "state": "Pahang",
+      "description": "Saifuddin Abdullah represents Indera Mahkota, Pahang, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; Secretary-General of Parti Wawasan Negara. A Parti Wawasan Negara member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4121",
+      "photo_path": "/portraits/saifuddin-abdullah.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P082.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4121"
+        },
+        {
+          "label": "Wawasan · announced leadership, 21 June 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/06/21/parti-wawasan-negara-unveils-central-leadership-line-up"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0026",
+      "record_id": "MECO-GCHTE",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wan-razali-wan-nor",
+      "name": "Wan Razali Wan Nor",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kuantan",
+      "state": "Pahang",
+      "description": "Wan Razali Wan Nor represents Kuantan, Pahang, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4122",
+      "photo_path": "/portraits/wan-razali-wan-nor.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P083.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4122"
+        },
+        {
+          "label": "PAS · parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0026",
+      "record_id": "MECO-6JYHM",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-shahar-abdullah",
+      "name": "Mohd Shahar Abdullah",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Deputy Minister of Economy",
+      "constituency": "Paya Besar",
+      "state": "Pahang",
+      "description": "Mohd Shahar Abdullah represents Paya Besar, Pahang, in the Dewan Rakyat. Current role: Deputy Minister of Economy. A UMNO member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4123",
+      "photo_path": "/portraits/mohd-shahar-abdullah.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P084.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4123"
+        },
+        {
+          "label": "UMNO · Paya Besar division chief, 29 July 2026",
+          "url": "https://umno-online.my/2026/07/29/bukan-hanya-di-pentas-politik-pemimpin-bn-juga-hebat-di-padang-bola/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0026",
+      "entity_slug": "mohd-shahar-abdullah",
+      "record_kind": "commitment",
+      "import_key": "MP-0026:mohd-shahar-abdullah:construction-reform-study",
+      "title": "Carry out a construction-sector reform study under RMK13",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-05-19",
+      "promise_url": "https://www.bernamabiz.com/news-bm.php?id=2558895",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Mohd Shahar announced a whole-project-cycle study to strengthen regulatory and legal arrangements for construction and related services.",
+      "progress_note": "An announcement of the study is established. Its completion, approved recommendations and implementation were not verified; general developer support is not a measured outcome.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0026",
+      "entity_slug": "mohd-shahar-abdullah",
+      "record_kind": "commitment",
+      "import_key": "MP-0026:mohd-shahar-abdullah:bim-support-july-2026",
+      "title": "Strengthen the working environment and training for BIM adoption",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": "2026-07-31",
+      "promise_date": "2026-05-19",
+      "promise_url": "https://www.bernamabiz.com/news-bm.php?id=2558895",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Mohd Shahar said the government would support Building Information Modelling through facilities, a suitable working environment and training by July 2026.",
+      "progress_note": "The month-only schedule uses 31 July as an end-of-month marker. A matching delivery report was not found in this pass; no success or missed-target classification is assumed.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "saifuddin-abdullah": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "wan-razali-wan-nor": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "mohd-shahar-abdullah": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {
+    "MP-0026:mohd-shahar-abdullah:bim-support-july-2026": {
+      "target_date": "2026-07-31",
+      "date_precision": "month",
+      "source_date": "2026-05-19",
+      "url": "https://www.bernamabiz.com/news-bm.php?id=2558895",
+      "note": "End-of-period display marker for a published month-only schedule; not an exact-day promise."
+    }
+  }
+}

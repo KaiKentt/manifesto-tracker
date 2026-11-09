@@ -1,0 +1,166 @@
+{
+  "batch_id": "MP-0028",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0028",
+      "record_id": "MECO-8CCAD",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "salamiah-mohd-nor",
+      "name": "Salamiah Mohd Nor",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Temerloh",
+      "state": "Pahang",
+      "description": "Salamiah Mohd Nor represents Temerloh, Pahang, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4127",
+      "photo_path": "/portraits/salamiah-mohd-nor.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P088.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4127"
+        },
+        {
+          "label": "PAS · parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0028",
+      "record_id": "MECO-TMJWA",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "young-syefura-othman",
+      "name": "Young Syefura Othman",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bentong",
+      "state": "Pahang",
+      "description": "Young Syefura Othman represents Bentong, Pahang, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4128",
+      "photo_path": "/portraits/young-syefura-othman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P089.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4128"
+        },
+        {
+          "label": "DAP · current Pahang representatives",
+          "url": "https://dapmalaysia.org/pahang-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0028",
+      "record_id": "MECO-XB7C2",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ismail-sabri-yaakob",
+      "name": "Ismail Sabri Yaakob",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bera",
+      "state": "Pahang",
+      "description": "Ismail Sabri Yaakob represents Bera, Pahang, in the Dewan Rakyat. A UMNO member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4129",
+      "photo_path": "/portraits/ismail-sabri-yaakob.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/YB%20Bera.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4129"
+        },
+        {
+          "label": "UMNO membership · personal statement, 10 February 2026",
+          "url": "https://www.freemalaysiatoday.com/category/nation/2026/02/10/im-still-active-as-an-umno-man-says-ismail-sabri"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0028",
+      "entity_slug": "salamiah-mohd-nor",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0028:salamiah-mohd-nor:2025-assistance-report",
+      "title": "Report 892 constituency assistance interventions during 2025",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-07",
+      "evidence_url": "https://harakahdaily.net/2026/05/07/komitmen-tinggi-bantu-rakyat-tanpa-peruntukan-kerajaan/",
+      "description": "A report on Salamiah’s 2025 annual record describes 892 assistance interventions benefiting 1,320 recipients and RM185,939.35 spent on community activities.",
+      "progress_note": "These are reported 2025 figures published by the party outlet in May 2026, not independently audited November totals. Recipients, interventions and spending are different measures, so no completion bar is calculated.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0028",
+      "entity_slug": "young-syefura-othman",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0028:young-syefura-othman:student-laptops-and-incentives",
+      "title": "Deliver laptops and SPM excellence incentives in Bentong",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-04-13",
+      "evidence_url": "https://demirakyatchannel.my/2026/04/young-syefura-beri-lonjakan-semangat-spm-rm100k-laptop-rm47k-insentif-disalur/",
+      "description": "Young Syefura reported laptops for 50 students, funded at more than RM100,000, alongside RM47,000 in SPM excellence incentives.",
+      "progress_note": "Achieved covers the reported handover. It does not claim every eligible student was reached or that the funding amounts measure academic improvement.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Dated public commitments, documented activities and limited delivery reports are distinct. An evidence-only record has no invented earlier promise. Status is tied to its evidence snapshot and shared agency responsibility is explicit. Historical activity is not a live November performance measurement. Allocations, attendance, sales orders and unrelated programme ratios are not completion percentages. Additional research may extend this initial pass.",
+  "missing_fields": {
+    "salamiah-mohd-nor": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "young-syefura-othman": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    },
+    "ismail-sabri-yaakob": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person. Additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, policy suggestions, other ministers’ promises, event attendance and unrelated namesakes were not converted into personal delivery claims.",
+      "completion": "No comparable, dated numerical completion metric was verified for these selected records; percentages remain NULL.",
+      "party_membership": "Supported by linked Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

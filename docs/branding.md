@@ -38,3 +38,11 @@ Party names and emblems belong to their respective organisations. They identify 
 | Parti Bersatu Rakyat Sabah | `/logos/pbrs.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-115.webp) |
 
 PDP, PRS and PBRS symbols were retrieved from the same SPR register on 9 November 2026 for CAB-0008, CAB-0009 and CAB-0014 respectively.
+
+## MIC emblem
+
+The [official MIC emblem](https://mic.org.my/wp-content/uploads/2019/08/2000px-Malaysian_Indian_Congress_Logo.svg_-2.png) was retrieved from the party’s website on 9 November 2026 and resized to a local WebP without changing its artwork. The mark is also identified in [SPR’s October 2025 registered-symbols list](https://spr.gov.my/wp-content/uploads/2025/11/SIMBOL-PARTI-YANG-BERDAFTAR-DENGAN-SPR-SEHINGGA-30-OKTOBER-2025.pdf).
+
+| Profile | Local image | Official party image source |
+| --- | --- | --- |
+| Malaysian Indian Congress | `/logos/mic.webp` | [Original](https://mic.org.my/wp-content/uploads/2019/08/2000px-Malaysian_Indian_Congress_Logo.svg_-2.png) |
