@@ -1,0 +1,185 @@
+{
+  "batch_id": "MP-0005",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0005",
+      "record_id": "MECO-4C3V6",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "sabri-azit",
+      "name": "Sabri Azit",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Jerai",
+      "state": "Kedah",
+      "description": "Sabri Azit represents Jerai, Kedah, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4051",
+      "photo_path": "/portraits/sabri-azit.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P012.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4051"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0005",
+      "record_id": "MECO-X18F1",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-tarmizi-sulaiman",
+      "name": "Ahmad Tarmizi Sulaiman",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sik",
+      "state": "Kedah",
+      "description": "Ahmad Tarmizi Sulaiman represents Sik, Kedah, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4052",
+      "photo_path": "/portraits/ahmad-tarmizi-sulaiman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P013.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4052"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0005",
+      "record_id": "MECO-6CRGG",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-nazri-abu-hassan",
+      "name": "Mohd Nazri Abu Hassan",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Merbok",
+      "state": "Kedah",
+      "description": "Mohd Nazri Abu Hassan represents Merbok, Kedah, in the Dewan Rakyat. A Bersatu member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4053",
+      "photo_path": "/portraits/mohd-nazri-abu-hassan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P014.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4053"
+        },
+        {
+          "label": "Reported Bersatu affiliation · 29 Oct 2026 CSA signatories",
+          "url": "https://bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0005",
+      "entity_slug": "sabri-azit",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0005:sabri-azit:jawi-courses",
+      "title": "Provide intensive Jawi-writing courses for teachers in Jerai",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2024-08-13",
+      "evidence_url": "https://harakahdaily.net/2024/08/13/ahli-parlimen-jerai-komited-martabat-tulisan-jawi/",
+      "description": "Sabri described Saturday training courses at his parliamentary service centre.",
+      "progress_note": "Two intake series were reported completed, with a third planned. This is an August 2024 activity snapshot; later continuation and a total-course target were not established. No percentage is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0005",
+      "entity_slug": "sabri-azit",
+      "record_kind": "commitment",
+      "import_key": "MP-0005:sabri-azit:allowance-welfare",
+      "title": "Continue directing part of the MP’s allowance to constituency welfare",
+      "category": "Social welfare",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-09-20",
+      "promise_url": "https://www.utusan.com.my/nasional/2026/09/sabri-azit-peruntuk-30-peratus-elaun-untuk-kebajikan-rakyat-jerai/",
+      "evidence_date": "2026-09-20",
+      "evidence_url": "https://www.utusan.com.my/nasional/2026/09/sabri-azit-peruntuk-30-peratus-elaun-untuk-kebajikan-rakyat-jerai/",
+      "description": "Sabri said he allocated about 30% of his monthly allowance to residents in need and would continue during his second term.",
+      "progress_note": "The interview is a self-described ongoing practice, not an audited expenditure account. The 30% is a share of allowance, not a completion score; verified spending totals and full-term fulfilment remain unavailable.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0005",
+      "entity_slug": "mohd-nazri-abu-hassan",
+      "record_kind": "commitment",
+      "import_key": "MP-0005:mohd-nazri-abu-hassan:budget-2027-csa",
+      "title": "Support Budget 2027 under the CSA",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "The MP was a named agreement signatory.",
+      "progress_note": "Signing is documented; subsequent budget votes were not verified. Outcome and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "sabri-azit": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "ahmad-tarmizi-sulaiman": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "mohd-nazri-abu-hassan": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

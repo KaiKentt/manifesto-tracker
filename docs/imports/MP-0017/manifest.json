@@ -1,0 +1,184 @@
+{
+  "batch_id": "MP-0017",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0017",
+      "record_id": "MECO-S2C9M",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ramkarpal-singh",
+      "name": "Ramkarpal Singh",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bukit Gelugor",
+      "state": "Pulau Pinang",
+      "description": "Ramkarpal Singh represents Bukit Gelugor, Pulau Pinang, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4090",
+      "photo_path": "/portraits/ramkarpal-singh.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P051.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4090"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0017",
+      "record_id": "MECO-9324Z",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "sim-tze-tzin",
+      "name": "Sim Tze Tzin",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Deputy Minister of Investment, Trade and Industry",
+      "constituency": "Bayan Baru",
+      "state": "Pulau Pinang",
+      "description": "Sim Tze Tzin represents Bayan Baru, Pulau Pinang, in the Dewan Rakyat. Current role: Deputy Minister of Investment, Trade and Industry. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4091",
+      "photo_path": "/portraits/sim-tze-tzin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P052.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4091"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0017",
+      "record_id": "MECO-7GGQ0",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "muhammad-bakhtiar-wan-chik",
+      "name": "Muhammad Bakhtiar Wan Chik",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Balik Pulau",
+      "state": "Pulau Pinang",
+      "description": "Muhammad Bakhtiar Wan Chik represents Balik Pulau, Pulau Pinang, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4092",
+      "photo_path": "/portraits/muhammad-bakhtiar-wan-chik.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P053.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4092"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0017",
+      "entity_slug": "ramkarpal-singh",
+      "record_kind": "commitment",
+      "import_key": "MP-0017:ramkarpal-singh:ag-pp-appointment-accountability",
+      "title": "Strengthen accountability in appointment arrangements for separated AG and prosecutor roles",
+      "category": "Governance",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-03-05",
+      "promise_url": "https://dapmalaysia.org/cn/2026/03/05/%E4%BF%83%E6%9F%A5%E4%BC%81%E4%B8%9A%E9%BB%91%E6%89%8B%E5%85%9A%EF%BC%8C%E9%87%8D%E6%8F%90%E9%A6%96%E7%9B%B8%E4%BB%BB%E6%9C%9F%E9%99%90%E5%88%B6%E6%B3%95%E6%A1%88-%E6%B0%91%E4%B8%BB%E8%A1%8C%E5%8A%A8/",
+      "evidence_date": "2026-03-05",
+      "evidence_url": "https://dapmalaysia.org/cn/2026/03/05/%E4%BF%83%E6%9F%A5%E4%BC%81%E4%B8%9A%E9%BB%91%E6%89%8B%E5%85%9A%EF%BC%8C%E9%87%8D%E6%8F%90%E9%A6%96%E7%9B%B8%E4%BB%BB%E6%9C%9F%E9%99%90%E5%88%B6%E6%B3%95%E6%A1%88-%E6%B0%91%E4%B8%BB%E8%A1%8C%E5%8A%A8/",
+      "description": "DAP committed to pursue improvements through its select-committee representatives, including Ramkarpal Singh.",
+      "progress_note": "This is a shared party and parliamentary-committee commitment. The statement supports scrutiny of the bill; it does not establish enactment, appointments or a completed reform. No numerical progress was verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0017",
+      "entity_slug": "sim-tze-tzin",
+      "record_kind": "commitment",
+      "import_key": "MP-0017:sim-tze-tzin:malaysia-korea-fta",
+      "title": "Work towards signing the Malaysia–Korea Free Trade Agreement",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-01-27",
+      "promise_url": "https://www.miti.gov.my/miti/resources/Speech/Keynote_Speech_-_TP_YBTM_-_Trade_Performance_2025.pdf",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "In a speech delivered on behalf of the minister, Sim said MITI looked towards signing the agreement by mid-2026.",
+      "progress_note": "The October 2025 statement concluded negotiations; it is not treated as proof of later signing or entry into force. A matching signed-agreement outcome was not verified. Mid-year supplies no exact deadline date.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0017",
+      "entity_slug": "sim-tze-tzin",
+      "record_kind": "commitment",
+      "import_key": "MP-0017:sim-tze-tzin:national-ev-chargers",
+      "title": "Expand the national public EV-charging network towards 10,000 points",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-04-02",
+      "promise_url": "https://www.miti.gov.my/miti/resources/Speech/%5BFINAL%5D_Speech_-_Toyota_BEV_Launch_by_YB_Deputy_Minister.pdf",
+      "evidence_date": "2026-04-02",
+      "evidence_url": "https://www.miti.gov.my/miti/resources/Speech/%5BFINAL%5D_Speech_-_Toyota_BEV_Launch_by_YB_Deputy_Minister.pdf",
+      "description": "Sim described the government’s charging-infrastructure target while speaking at Toyota’s battery-electric vehicle launch.",
+      "progress_note": "The speech reports more than 5,000 public points, not an exact comparable numerator. No 50% completion is inferred. This is shared national infrastructure, with no new deadline specified in this speech.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "ramkarpal-singh": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "sim-tze-tzin": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "muhammad-bakhtiar-wan-chik": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

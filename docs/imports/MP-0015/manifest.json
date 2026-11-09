@@ -1,0 +1,208 @@
+{
+  "batch_id": "MP-0015",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0015",
+      "record_id": "MECO-31SVK",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "lim-guan-eng",
+      "name": "Lim Guan Eng",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bagan",
+      "state": "Pulau Pinang",
+      "description": "Lim Guan Eng represents Bagan, Pulau Pinang, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4082",
+      "photo_path": "/portraits/lim-guan-eng.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P043.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4082"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0015",
+      "record_id": "MECO-RH66G",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "muhammad-fawwaz-mohamad-jan",
+      "name": "Muhammad Fawwaz Mohamad Jan",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Permatang Pauh",
+      "state": "Pulau Pinang",
+      "description": "Muhammad Fawwaz Mohamad Jan represents Permatang Pauh, Pulau Pinang, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4083",
+      "photo_path": "/portraits/muhammad-fawwaz-mohamad-jan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P044.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4083"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0015",
+      "record_id": "MECO-VDNJH",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "chow-kon-yeow",
+      "name": "Chow Kon Yeow",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Chief Minister of Penang; Member of the Dewan Rakyat",
+      "constituency": "Batu Kawan",
+      "state": "Pulau Pinang",
+      "description": "Chow Kon Yeow represents Batu Kawan, Pulau Pinang, in the Dewan Rakyat. Current role: Chief Minister of Penang; Member of the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4085",
+      "photo_path": "/portraits/chow-kon-yeow.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P046.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4085"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        },
+        {
+          "label": "Penang · Chief Minister, 28 Aug 2026",
+          "url": "https://www.buletinmutiara.com/move-beyond-just-support-cm-chow-on-women-representation/"
+        },
+        {
+          "label": "PBAPP · updated plant schedule, 4 Jun 2026",
+          "url": "https://pba.com.my/pdf/news/2026/04062026_Pg-Water-Rates-01072026_YB-Zairil-KJ-Appendix.pdf"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0015",
+      "entity_slug": "lim-guan-eng",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0015:lim-guan-eng:university-study-assistance",
+      "title": "Provide university study assistance to three Air Putih students",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-08-20",
+      "evidence_url": "https://www.buletinmutiara.com/three-air-putih-students-receive-university-study-assistance/",
+      "description": "Lim Guan Eng presented three university-bound students with RM1,000 each.",
+      "progress_note": "Achieved covers this documented handover in his Air Putih state-assembly role. It is not a Bagan-wide university-support score. No earlier public promise was established; the date is the published delivery report.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0015",
+      "entity_slug": "chow-kon-yeow",
+      "record_kind": "commitment",
+      "import_key": "MP-0015:chow-kon-yeow:mengkuang-park-water-plant",
+      "title": "Build the Mengkuang Park Water Treatment Plant",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": 35,
+      "target_date": "2026-12-31",
+      "promise_date": "2026-05-09",
+      "promise_url": "https://www.buletinmutiara.com/mengkuang-park-wtp-on-track-for-completion-by-november-says-cm-chow/",
+      "evidence_date": "2026-05-09",
+      "evidence_url": "https://www.buletinmutiara.com/mengkuang-park-wtp-on-track-for-completion-by-november-says-cm-chow/",
+      "description": "Chow described PBAPP’s RM250 million water-treatment plant as part of Penang’s water contingency programme.",
+      "progress_note": "35% is the published physical-progress snapshot on 9 May 2026, not a November measurement. A 4 June PBAPP release uses an end-2026 completion schedule, superseding the earlier November forecast. Completed handover was not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0015",
+      "entity_slug": "chow-kon-yeow",
+      "record_kind": "commitment",
+      "import_key": "MP-0015:chow-kon-yeow:perak-penang-water-supply",
+      "title": "Develop the Perak–Penang water supply project for supply beginning in 2032",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2032-12-31",
+      "promise_date": "2026-07-15",
+      "promise_url": "https://www.buletinmutiara.com/penang-signs-landmark-perak-water-deal-to-secure-40-year-supply-from-2032/",
+      "evidence_date": "2026-07-15",
+      "evidence_url": "https://www.buletinmutiara.com/penang-signs-landmark-perak-water-deal-to-secure-40-year-supply-from-2032/",
+      "description": "Chow described the conditional bulk-water agreement as a route to an additional long-term supply for Penang.",
+      "progress_note": "Signing is documented, but execution remains subject to regulatory and shareholder approvals and infrastructure development. It is not proof that water is already flowing. The year-end target is a year-only planning marker.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "lim-guan-eng": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "muhammad-fawwaz-mohamad-jan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "chow-kon-yeow": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {
+    "MP-0015:chow-kon-yeow:mengkuang-park-water-plant": {
+      "value": 35,
+      "metric_date": "2026-05-09",
+      "unit": "published physical completion percent",
+      "source_url": "https://www.buletinmutiara.com/mengkuang-park-wtp-on-track-for-completion-by-november-says-cm-chow/",
+      "note": "Dated May snapshot; later physical progress was not independently verified."
+    }
+  },
+  "target_sources": {
+    "MP-0015:chow-kon-yeow:mengkuang-park-water-plant": {
+      "target_date": "2026-12-31",
+      "date_precision": "year",
+      "source_date": "2026-06-04",
+      "url": "https://pba.com.my/pdf/news/2026/04062026_Pg-Water-Rates-01072026_YB-Zairil-KJ-Appendix.pdf",
+      "note": "A newer operator release uses end-2026 for the plant and ancillary works rather than the earlier November forecast."
+    }
+  }
+}

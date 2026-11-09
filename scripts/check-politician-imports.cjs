@@ -21,16 +21,36 @@ for (const batch of batches) {
     assert.equal(entry.evidence_url, calc.source_url);
     assert.ok(calc.metric_date && calc.unit);
   }
+  for (const [key, metric] of Object.entries(m.published_progress || {})) {
+    const entry = m.milestones.find(v => v.import_key === key);
+    assert.ok(entry && Number.isInteger(metric.value) && metric.unit);
+    assert.equal(entry.progress, metric.value);
+    assert.equal(entry.evidence_url, metric.source_url);
+    assert.equal(entry.evidence_date, metric.metric_date);
+  }
+  for (const [key, target] of Object.entries(m.target_sources || {})) {
+    const entry = m.milestones.find(v => v.import_key === key);
+    assert.ok(entry && target.source_date && target.date_precision); source(target.url);
+    assert.equal(entry.target_date, target.target_date);
+  }
   for (const p of m.profiles) {
     assert.ok(!identities.has(p.record_id) && !slugs.has(p.slug), 'A person must not be duplicated across batches.');
     identities.add(p.record_id); slugs.add(p.slug); people++;
     const existing = (before.entities || []).find(e => e.slug === p.slug);
-    assert.ok((p.name || existing?.name) && (p.parent_slug || existing?.parent_id));
-    if (!p.name || !p.parent_slug) assert.equal(existing?.type, 'politician', 'An enrichment must retain an existing politician identity.');
+    assert.ok(p.name || existing?.name);
+    if (p.office_kind === 'speaker') {
+      assert.equal(p.parent_slug, null, 'The Speaker must not inherit an assigned party.');
+      assert.equal(p.bloc, 'independent');
+      assert.equal(p.constituency, null);
+      assert.equal(p.state, null);
+    } else {
+      assert.ok(p.parent_slug || existing?.parent_id);
+      if (!p.name || !p.parent_slug) assert.equal(existing?.type, 'politician', 'An enrichment must retain an existing politician identity.');
+    }
     if (p.office_kind === 'senator') {
       assert.equal(p.constituency, null, 'Senators must not inherit an elected constituency.');
       assert.equal(p.state, null, 'An appointed senator must not inherit a constituency state.');
-    } else assert.ok(p.constituency && p.state);
+    } else if (p.office_kind !== 'speaker') assert.ok(p.constituency && p.state);
     assert.ok(p.profile_sources.length >= 2);
     p.profile_sources.forEach(s => source(s.url)); source(p.photo_source_url);
     assert.ok(/^\/portraits\/[a-z0-9-]+\.webp$/.test(p.photo_path));
@@ -41,9 +61,19 @@ for (const batch of batches) {
     milestones++;
     assert.ok(localSlugs.has(v.entity_slug));
     assert.ok(v.import_key.startsWith(batch + ':' + v.entity_slug + ':') && !keys.has(v.import_key));
-    keys.add(v.import_key); source(v.promise_url);
+    keys.add(v.import_key);
+    const recordKind = v.record_kind || 'commitment';
+    assert.ok(['commitment', 'documented_activity', 'documented_delivery'].includes(recordKind));
+    if (recordKind === 'commitment') {
+      source(v.promise_url); assert.ok(v.promise_date);
+    } else {
+      assert.equal(v.promise_url, null, 'A delivery/activity report must not invent an earlier promise.');
+      assert.equal(v.promise_date, null);
+      source(v.evidence_url); assert.ok(v.evidence_date);
+      assert.equal(v.status, recordKind === 'documented_delivery' ? 'achieved' : 'in_progress');
+    }
     assert.equal(v.source_type, 'editorial'); assert.equal(v.is_sample, false);
-    assert.ok(v.promise_date && v.progress_checked_at && v.progress_note);
+    assert.ok(v.progress_checked_at && v.progress_note);
     if (v.evidence_url) source(v.evidence_url);
     if (v.progress !== null) {
       assert.ok(Number.isInteger(v.progress) && v.progress >= 0 && v.progress <= 100);

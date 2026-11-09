@@ -1,0 +1,166 @@
+{
+  "batch_id": "MP-0006",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0006",
+      "record_id": "MECO-WBYB5",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "hassan-saad",
+      "name": "Hassan Saad",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Baling",
+      "state": "Kedah",
+      "description": "Hassan Saad represents Baling, Kedah, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4055",
+      "photo_path": "/portraits/hassan-saad.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P016.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4055"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0006",
+      "record_id": "MECO-8EE17",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "azman-nasrudin",
+      "name": "Azman Nasrudin",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Padang Serai",
+      "state": "Kedah",
+      "description": "Azman Nasrudin represents Padang Serai, Kedah, in the Dewan Rakyat. A Bersatu member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4056",
+      "photo_path": "/portraits/azman-nasrudin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P017.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4056"
+        },
+        {
+          "label": "Reported Bersatu affiliation · 29 Oct 2026 CSA signatories",
+          "url": "https://bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    },
+    {
+      "batch_id": "MP-0006",
+      "record_id": "MECO-BXGDA",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "roslan-hashim",
+      "name": "Roslan Hashim",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kulim Bandar Baharu",
+      "state": "Kedah",
+      "description": "Roslan Hashim represents Kulim Bandar Baharu, Kedah, in the Dewan Rakyat. A Bersatu member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4057",
+      "photo_path": "/portraits/roslan-hashim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P018.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4057"
+        },
+        {
+          "label": "Reported Bersatu affiliation · 20 Oct 2026 statement",
+          "url": "https://harakahdaily.net/2026/10/20/belum-tamat-notis-ros-sudah-batal-pn/"
+        }
+      ],
+      "affiliation_note": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0006",
+      "entity_slug": "hassan-saad",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0006:hassan-saad:constituency-outreach",
+      "title": "Provide welfare visits and support across Baling’s three state constituencies",
+      "category": "Social welfare",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2024-07-30",
+      "evidence_url": "https://harakahdaily.net/2024/07/30/ustaz-hassan-saad-menjengah-ke-teratak-rakyat/",
+      "description": "The report documents Hassan’s outreach in Kupang, Kuala Ketil and Bayu, including help for residents facing hardship.",
+      "progress_note": "This is a July 2024 snapshot of continuing constituency work. State rice and food-basket support is credited as shared assistance. Later coverage, expenditure and a completion denominator were not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0006",
+      "entity_slug": "azman-nasrudin",
+      "record_kind": "commitment",
+      "import_key": "MP-0006:azman-nasrudin:budget-2027-csa",
+      "title": "Support Budget 2027 under the CSA",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "The MP was a named agreement signatory.",
+      "progress_note": "Signing is documented; subsequent budget votes were not verified. Outcome and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "hassan-saad": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "azman-nasrudin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    },
+    "roslan-hashim": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

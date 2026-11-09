@@ -1,0 +1,125 @@
+{
+  "batch_id": "MP-0008",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0008",
+      "record_id": "MECO-V74ZP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-fadhli-shaari",
+      "name": "Ahmad Fadhli Shaari",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Pasir Mas",
+      "state": "Kelantan",
+      "description": "Ahmad Fadhli Shaari represents Pasir Mas, Kelantan, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4061",
+      "photo_path": "/portraits/ahmad-fadhli-shaari.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P022.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4061"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0008",
+      "record_id": "ROSTER-7BEF09B131CC",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "siti-zailah-mohd-yusoff",
+      "name": "Siti Zailah Mohd Yusoff",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Rantau Panjang",
+      "state": "Kelantan",
+      "description": "Siti Zailah Mohd Yusoff represents Rantau Panjang, Kelantan, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4062",
+      "photo_path": "/portraits/siti-zailah-mohd-yusoff.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P023.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4062"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0008",
+      "record_id": "MECO-EQXRZ",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "tuan-ibrahim-tuan-man",
+      "name": "Tuan Ibrahim Tuan Man",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kubang Kerian",
+      "state": "Kelantan",
+      "description": "Tuan Ibrahim Tuan Man represents Kubang Kerian, Kelantan, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4063",
+      "photo_path": "/portraits/tuan-ibrahim-tuan-man.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P024.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4063"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "ahmad-fadhli-shaari": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "siti-zailah-mohd-yusoff": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "tuan-ibrahim-tuan-man": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

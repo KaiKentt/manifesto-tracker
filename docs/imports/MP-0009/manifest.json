@@ -1,0 +1,147 @@
+{
+  "batch_id": "MP-0009",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0009",
+      "record_id": "ROSTER-172B8A8FDE88",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-syahir-che-sulaiman",
+      "name": "Mohd Syahir Che Sulaiman",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bachok",
+      "state": "Kelantan",
+      "description": "Mohd Syahir Che Sulaiman represents Bachok, Kelantan, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4064",
+      "photo_path": "/portraits/mohd-syahir-che-sulaiman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P025.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4064"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0009",
+      "record_id": "MECO-GF9TY",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "khlir-mohd-nor",
+      "name": "Khlir Mohd Nor",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Ketereh",
+      "state": "Kelantan",
+      "description": "Khlir Mohd Nor represents Ketereh, Kelantan, in the Dewan Rakyat. Parliament lists affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4065",
+      "photo_path": "/portraits/khlir-mohd-nor.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P026.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4065"
+        },
+        {
+          "label": "Parliament · current Dewan Rakyat directory",
+          "url": "https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "Parliament lists PN. Current individual-party membership was not independently established in this pass; older Bersatu labels and disciplinary reports are not promoted into a current party claim."
+    },
+    {
+      "batch_id": "MP-0009",
+      "record_id": "MECO-0NTJJ",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "ikmal-hisham-abdul-aziz",
+      "name": "Ikmal Hisham Abdul Aziz",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tanah Merah",
+      "state": "Kelantan",
+      "description": "Ikmal Hisham Abdul Aziz represents Tanah Merah, Kelantan, in the Dewan Rakyat. Parliament lists affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4066",
+      "photo_path": "/portraits/ikmal-hisham-abdul-aziz.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P027.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4066"
+        },
+        {
+          "label": "Parliament · current Dewan Rakyat directory",
+          "url": "https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "Parliament lists PN. Current individual-party membership was not independently established in this pass; older Bersatu labels and disciplinary reports are not promoted into a current party claim."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0009",
+      "entity_slug": "mohd-syahir-che-sulaiman",
+      "record_kind": "commitment",
+      "import_key": "MP-0009:mohd-syahir-che-sulaiman:bachok-development-funding",
+      "title": "Seek additional federal funding for Bachok’s infrastructure and local economy",
+      "category": "Infrastructure",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-01-11",
+      "promise_url": "https://inforakyat.kelantan.my/index.php/berita/390-yb-syahir-komited-bawa-lebih-banyak-peruntukan-untuk-pembangunan-bachok",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Mohd Syahir committed to working with ministries and agencies to obtain more development funding for Bachok.",
+      "progress_note": "The pledge names infrastructure, basic facilities and support for local economic activity. A comparable allocation target, resulting funding total and completed project set were not verified, so status and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "mohd-syahir-che-sulaiman": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "khlir-mohd-nor": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Parliament lists PN. Current individual-party membership was not independently established in this pass; older Bersatu labels and disciplinary reports are not promoted into a current party claim.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "ikmal-hisham-abdul-aziz": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Parliament lists PN. Current individual-party membership was not independently established in this pass; older Bersatu labels and disciplinary reports are not promoted into a current party claim.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

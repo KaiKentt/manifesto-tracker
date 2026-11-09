@@ -1,0 +1,145 @@
+{
+  "batch_id": "MP-0012",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0012",
+      "record_id": "MECO-WJ42Q",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "shaharizukirnain-abd-kadir",
+      "name": "Shaharizukirnain Abd Kadir",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Setiu",
+      "state": "Terengganu",
+      "description": "Shaharizukirnain Abd Kadir represents Setiu, Terengganu, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4073",
+      "photo_path": "/portraits/shaharizukirnain-abd-kadir.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P034.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4073"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0012",
+      "record_id": "MECO-MHYJP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "alias-razak",
+      "name": "Alias Razak",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kuala Nerus",
+      "state": "Terengganu",
+      "description": "Alias Razak represents Kuala Nerus, Terengganu, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4074",
+      "photo_path": "/portraits/alias-razak.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P035.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4074"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0012",
+      "record_id": "MECO-NFW6F",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-amzad-hashim",
+      "name": "Ahmad Amzad Mohamed @ Hashim",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kuala Terengganu",
+      "state": "Terengganu",
+      "description": "Ahmad Amzad Mohamed @ Hashim represents Kuala Terengganu, Terengganu, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4075",
+      "photo_path": "/portraits/ahmad-amzad-hashim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P036.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4075"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0012",
+      "entity_slug": "shaharizukirnain-abd-kadir",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0012:shaharizukirnain-abd-kadir:monthly-public-counter",
+      "title": "Continue the monthly Kaunter Aduan Rakyat in Setiu",
+      "category": "Governance",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2025-09-08",
+      "evidence_url": "https://trdi.my/index.php/kaunter-aduan-rakyat-terus-mendengar-denyut-nadi-penduduk-setiu",
+      "description": "Shaharizukirnain described a recurring public-complaints counter that lets residents raise local problems directly.",
+      "progress_note": "The dated session at Kampung Bukit Kecil is documented. Holding a counter is not proof that all road, land or welfare complaints were resolved. Later sessions and an overall completion measure were not verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "shaharizukirnain-abd-kadir": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "alias-razak": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "ahmad-amzad-hashim": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

@@ -1,0 +1,206 @@
+{
+  "batch_id": "MP-0001",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0001",
+      "record_id": "MECO-2FJX2",
+      "office_kind": "speaker",
+      "parent_kind": null,
+      "slug": "johari-abdul",
+      "name": "Johari Abdul",
+      "parent_slug": null,
+      "bloc": "independent",
+      "position": "Speaker of the Dewan Rakyat",
+      "constituency": null,
+      "state": null,
+      "description": "Johari Abdul serves as Speaker of the Dewan Rakyat, presiding over proceedings and interpreting the Standing Orders. Parliament lists the current tenure as beginning on 19 December 2022.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4263",
+      "photo_path": "/portraits/johari-abdul.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/ypdr.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4263"
+        },
+        {
+          "label": "Parliament · Speaker and constitutional role",
+          "url": "https://www.parlimen.gov.my/yang-di-pertua.html?uweb=dr"
+        }
+      ],
+      "affiliation_note": "The parliamentary Speaker is recorded without an elected constituency or an assigned party. Independent is the existing app category for this non-partisan office; it does not assert a separate elected independent mandate."
+    },
+    {
+      "batch_id": "MP-0001",
+      "record_id": "MECO-QC1ZR",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "rushdan-rusmi",
+      "name": "Rushdan Rusmi",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Padang Besar",
+      "state": "Perlis",
+      "description": "Rushdan Rusmi represents Padang Besar, Perlis, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4040",
+      "photo_path": "/portraits/rushdan-rusmi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P001.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4040"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0001",
+      "record_id": "MECO-1N46K",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "zakri-hassan",
+      "name": "Zakri Hassan",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kangar",
+      "state": "Perlis",
+      "description": "Zakri Hassan represents Kangar, Perlis, in the Dewan Rakyat. A Bersatu member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4041",
+      "photo_path": "/portraits/zakri-hassan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P002.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4041"
+        },
+        {
+          "label": "Reported Bersatu affiliation · 20 Oct 2026 statement",
+          "url": "https://harakahdaily.net/2026/10/20/belum-tamat-notis-ros-sudah-batal-pn/"
+        }
+      ],
+      "affiliation_note": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0001",
+      "entity_slug": "johari-abdul",
+      "record_kind": "commitment",
+      "import_key": "MP-0001:johari-abdul:listen-to-youth-parliament",
+      "title": "Consider Youth Parliament participants’ views personally",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-12",
+      "promise_url": "https://www.bernama.com/radio/news.php?id=2619164",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Johari promised to listen closely to young participants and take their views seriously.",
+      "progress_note": "The pledge concerns meaningful consideration, not guaranteed adoption of every proposal. A documented response process or completed set of actions was not verified; outcome and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0001",
+      "entity_slug": "johari-abdul",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0001:johari-abdul:sekolah-parlimen",
+      "title": "Continue civic education through Sekolah Parlimen",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-10-14",
+      "evidence_url": "https://www.mohe.gov.my/hebahan/sorotan-aktiviti/ifuture-2026-kepimpinan-belia-berteraskan-impian-keberanian-dan-ilmu-jadi-asas-demokrasi-matang",
+      "description": "Johari described school visits that let students observe Parliament and understand democratic proceedings.",
+      "progress_note": "The ministry’s report of his 12 October address records participation by more than 2,000 schools. This is a dated programme snapshot, with no total-school target or completion denominator.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0001",
+      "entity_slug": "rushdan-rusmi",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0001:rushdan-rusmi:al-jazari-centre",
+      "title": "Establish Al Jazari Centre of Excellence with university partners",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2025-01-15",
+      "evidence_url": "https://harakahdaily.net/2025/01/15/pembangunan-padang-besar-jadi-agenda-utama-rushdan/",
+      "description": "Rushdan reported establishing a centre with higher-education partners as part of local development efforts.",
+      "progress_note": "Achieved is limited to the reported establishment. An opening date, earlier public promise and wider development outcomes were not verified; the evidence date is the report’s publication date.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0001",
+      "entity_slug": "rushdan-rusmi",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0001:rushdan-rusmi:icqs-advocacy",
+      "title": "Advocate upgrades to Padang Besar’s ICQS facilities",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2025-01-15",
+      "evidence_url": "https://harakahdaily.net/2025/01/15/pembangunan-padang-besar-jadi-agenda-utama-rushdan/",
+      "description": "The report identifies border-facility upgrades as a priority Rushdan was raising through Parliament.",
+      "progress_note": "This records advocacy documented in January 2025. It does not assign government construction to the MP or claim that the facilities have been upgraded. Delivery, deadline and completion remain unverified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "johari-abdul": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "The parliamentary Speaker is recorded without an elected constituency or an assigned party. Independent is the existing app category for this non-partisan office; it does not assert a separate elected independent mandate."
+    },
+    "rushdan-rusmi": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "zakri-hassan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Bersatu is not attached to PN in the existing party hierarchy. The 29 October CSA report explicitly says the party remains in opposition; budget cooperation is not treated as joining government.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

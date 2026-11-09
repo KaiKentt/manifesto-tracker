@@ -1,0 +1,165 @@
+{
+  "batch_id": "MP-0020",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0020",
+      "record_id": "MECO-H2HMW",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wong-kah-woh",
+      "name": "Wong Kah Woh",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Education",
+      "constituency": "Taiping",
+      "state": "Perak",
+      "description": "Wong Kah Woh represents Taiping, Perak, in the Dewan Rakyat. Current role: Deputy Minister of Education. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4099",
+      "photo_path": "/portraits/wong-kah-woh.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P060.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4099"
+        },
+        {
+          "label": "DAP · current leadership",
+          "url": "https://dapmalaysia.org/en/our-leaders/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0020",
+      "record_id": "ROSTER-8C9310CCDE94",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "azahari-hasan",
+      "name": "Azahari Hasan",
+      "parent_slug": "wawasan",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Padang Rengas",
+      "state": "Perak",
+      "description": "Azahari Hasan represents Padang Rengas, Perak, in the Dewan Rakyat. A Parti Wawasan Negara member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4100",
+      "photo_path": "/portraits/azahari-hasan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P061.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4100"
+        },
+        {
+          "label": "Wawasan · announced leadership, 21 Jun 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/06/21/parti-wawasan-negara-unveils-central-leadership-line-up"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0020",
+      "record_id": "MECO-H1VMR",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "kesavan-subramaniam",
+      "name": "Kesavan Subramaniam",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sungai Siput",
+      "state": "Perak",
+      "description": "Kesavan Subramaniam represents Sungai Siput, Perak, in the Dewan Rakyat. A PKR member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4101",
+      "photo_path": "/portraits/kesavan-subramaniam.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P062.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4101"
+        },
+        {
+          "label": "PKR · representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0020",
+      "entity_slug": "wong-kah-woh",
+      "record_kind": "commitment",
+      "import_key": "MP-0020:wong-kah-woh:3150-contract-teachers",
+      "title": "Issue offers to 3,150 contract teachers for the 2027 Year One intake",
+      "category": "Education",
+      "status": null,
+      "progress": null,
+      "target_date": "2026-12-07",
+      "promise_date": "2026-10-07",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2616518",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Wong announced October offer letters for medically cleared candidates, with appointments taking effect on 7 December.",
+      "progress_note": "The reviewed announcement does not confirm delivery of every offer or teacher reporting for duty. The appointment date is distinct from October’s offer-letter schedule. No recruitment-completion percentage is inferred.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0020",
+      "entity_slug": "wong-kah-woh",
+      "record_kind": "commitment",
+      "import_key": "MP-0020:wong-kah-woh:317-reserve-teachers",
+      "title": "Seek appointments for 317 reserve teacher candidates",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-13",
+      "promise_url": "https://www.bernama.com/en/news.php?id=2619576",
+      "evidence_date": "2026-10-13",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2619576",
+      "description": "Wong said the ministry had asked the Education Service Commission to appoint 317 reserve candidates to fill vacancies.",
+      "progress_note": "The September request is documented, but actual appointment of this specific group was not confirmed. Other earlier appointments and Sarawak’s overall fill rate do not measure this cohort’s completion.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "wong-kah-woh": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "azahari-hasan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "kesavan-subramaniam": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "id": "48341f7a-5ed8-4938-9923-86b961686ae8",
+      "type": "politician",
+      "slug": "abdul-hadi-awang",
+      "name": "Abdul Hadi Awang",
+      "short_name": null,
+      "bloc": "opposition",
+      "parent_id": "1545b458-fce2-48ea-9dd3-37ebb9b76336",
+      "position": "President of PAS",
+      "constituency": "Marang",
+      "state": "Terengganu",
+      "description": "President of PAS.",
+      "website": null,
+      "owner_id": null,
+      "upvotes": 0,
+      "is_sample": false,
+      "created_at": "2026-11-02T17:12:58.760968+00:00",
+      "updated_at": "2026-11-02T17:12:58.760968+00:00",
+      "photo_path": null,
+      "photo_source_url": null,
+      "photo_credit": null,
+      "profile_sources": [],
+      "profile_checked_at": null
+    }
+  ],
+  "milestones": []
+}

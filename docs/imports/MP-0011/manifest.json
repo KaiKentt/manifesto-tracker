@@ -1,0 +1,146 @@
+{
+  "batch_id": "MP-0011",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0011",
+      "record_id": "MECO-41SFR",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "abdul-latiff-abdul-rahman",
+      "name": "Abdul Latiff Abdul Rahman",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kuala Krai",
+      "state": "Kelantan",
+      "description": "Abdul Latiff Abdul Rahman represents Kuala Krai, Kelantan, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4070",
+      "photo_path": "/portraits/abdul-latiff-abdul-rahman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P031.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4070"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0011",
+      "record_id": "MECO-SKJPA",
+      "office_kind": "mp",
+      "parent_kind": "bloc",
+      "slug": "mohd-azizi-abu-naim",
+      "name": "Mohd Azizi Abu Naim",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Gua Musang",
+      "state": "Kelantan",
+      "description": "Mohd Azizi Abu Naim represents Gua Musang, Kelantan, in the Dewan Rakyat. An independent MP supporting the government under a confidence-and-supply agreement.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4071",
+      "photo_path": "/portraits/mohd-azizi-abu-naim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P032.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4071"
+        },
+        {
+          "label": "Independent MP · 29 Oct 2026 confidence-and-supply agreement",
+          "url": "https://bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "An independent MP supporting the government under the reported confidence-and-supply agreement. No political-party membership is inferred; attendance at a PKR event is not treated as joining PKR."
+    },
+    {
+      "batch_id": "MP-0011",
+      "record_id": "MECO-ECJVP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "che-mohamad-zulkifly-jusoh",
+      "name": "Che Mohamad Zulkifly Jusoh",
+      "parent_slug": "pas",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Besut",
+      "state": "Terengganu",
+      "description": "Che Mohamad Zulkifly Jusoh represents Besut, Terengganu, in the Dewan Rakyat. A PAS member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4072",
+      "photo_path": "/portraits/che-mohamad-zulkifly-jusoh.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P033.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4072"
+        },
+        {
+          "label": "PAS · current parliamentary representatives",
+          "url": "https://pas.org.my/ahli-parlimen-pas-pru-ke-15/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0011",
+      "entity_slug": "mohd-azizi-abu-naim",
+      "record_kind": "commitment",
+      "import_key": "MP-0011:mohd-azizi-abu-naim:budget-2027-csa",
+      "title": "Support Budget 2027 under the CSA",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "The MP was a named agreement signatory.",
+      "progress_note": "Signing is documented; subsequent budget votes were not verified. Outcome and completion remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "abdul-latiff-abdul-rahman": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    },
+    "mohd-azizi-abu-naim": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "An independent MP supporting the government under the reported confidence-and-supply agreement. No political-party membership is inferred; attendance at a PKR event is not treated as joining PKR."
+    },
+    "che-mohamad-zulkifly-jusoh": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

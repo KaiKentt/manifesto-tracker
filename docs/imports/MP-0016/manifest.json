@@ -1,0 +1,204 @@
+{
+  "batch_id": "MP-0016",
+  "checked_at": "2026-11-09",
+  "profiles": [
+    {
+      "batch_id": "MP-0016",
+      "record_id": "MECO-N243Z",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "syerleena-abdul-rashid",
+      "name": "Syerleena Abdul Rashid",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bukit Bendera",
+      "state": "Pulau Pinang",
+      "description": "Syerleena Abdul Rashid represents Bukit Bendera, Pulau Pinang, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4087",
+      "photo_path": "/portraits/syerleena-abdul-rashid.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P048.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4087"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0016",
+      "record_id": "MECO-HJQ65",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "lim-hui-ying",
+      "name": "Lim Hui Ying",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Women, Family and Community Development",
+      "constituency": "Tanjong",
+      "state": "Pulau Pinang",
+      "description": "Lim Hui Ying represents Tanjong, Pulau Pinang, in the Dewan Rakyat. Current role: Deputy Minister of Women, Family and Community Development. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4088",
+      "photo_path": "/portraits/lim-hui-ying.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P049.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4088"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0016",
+      "record_id": "ROSTER-B5569D6092E0",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "rsn-rayer",
+      "name": "Sanisvara Nethaji Rayer",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Jelutong",
+      "state": "Pulau Pinang",
+      "description": "Sanisvara Nethaji Rayer represents Jelutong, Pulau Pinang, in the Dewan Rakyat. A DAP member.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4089",
+      "photo_path": "/portraits/rsn-rayer.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P050.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-09",
+      "profile_sources": [
+        {
+          "label": "Parliament · official profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4089"
+        },
+        {
+          "label": "DAP · representatives",
+          "url": "https://dapmalaysia.org/pulau-pinang-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0016",
+      "entity_slug": "syerleena-abdul-rashid",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0016:syerleena-abdul-rashid:taman-air-itam-road",
+      "title": "Resurface the road and renew parking markings at Block 1, Taman Air Itam",
+      "category": "Infrastructure",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-09-19",
+      "evidence_url": "https://www.buletinmutiara.com/ahli-parlimen-peruntuk-rm70855-naik-taraf-jalan-blok-1-taman-air-itam/",
+      "description": "Syerleena’s constituency allocation funded the road and parking works, including markings for 35 parking spaces.",
+      "progress_note": "The delivery report states work ran from 20 April to 15 June 2026. Achieved covers only these completed works. No earlier public promise was established; September’s date is the evidence publication date.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0016",
+      "entity_slug": "syerleena-abdul-rashid",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0016:syerleena-abdul-rashid:five-clinic-assets",
+      "title": "Fund and hand over equipment and supporting assets for five clinics",
+      "category": "Health",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-30",
+      "evidence_url": "https://www.buletinmutiara.com/boost-for-healthcare-services-in-northeast-district/",
+      "description": "The state health director confirmed Syerleena’s RM250,000 contribution was fully used in 2025 for five clinics and 160 assets.",
+      "progress_note": "Achieved covers this documented contribution and handover, with health-department implementation credited. It does not attribute construction of the new clinic or wider health outcomes to the MP. No earlier promise date was verified.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0016",
+      "entity_slug": "lim-hui-ying",
+      "record_kind": "commitment",
+      "import_key": "MP-0016:lim-hui-ying:senior-citizens-bill",
+      "title": "Table the Senior Citizens Bill in early 2027",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-03",
+      "promise_url": "https://theedgemalaysia.com/node/820563",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Lim Hui Ying said the ministry had moved the planned bill from October 2026 to early 2027 after consultations.",
+      "progress_note": "The source was published on 5 October. Tabling and enactment are separate steps; neither was verified as completed. Early 2027 supplies no exact day, so the date field remains blank.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0016",
+      "entity_slug": "lim-hui-ying",
+      "record_kind": "commitment",
+      "import_key": "MP-0016:lim-hui-ying:caregiver-budget-support",
+      "title": "Seek additional welfare funding and direct support for unpaid caregivers in Budget 2027",
+      "category": "Social welfare",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-03",
+      "promise_url": "https://theedgemalaysia.com/node/820563",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Lim described proposals for more than RM168 million in additional funding, including support for the care sector.",
+      "progress_note": "A proposal is not an approved allocation or a payment. The reviewed report does not verify adoption or disbursement; outcome and percentage remain unknown.",
+      "progress_checked_at": "2026-11-09",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Editorial records of dated public commitments, documented activities and delivery reports. Evidence-only activities and deliveries have no invented earlier promise URL or promise date. Status and numerical progress refer to the dated evidence, not a live performance rating. Joint government, constituency, party and agency roles are identified. Unknown outcomes remain NULL. Additional research may extend the initial pass.",
+  "missing_fields": {
+    "syerleena-abdul-rashid": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "lim-hui-ying": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources."
+    },
+    "rsn-rayer": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two relevant milestones per person. Further commitments remain not_researched_to_completion.",
+      "unselected_commitments": "No further dated personal commitment or clearly attributable delivery was selected. Parliamentary questions, other ministers’ promises, attendance at events and general aspirations were not converted into personal delivery claims.",
+      "completion": "NULL unless supported by a comparable, dated published metric.",
+      "party_membership": "Supported by the linked current representative or party sources.",
+      "milestone_research_status": "not_established_in_reviewed_sources; not a claim that no commitments exist"
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}
