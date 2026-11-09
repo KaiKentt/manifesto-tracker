@@ -1,0 +1,148 @@
+{
+  "batch_id": "MP-0053",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0053",
+      "record_id": "MECO-Y0WB7",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "ronald-kiandee",
+      "name": "Ronald Kiandee",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Beluran",
+      "state": "Sabah",
+      "description": "Ronald Kiandee represents Beluran, Sabah, in the Dewan Rakyat. Parliament records affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4222",
+      "photo_path": "/portraits/ronald-kiandee.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P183.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4222"
+        },
+        {
+          "label": "Bersatu suspension · personal statement, 10 March 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/03/10/bersatu-vp-ronald-kiandee-suspended-for-two-terms-refuses-to-appeal"
+        }
+      ],
+      "affiliation_note": "Parliament’s PN label is retained. The March report records his suspension from Bersatu and removal from party posts. Earlier vice-president status or association with Wawasan leaders is not proof of a current party office or new membership."
+    },
+    {
+      "batch_id": "MP-0053",
+      "record_id": "MECO-6NBPV",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "suhaimi-nasir",
+      "name": "Suhaimi Nasir",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Libaran",
+      "state": "Sabah",
+      "description": "Suhaimi Nasir represents Libaran, Sabah, in the Dewan Rakyat. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4223",
+      "photo_path": "/portraits/suhaimi-nasir.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P184.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4223"
+        },
+        {
+          "label": "UMNO · current Libaran division chief, 9 April 2026",
+          "url": "https://umno-online.my/2026/04/09/perkukuh-akar-umbi-fokus-penyatuan-demi-masa-hadapan-umno-suhaimi-nasir/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0053",
+      "record_id": "MECO-VM7BM",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "khairul-firdaus-akbar-khan",
+      "name": "Khairul Firdaus Akbar Khan",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "bloc": "government",
+      "position": "Deputy Minister of Human Resources",
+      "constituency": "Batu Sapi",
+      "state": "Sabah",
+      "description": "Khairul Firdaus Akbar Khan represents Batu Sapi, Sabah, in the Dewan Rakyat. Current role: Deputy Minister of Human Resources. Parliament records affiliation with Gabungan Rakyat Sabah (GRS).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4224",
+      "photo_path": "/portraits/khairul-firdaus-akbar-khan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P185.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4224"
+        },
+        {
+          "label": "GRS MPs · current representation, 9 January 2026",
+          "url": "https://gagasanrakyat.my/empat-kerusi-parlimen-sabah-kekal-mahkamah-persekutuan-tolak-permohonan-bersatu/"
+        }
+      ],
+      "affiliation_note": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0053",
+      "entity_slug": "khairul-firdaus-akbar-khan",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0053:khairul-firdaus-akbar-khan:national-training-week-launch",
+      "title": "Launch National Training Week 2026 in Sandakan",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-07-19",
+      "evidence_url": "https://www.malaymail.com/amp/news/malaysia/2026/07/19/from-ai-prompting-to-vehicle-maintenance-thousands-of-free-courses-offered-to-malaysians-during-national-training-week/228207",
+      "description": "The HRD Corp statement reports Khairul Firdaus officiating the 18 July launch, ahead of free learning activities beginning on 20 July.",
+      "progress_note": "Published 19 July about the previous evening’s launch. Achieved covers the launch only, not course completion, participant employment or delivery of every roadshow stop. HRD Corp and KESUMA organised the programme.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "ronald-kiandee": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s PN label is retained. The March report records his suspension from Bersatu and removal from party posts. Earlier vice-president status or association with Wawasan leaders is not proof of a current party office or new membership."
+    },
+    "suhaimi-nasir": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "khairul-firdaus-akbar-khan": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

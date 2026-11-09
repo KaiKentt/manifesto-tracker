@@ -1,0 +1,160 @@
+{
+  "batch_id": "MP-0050",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0050",
+      "record_id": "MECO-G2JA9",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "chan-foong-hin",
+      "name": "Chan Foong Hin",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Agriculture and Food Security",
+      "constituency": "Kota Kinabalu",
+      "state": "Sabah",
+      "description": "Chan Foong Hin represents Kota Kinabalu, Sabah, in the Dewan Rakyat. Current role: Deputy Minister of Agriculture and Food Security. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4211",
+      "photo_path": "/portraits/chan-foong-hin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P172.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4211"
+        },
+        {
+          "label": "DAP · current Sabah representatives",
+          "url": "https://dapmalaysia.org/en/sabah-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0050",
+      "record_id": "MECO-VA851",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "shahelmey-yahya",
+      "name": "Shahelmey Yahya",
+      "parent_slug": "barisan-nasional",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Putatan",
+      "state": "Sabah",
+      "description": "Shahelmey Yahya represents Putatan, Sabah, in the Dewan Rakyat. Parliament records affiliation with Barisan Nasional (BN). Reports of suspended UMNO membership are recorded in the profile sources.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4212",
+      "photo_path": "/portraits/shahelmey-yahya.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P173.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4212"
+        },
+        {
+          "label": "UMNO suspension · confirmed report, 6 March 2025",
+          "url": "https://www.thestar.com.my/news/nation/2025/03/06/shahelmey-has-been-officially-suspended-from-umno-confirms-putatan-umno-chief"
+        }
+      ],
+      "affiliation_note": "Parliament’s current BN label is retained. The UMNO suspension report is recorded; neither active UMNO membership nor a move to another party is inferred."
+    },
+    {
+      "batch_id": "MP-0050",
+      "record_id": "MECO-VGE65",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ewon-benedick",
+      "name": "Ewon Benedick",
+      "parent_slug": "upko",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; President of UPKO",
+      "constituency": "Penampang",
+      "state": "Sabah",
+      "description": "Ewon Benedick represents Penampang, Sabah, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; President of UPKO. Affiliated with UPKO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4213",
+      "photo_path": "/portraits/ewon-benedick.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P174.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4213"
+        },
+        {
+          "label": "UPKO · 2026–2029 leadership",
+          "url": "https://www.upko.org/amt.html"
+        },
+        {
+          "label": "GRS · UPKO admission, 18 June 2026",
+          "url": "https://www.nst.com.my/amp/news/regional/2026/06/1466676/grs-accepts-upko-newest-component-party"
+        }
+      ],
+      "affiliation_note": "UPKO joined GRS on 18 June 2026. Parliament does not list a current federal cabinet portfolio for Ewon; the former federal KUSKOP portfolio is not shown as current."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0050",
+      "entity_slug": "chan-foong-hin",
+      "record_kind": "commitment",
+      "import_key": "MP-0050:chan-foong-hin:sabah-agro-madani-400",
+      "title": "Hold 400 Agro-Madani sales events in Sabah during 2026",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2026-12-31",
+      "promise_date": "2026-01-11",
+      "promise_url": "https://www.dailyexpress.com.my/news/273709/400-sabah-agro-madani-sales",
+      "evidence_date": "2026-01-11",
+      "evidence_url": "https://www.dailyexpress.com.my/news/273709/400-sabah-agro-madani-sales",
+      "description": "At the first reported Sabah programme, Chan announced the annual target for fresh-produce sales events across the state’s constituencies.",
+      "progress_note": "The January launch establishes activity toward the target. A later cumulative event count was not verified. The RM5 million sales target and national budget are different measures, so no completion percentage is calculated. The source’s older portfolio label is superseded by the current Parliament profile.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "chan-foong-hin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "shahelmey-yahya": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current BN label is retained. The UMNO suspension report is recorded; neither active UMNO membership nor a move to another party is inferred."
+    },
+    "ewon-benedick": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "UPKO joined GRS on 18 June 2026. Parliament does not list a current federal cabinet portfolio for Ewon; the former federal KUSKOP portfolio is not shown as current."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {
+    "MP-0050:chan-foong-hin:sabah-agro-madani-400": {
+      "target_date": "2026-12-31",
+      "date_precision": "year",
+      "source_date": "2026-01-11",
+      "url": "https://www.dailyexpress.com.my/news/273709/400-sabah-agro-madani-sales",
+      "note": "Published year schedule. An end-of-period marker is used for year-only dates; no exact-day promise is invented."
+    }
+  }
+}

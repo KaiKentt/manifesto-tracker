@@ -1,0 +1,199 @@
+{
+  "batch_id": "MP-0047",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0047",
+      "record_id": "MECO-G5AAS",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "liew-chin-tong",
+      "name": "Liew Chin Tong",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Finance",
+      "constituency": "Iskandar Puteri",
+      "state": "Johor",
+      "description": "Liew Chin Tong represents Iskandar Puteri, Johor, in the Dewan Rakyat. Current role: Deputy Minister of Finance. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4201",
+      "photo_path": "/portraits/liew-chin-tong.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P162.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4201"
+        },
+        {
+          "label": "DAP · current Johor representatives",
+          "url": "https://dapmalaysia.org/johor-representatives/"
+        },
+        {
+          "label": "Representative · current Finance portfolio and former Perling seat",
+          "url": "https://liewchintong.com/about/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0047",
+      "record_id": "MECO-JDH1F",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "teo-nie-ching",
+      "name": "Teo Nie Ching",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Communications",
+      "constituency": "Kulai",
+      "state": "Johor",
+      "description": "Teo Nie Ching represents Kulai, Johor, in the Dewan Rakyat. Current role: Deputy Minister of Communications. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4202",
+      "photo_path": "/portraits/teo-nie-ching.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P163.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4202"
+        },
+        {
+          "label": "DAP · current Johor representatives",
+          "url": "https://dapmalaysia.org/johor-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0047",
+      "record_id": "MECO-R3DTE",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-maslan",
+      "name": "Ahmad Maslan",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Deputy Minister of Works",
+      "constituency": "Pontian",
+      "state": "Johor",
+      "description": "Ahmad Maslan represents Pontian, Johor, in the Dewan Rakyat. Current role: Deputy Minister of Works. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4203",
+      "photo_path": "/portraits/ahmad-maslan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P164.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4203"
+        },
+        {
+          "label": "UMNO · current supreme council member, 3 September 2026",
+          "url": "https://umno-online.my/2026/09/03/inisiatif-presiden-umno-penuhi-keperluan-parti-dan-rakyat-ahmad-maslan/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0047",
+      "entity_slug": "teo-nie-ching",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0047:teo-nie-ching:stpm-incentives-111",
+      "title": "Deliver RM92,000 in incentives and registration assistance to 111 Kulai students",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-08-23",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2598047",
+      "description": "Teo presented the assistance to outstanding 2025 STPM students in her constituency.",
+      "progress_note": "Achieved covers the reported presentation on 23 August. The separate RM1.3 million annual education allocation is not a completion denominator or evidence that all school projects were finished.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0047",
+      "entity_slug": "teo-nie-ching",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0047:teo-nie-ching:kampung-separa-flood-aid",
+      "title": "Provide assistance to 32 Kampung Separa flood-affected families",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-25",
+      "evidence_url": "https://themalaysiapress.com/2026/05/25/nie-ching-santuni-mangsa-banjir-lumpur-kg-separa-32-keluarga-terima-bantuan/",
+      "description": "Teo’s constituency response provided contributions to the 32 families affected by the 8 May mud flood.",
+      "progress_note": "The 25 May report describes a Sunday handover. This records that assistance only; drainage repairs, housing compensation, causal findings and protection from future flooding were not verified.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0047",
+      "entity_slug": "ahmad-maslan",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0047:ahmad-maslan:classroom-projects-2027-intake",
+      "title": "Implement 524 additional-classroom projects for the 2027 school intake",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": 1,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-08-17",
+      "evidence_url": "https://www.bernama.com/radio/news.php?id=2595381",
+      "description": "Ahmad reported 524 projects valued at RM668 million across 459 schools. Three projects were complete and 517 had received acceptance letters at the August snapshot.",
+      "progress_note": "Progress is 3 completed projects / 524 projects, rounded to 1%, as reported on 17 August. It is a historical project-count ratio, not a November update, a proportion of classrooms or weighted physical progress. Acceptance letters are not completed buildings. JKR and the Education Ministry share delivery.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "liew-chin-tong": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "teo-nie-ching": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "ahmad-maslan": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {
+    "MP-0047:ahmad-maslan:classroom-projects-2027-intake": {
+      "numerator": 3,
+      "denominator": 524,
+      "unit": "completed additional-classroom projects",
+      "metric_date": "2026-08-17",
+      "source_url": "https://www.bernama.com/radio/news.php?id=2595381",
+      "note": "A historical same-scope count ratio, rounded to the nearest integer; not a current November measurement or a cost-weighted physical-completion figure."
+    }
+  },
+  "published_progress": {},
+  "target_sources": {}
+}

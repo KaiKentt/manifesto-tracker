@@ -46,3 +46,17 @@ The [official MIC emblem](https://mic.org.my/wp-content/uploads/2019/08/2000px-M
 | Profile | Local image | Official party image source |
 | --- | --- | --- |
 | Malaysian Indian Congress | `/logos/mic.webp` | [Original](https://mic.org.my/wp-content/uploads/2019/08/2000px-Malaysian_Indian_Congress_Logo.svg_-2.png) |
+
+## MP-0041–MP-0060 party emblems
+
+Seven genuine emblems were retrieved from [SPR’s current registered-party page](https://www.spr.gov.my/parti-parti-yang-berdaftar/) on 10 November 2026 and resized to local WebP assets without redrawing the artwork. They accompany the new MUDA, KDM, WARISAN, UPKO, STAR, PBS and SUPP party parents. The SPR registry’s legacy WARISAN name is not used to override the party’s current public name.
+
+| Party | Local asset | SPR image source |
+| --- | --- | --- |
+| MUDA | `/logos/muda.webp` | [Original](https://spr.gov.my/wp-content/uploads/2026/06/MUDA.jpg) |
+| KDM | `/logos/kdm.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-77.webp) |
+| WARISAN | `/logos/warisan.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-80.webp) |
+| UPKO | `/logos/upko.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-67.webp) |
+| STAR | `/logos/star.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Group-116.webp) |
+| PBS | `/logos/pbs.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Parti-Bersatu-Sabah-PBS.png) |
+| SUPP | `/logos/supp.webp` | [Original](https://spr.gov.my/wp-content/uploads/2024/10/Parti-Rakyat-Bersatu-Sarawak.webp) |

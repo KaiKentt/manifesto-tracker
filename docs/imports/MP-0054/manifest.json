@@ -1,0 +1,199 @@
+{
+  "batch_id": "MP-0054",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0054",
+      "record_id": "MECO-93REN",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "vivian-wong-shir-yee",
+      "name": "Vivian Wong Shir Yee",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sandakan",
+      "state": "Sabah",
+      "description": "Vivian Wong Shir Yee represents Sandakan, Sabah, in the Dewan Rakyat. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4225",
+      "photo_path": "/portraits/vivian-wong-shir-yee.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P186.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4225"
+        },
+        {
+          "label": "DAP · current Sabah representatives",
+          "url": "https://dapmalaysia.org/en/sabah-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0054",
+      "record_id": "ROSTER-6238F732C621",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-kurniawan-naim-moktar",
+      "name": "Mohd Kurniawan Naim Moktar",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kinabatangan",
+      "state": "Sabah",
+      "description": "Mohd Kurniawan Naim Moktar represents Kinabatangan, Sabah, in the Dewan Rakyat. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4226",
+      "photo_path": "/portraits/mohd-kurniawan-naim-moktar.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/yb%20naim.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4226"
+        },
+        {
+          "label": "UMNO · Kinabatangan youth chief and campaign commitments, 11 January 2026",
+          "url": "https://umno-online.my/2026/01/11/prk-kinabatangan-naim-tumpu-usaha-perkasa-belia-pembangunan-pulau-tanjung-aru/"
+        },
+        {
+          "label": "Parliamentary oath · 27 January 2026",
+          "url": "https://umno-online.my/2026/01/27/mohd-kurniawan-naim-angkat-sumpah-ahli-dewan-rakyat/"
+        }
+      ],
+      "affiliation_note": "This is the current Kinabatangan MP sworn in on 27 January 2026. He is a different person from the late Bung Moktar Radin; the fixed new roster identity is preserved."
+    },
+    {
+      "batch_id": "MP-0054",
+      "record_id": "MECO-CH3C3",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohammad-yusof-apdal",
+      "name": "Mohammad Yusof Apdal",
+      "parent_slug": "warisan",
+      "bloc": "government",
+      "position": "Deputy Minister of Science, Technology and Innovation",
+      "constituency": "Lahad Datu",
+      "state": "Sabah",
+      "description": "Mohammad Yusof Apdal represents Lahad Datu, Sabah, in the Dewan Rakyat. Current role: Deputy Minister of Science, Technology and Innovation. Affiliated with WARISAN.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4227",
+      "photo_path": "/portraits/mohammad-yusof-apdal.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P188.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4227"
+        },
+        {
+          "label": "WARISAN · current federal-government support, 3 August 2026",
+          "url": "https://www.bernama.com/en/news.php?id=2589775"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0054",
+      "entity_slug": "mohd-kurniawan-naim-moktar",
+      "record_kind": "commitment",
+      "import_key": "MP-0054:mohd-kurniawan-naim-moktar:pulau-tanjung-aru-youth-enterprise",
+      "title": "Develop youth enterprise opportunities in Pulau Tanjung Aru",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-01-11",
+      "promise_url": "https://umno-online.my/2026/01/11/prk-kinabatangan-naim-tumpu-usaha-perkasa-belia-pembangunan-pulau-tanjung-aru/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "During the by-election campaign, Kurniawan pledged to prioritise youth jobs and work with KUSKOP on skills, microfinance and business guidance if elected.",
+      "progress_note": "He subsequently became the Kinabatangan MP. This pass did not verify a matching programme launch, financing disbursement, employment count or completion deadline.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0054",
+      "entity_slug": "mohd-kurniawan-naim-moktar",
+      "record_kind": "commitment",
+      "import_key": "MP-0054:mohd-kurniawan-naim-moktar:pulau-tanjung-aru-community-facilities",
+      "title": "Prioritise renewal of Pulau Tanjung Aru community facilities",
+      "category": "Infrastructure",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-01-11",
+      "promise_url": "https://umno-online.my/2026/01/11/prk-kinabatangan-naim-tumpu-usaha-perkasa-belia-pembangunan-pulau-tanjung-aru/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Kurniawan’s campaign statement committed attention to ageing infrastructure and proposed new mosque, hall and sports facilities, including futsal and volleyball spaces.",
+      "progress_note": "A campaign undertaking, conditional on election at the time. Project approvals, budgets, construction and completed facilities were not verified after he took office; no invented deadline or percentage is assigned.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0054",
+      "entity_slug": "mohammad-yusof-apdal",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0054:mohammad-yusof-apdal:mimos-technology-readiness-2026",
+      "title": "Advance 22 MIMOS technology releases toward readiness assessment",
+      "category": "Economy",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2026-12-31",
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-09-30",
+      "evidence_url": "https://www.bernama.com/en/news.php?id=2613340",
+      "description": "The report from the MIMOS technology preview describes another 22 technology-release packages progressing toward Technology Readiness Assessment by the end of 2026, in the deputy minister’s ministry portfolio.",
+      "progress_note": "A reported agency pipeline, not the deputy minister’s sole delivery. The source was published 30 September with a 29 September dateline. Its 17 licensed packages, 29 ready releases and 22 in assessment are different cohorts, so no percentage is inferred. The year-only schedule uses 31 December as a display marker.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "vivian-wong-shir-yee": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "mohd-kurniawan-naim-moktar": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "This is the current Kinabatangan MP sworn in on 27 January 2026. He is a different person from the late Bung Moktar Radin; the fixed new roster identity is preserved."
+    },
+    "mohammad-yusof-apdal": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {
+    "MP-0054:mohammad-yusof-apdal:mimos-technology-readiness-2026": {
+      "target_date": "2026-12-31",
+      "date_precision": "year",
+      "source_date": "2026-09-30",
+      "url": "https://www.bernama.com/en/news.php?id=2613340",
+      "note": "Published year schedule. An end-of-period marker is used for year-only dates; no exact-day promise is invented."
+    }
+  }
+}

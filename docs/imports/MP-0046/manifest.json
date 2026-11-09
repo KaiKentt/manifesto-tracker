@@ -1,0 +1,166 @@
+{
+  "batch_id": "MP-0046",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0046",
+      "record_id": "MECO-BFR18",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "jimmy-puah-wee-tse",
+      "name": "Jimmy Puah Wee Tse",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tebrau",
+      "state": "Johor",
+      "description": "Jimmy Puah Wee Tse represents Tebrau, Johor, in the Dewan Rakyat. Affiliated with PKR.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4197",
+      "photo_path": "/portraits/jimmy-puah-wee-tse.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P158.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4197"
+        },
+        {
+          "label": "PKR · current parliamentary representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0046",
+      "record_id": "MECO-H3J6Q",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "hassan-abdul-karim",
+      "name": "Hassan Abdul Karim",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Pasir Gudang",
+      "state": "Johor",
+      "description": "Hassan Abdul Karim represents Pasir Gudang, Johor, in the Dewan Rakyat. Affiliated with PKR.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4198",
+      "photo_path": "/portraits/hassan-abdul-karim.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P159.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4198"
+        },
+        {
+          "label": "PKR · current parliamentary representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0046",
+      "record_id": "MECO-FK32P",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "suhaizan-kaiat",
+      "name": "Suhaizan Kaiat",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Pulai",
+      "state": "Johor",
+      "description": "Suhaizan Kaiat represents Pulai, Johor, in the Dewan Rakyat. Affiliated with AMANAH.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4285",
+      "photo_path": "/portraits/suhaizan-kaiat.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2023/P161.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4285"
+        },
+        {
+          "label": "AMANAH · Johor leadership, 20 June 2026",
+          "url": "https://www.astroawani.com/berita-politik/prn-johor-amanah-pertaruh-13-muka-baharu"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0046",
+      "entity_slug": "jimmy-puah-wee-tse",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0046:jimmy-puah-wee-tse:surau-assistance-report",
+      "title": "Report RM40,000 in assistance for a Tebrau surau",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-17",
+      "evidence_url": "https://www.pmo.gov.my/en/uncategorized/teks-ucapan-verbatim-yab-perdana-menteri-majlis-ramah-mesra-yab-perdana-menteri-bersama-rakyat/",
+      "description": "The Prime Minister’s published Desa Mutiara Tebrau speech records Jimmy Puah’s RM40,000 contribution for a surau.",
+      "progress_note": "Achieved covers only the reported contribution. The transcript does not establish the exact earlier handover date, the surau’s completed works or subsequent use of the funds.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0046",
+      "entity_slug": "suhaizan-kaiat",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0046:suhaizan-kaiat:ceria-ke-sekolah-2026",
+      "title": "Distribute back-to-school assistance to more than 100 Pulai students",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-07",
+      "evidence_url": "https://malaysiaaktif.my/2026/01/pelajar-di-parlimen-pulai-terima-bantuan-kelengkapan-persekolahan/",
+      "description": "Suhaizan’s service centre and TNB Johor Bahru delivered school-preparation support at the 6 January programme. TNB contributed RM10,000 and eligible recipients received RM150 redemption vouchers.",
+      "progress_note": "Published 7 January about the previous day’s programme. Achieved covers the reported assistance round, jointly delivered with TNB; it does not establish universal eligibility coverage or later redemption totals.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "jimmy-puah-wee-tse": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "hassan-abdul-karim": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "suhaizan-kaiat": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

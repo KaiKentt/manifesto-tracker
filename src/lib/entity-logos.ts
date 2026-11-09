@@ -18,4 +18,11 @@ export const ENTITY_LOGOS: Readonly<Record<string, string>> = {
   "prs": "/logos/prs.webp",
   "pbrs": "/logos/pbrs.webp",
   "mic": "/logos/mic.webp",
+  "muda": "/logos/muda.webp",
+  "kdm": "/logos/kdm.webp",
+  "warisan": "/logos/warisan.webp",
+  "upko": "/logos/upko.webp",
+  "star": "/logos/star.webp",
+  "pbs": "/logos/pbs.webp",
+  "supp": "/logos/supp.webp",
 };

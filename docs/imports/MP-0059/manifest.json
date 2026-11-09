@@ -1,0 +1,146 @@
+{
+  "batch_id": "MP-0059",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0059",
+      "record_id": "MECO-MR56Y",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "roy-angau-gingkoi",
+      "name": "Roy Angau Gingkoi",
+      "parent_slug": "prs",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Lubok Antu",
+      "state": "Sarawak",
+      "description": "Roy Angau Gingkoi represents Lubok Antu, Sarawak, in the Dewan Rakyat. Affiliated with PRS.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4242",
+      "photo_path": "/portraits/roy-angau-gingkoi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P203.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4242"
+        },
+        {
+          "label": "PRS · current supreme council, 4 March 2026",
+          "url": "https://www.theborneopost.com/2026/03/04/questions-raised-over-non-inclusion-of-pelagus-baleh-reps-in-prs-supreme-council/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0059",
+      "record_id": "MECO-Z17DS",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "richard-rapu",
+      "name": "Richard Rapu",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Betong",
+      "state": "Sarawak",
+      "description": "Richard Rapu represents Betong, Sarawak, in the Dewan Rakyat. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4243",
+      "photo_path": "/portraits/richard-rapu.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P204.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4243"
+        },
+        {
+          "label": "PBB · current 2025–2028 council",
+          "url": "https://suarasarawak.my/senarai-penuh-majlis-kerja-tertinggi-mkt-pbb-sesi-2025-2028/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0059",
+      "record_id": "MECO-5AC0P",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ali-biju",
+      "name": "Ali Biju",
+      "parent_slug": "bersatu",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Saratok",
+      "state": "Sarawak",
+      "description": "Ali Biju represents Saratok, Sarawak, in the Dewan Rakyat. Affiliated with Bersatu.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4244",
+      "photo_path": "/portraits/ali-biju.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P205.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4244"
+        },
+        {
+          "label": "Bersatu · October CSA signatory and opposition status",
+          "url": "https://www.bernama.com/bm/am/news.php?id=2627381"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0059",
+      "entity_slug": "ali-biju",
+      "record_kind": "commitment",
+      "import_key": "MP-0059:ali-biju:budget-2027-csa",
+      "title": "Support Supply Bill 2027 under the confidence-and-supply agreement",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://www.bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Signed the agreement committing support for the 2027 Supply Bill.",
+      "progress_note": "The agreement is documented. A subsequent budget vote or final passage was not established in this pass; signing is not counted as delivery of the bill or joining another party.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "roy-angau-gingkoi": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "richard-rapu": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "ali-biju": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

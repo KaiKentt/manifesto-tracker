@@ -1,0 +1,166 @@
+{
+  "batch_id": "MP-0060",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0060",
+      "record_id": "MECO-GQWQQ",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "yusuf-abd-wahab",
+      "name": "Yusuf Abd Wahab",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tanjong Manis",
+      "state": "Sarawak",
+      "description": "Yusuf Abd Wahab represents Tanjong Manis, Sarawak, in the Dewan Rakyat. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4245",
+      "photo_path": "/portraits/yusuf-abd-wahab.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P206.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4245"
+        },
+        {
+          "label": "PBB · current 2025–2028 council",
+          "url": "https://suarasarawak.my/senarai-penuh-majlis-kerja-tertinggi-mkt-pbb-sesi-2025-2028/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0060",
+      "record_id": "MECO-M5JT0",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "ahmad-johnie-zawawi",
+      "name": "Ahmad Johnie Zawawi",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Igan",
+      "state": "Sarawak",
+      "description": "Ahmad Johnie Zawawi represents Igan, Sarawak, in the Dewan Rakyat. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4246",
+      "photo_path": "/portraits/ahmad-johnie-zawawi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P207.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4246"
+        },
+        {
+          "label": "PBB · current 2025–2028 council",
+          "url": "https://suarasarawak.my/senarai-penuh-majlis-kerja-tertinggi-mkt-pbb-sesi-2025-2028/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0060",
+      "record_id": "MECO-10FS9",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "huang-tiong-sii",
+      "name": "Huang Tiong Sii",
+      "parent_slug": "supp",
+      "bloc": "government",
+      "position": "Deputy Minister of Plantation and Commodities",
+      "constituency": "Sarikei",
+      "state": "Sarawak",
+      "description": "Huang Tiong Sii represents Sarikei, Sarawak, in the Dewan Rakyat. Current role: Deputy Minister of Plantation and Commodities. Affiliated with SUPP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4247",
+      "photo_path": "/portraits/huang-tiong-sii.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P208.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4247"
+        },
+        {
+          "label": "SUPP · Sarikei branch chair, 2025–2027 term",
+          "url": "https://utusansarawak.com.my/tiong-sii-dipilih-semula-pengerusi-supp-sarikei/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0060",
+      "entity_slug": "yusuf-abd-wahab",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0060:yusuf-abd-wahab:tanjung-manis-construction-skills",
+      "title": "Deliver the Bina Komuniti Tanjung Manis skills programme",
+      "category": "Education",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-09-06",
+      "evidence_url": "https://ukas.sarawak.gov.my/web/subpage/news_view/47997",
+      "description": "Yusuf, also CIDB chair, launched the joint community programme with ABM construction-skills activities, including decorative painting and roof-truss installation.",
+      "progress_note": "Achieved covers delivery of the reported programme session. CIDB, ABM, Puspanita and local partners shared responsibility. Participant certification, sustained employment, income gains and completed repair works were not established.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0060",
+      "entity_slug": "huang-tiong-sii",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0060:huang-tiong-sii:sarikei-mrp-grants-19",
+      "title": "Present MRP assistance to 19 Sarikei organisations",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-08-20",
+      "evidence_url": "https://www.utusanborneo.com.my/2026/08/20/huang-salur-projek-mrp-kepada-19-penerima",
+      "description": "Huang presented grant cheques to schools, associations and community organisations at the 19 August Sarikei constituency ceremony.",
+      "progress_note": "The 20 August report describes the previous day’s ceremony. Achieved covers the presentation only; the article does not give a total amount or prove completed recipient projects or later spending.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "yusuf-abd-wahab": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "ahmad-johnie-zawawi": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "huang-tiong-sii": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

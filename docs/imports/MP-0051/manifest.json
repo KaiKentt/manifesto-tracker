@@ -1,0 +1,187 @@
+{
+  "batch_id": "MP-0051",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0051",
+      "record_id": "MECO-S54A4",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohamad-alamin",
+      "name": "Mohamad Alamin",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Deputy Minister of Entrepreneur Development and Cooperatives",
+      "constituency": "Kimanis",
+      "state": "Sabah",
+      "description": "Mohamad Alamin represents Kimanis, Sabah, in the Dewan Rakyat. Current role: Deputy Minister of Entrepreneur Development and Cooperatives. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4215",
+      "photo_path": "/portraits/mohamad-alamin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P176.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4215"
+        },
+        {
+          "label": "UMNO · current supreme council member, 5 November 2026",
+          "url": "https://umno-online.my/2026/11/05/lebih-200-inisiatif-kerajaan-melaka-jadi-ukuran-prestasi-mohamad-alamin/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0051",
+      "record_id": "MECO-9BNMW",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "siti-aminah-aching",
+      "name": "Siti Aminah Aching",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Beaufort",
+      "state": "Sabah",
+      "description": "Siti Aminah Aching represents Beaufort, Sabah, in the Dewan Rakyat. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4216",
+      "photo_path": "/portraits/siti-aminah-aching.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P177.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4216"
+        },
+        {
+          "label": "UMNO · current supreme council member, 8 November 2026",
+          "url": "https://umno-online.my/2026/11/08/siti-aminah-santuni-jentera-menerusi-jom-mengambuyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0051",
+      "record_id": "MECO-BFD5Z",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "matbali-musah",
+      "name": "Matbali Musah",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sipitang",
+      "state": "Sabah",
+      "description": "Matbali Musah represents Sipitang, Sabah, in the Dewan Rakyat. Parliament records affiliation with Gabungan Rakyat Sabah (GRS).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4217",
+      "photo_path": "/portraits/matbali-musah.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/sipitang%20portal.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4217"
+        },
+        {
+          "label": "GRS MPs · current representation, 9 January 2026",
+          "url": "https://gagasanrakyat.my/empat-kerusi-parlimen-sabah-kekal-mahkamah-persekutuan-tolak-permohonan-bersatu/"
+        }
+      ],
+      "affiliation_note": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0051",
+      "entity_slug": "mohamad-alamin",
+      "record_kind": "commitment",
+      "import_key": "MP-0051:mohamad-alamin:national-entrepreneur-repository-study",
+      "title": "Study the feasibility of a National Entrepreneur Repository",
+      "category": "Economy",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-02-05",
+      "promise_url": "https://umno-online.my/2026/02/05/kuskop-perkukuh-penyelarasan-program-keusahawanan-elak-pertindihan-mohamad-alamin/",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Mohamad Alamin announced a 2026 feasibility study to examine integrating KUSKOP agency databases into a central entrepreneur-data hub.",
+      "progress_note": "The undertaking is specific to the feasibility study. A completed study, approved nationwide repository, launch date and numerical progress were not established. Earlier SMEIPA programme totals do not measure this new study.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0051",
+      "entity_slug": "mohamad-alamin",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0051:mohamad-alamin:thaifex-trade-mission-2026",
+      "title": "Lead the Malaysian THAIFEX trade mission in Bangkok",
+      "category": "Economy",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-29",
+      "evidence_url": "https://www.kln.gov.my/web/tha_bangkok/post/yb-datuk-mohamad-alamin-deputy-minister-of-entrepreneur-and-cooperatives-development-kuskop-working-visit-to-bangkok-thailand",
+      "description": "The Malaysian embassy reported Alamin’s 25–29 May mission, including Malaysian pavilions, bilateral discussions and business-engagement sessions. The exhibition included 158 Malaysian exhibitors.",
+      "progress_note": "Achieved covers the documented mission, not signed sales, realised exports or later investment. Multiple ministries and business groups contributed to the delegation.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0051",
+      "entity_slug": "matbali-musah",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0051:matbali-musah:sindumin-christmas-support-2024",
+      "title": "Provide Christmas contributions to 45 Sindumin churches",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2024-12-09",
+      "evidence_url": "https://gagasanrakyat.my/matbali-yusof-sampaikan-sumbangan-kepada-45-gereja/",
+      "description": "A party report records Matbali and Sindumin representative Yusof Yacob jointly presenting support to ten larger and 35 smaller churches.",
+      "progress_note": "This is a December 2024 report of an earlier handover, not a new November 2026 allocation. Achieved covers that joint contribution round only; recipient spending and future rounds were not verified.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "mohamad-alamin": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "siti-aminah-aching": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "matbali-musah": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

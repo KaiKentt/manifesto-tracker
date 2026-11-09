@@ -1,0 +1,127 @@
+{
+  "batch_id": "MP-0045",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0045",
+      "record_id": "MECO-HWAMS",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "hishammuddin-hussein",
+      "name": "Hishammuddin Hussein",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sembrong",
+      "state": "Johor",
+      "description": "Hishammuddin Hussein represents Sembrong, Johor, in the Dewan Rakyat. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4192",
+      "photo_path": "/portraits/hishammuddin-hussein.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P153.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4192"
+        },
+        {
+          "label": "UMNO · suspension lifted, 17 April 2026",
+          "url": "https://www.freemalaysiatoday.com/category/nation/2026/04/17/khairy-back-in-umno"
+        }
+      ],
+      "affiliation_note": "The April 2026 confirmed lifting of the UMNO suspension supersedes earlier reports of a continuing suspension. No former ministerial post is shown as current."
+    },
+    {
+      "batch_id": "MP-0045",
+      "record_id": "MECO-XZ62T",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "muhammad-islahuddin-abas",
+      "name": "Muhammad Islahuddin Abas",
+      "parent_slug": "perikatan-nasional",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Mersing",
+      "state": "Johor",
+      "description": "Muhammad Islahuddin Abas represents Mersing, Johor, in the Dewan Rakyat. Parliament records affiliation with Perikatan Nasional (PN).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4193",
+      "photo_path": "/portraits/muhammad-islahuddin-abas.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P154.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4193"
+        },
+        {
+          "label": "PN campaigning and Bersatu suspension · 3 July 2026",
+          "url": "https://www.malaysiakini.com/news/778808"
+        }
+      ],
+      "affiliation_note": "Parliament’s current PN label is retained. The July report records a Bersatu suspension; campaigning for PN is not proof of an active component-party membership or membership of Wawasan."
+    },
+    {
+      "batch_id": "MP-0045",
+      "record_id": "MECO-4TJ7C",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "manndzri-nasib",
+      "name": "Manndzri Nasib",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tenggara",
+      "state": "Johor",
+      "description": "Manndzri Nasib represents Tenggara, Johor, in the Dewan Rakyat. Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4194",
+      "photo_path": "/portraits/manndzri-nasib.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P155.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4194"
+        },
+        {
+          "label": "UMNO · current representative, 4 September 2026",
+          "url": "https://umno-online.my/2026/09/04/umno-perlu-terus-bangkit-usaha-baiki-amanah-rakyat-manndzri/"
+        }
+      ]
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "hishammuddin-hussein": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "The April 2026 confirmed lifting of the UMNO suspension supersedes earlier reports of a continuing suspension. No former ministerial post is shown as current."
+    },
+    "muhammad-islahuddin-abas": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current PN label is retained. The July report records a Bersatu suspension; campaigning for PN is not proof of an active component-party membership or membership of Wawasan."
+    },
+    "manndzri-nasib": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

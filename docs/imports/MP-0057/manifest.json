@@ -1,0 +1,190 @@
+{
+  "batch_id": "MP-0057",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0057",
+      "record_id": "MECO-9N9D2",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "rubiah-wang",
+      "name": "Rubiah Wang",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Deputy Minister of Rural and Regional Development",
+      "constituency": "Kota Samarahan",
+      "state": "Sarawak",
+      "description": "Rubiah Wang represents Kota Samarahan, Sarawak, in the Dewan Rakyat. Current role: Deputy Minister of Rural and Regional Development. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4236",
+      "photo_path": "/portraits/rubiah-wang.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P197.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4236"
+        },
+        {
+          "label": "PBB · current 2025–2028 council",
+          "url": "https://suarasarawak.my/senarai-penuh-majlis-kerja-tertinggi-mkt-pbb-sesi-2025-2028/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0057",
+      "record_id": "MECO-QM9QP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "willie-mongin",
+      "name": "Willie Mongin",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Puncak Borneo",
+      "state": "Sarawak",
+      "description": "Willie Mongin represents Puncak Borneo, Sarawak, in the Dewan Rakyat. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4237",
+      "photo_path": "/portraits/willie-mongin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P198.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4237"
+        },
+        {
+          "label": "PBB · current 2025–2028 council",
+          "url": "https://suarasarawak.my/senarai-penuh-majlis-kerja-tertinggi-mkt-pbb-sesi-2025-2028/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0057",
+      "record_id": "MECO-4YAG5",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "richard-riot-jaem",
+      "name": "Richard Riot Jaem",
+      "parent_slug": "supp",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; Deputy President of SUPP",
+      "constituency": "Serian",
+      "state": "Sarawak",
+      "description": "Richard Riot Jaem represents Serian, Sarawak, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; Deputy President of SUPP. Affiliated with SUPP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4238",
+      "photo_path": "/portraits/richard-riot-jaem.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P199.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4238"
+        },
+        {
+          "label": "SUPP · deputy president and GPS membership, 5 June 2026",
+          "url": "https://www.theborneopost.com/2026/06/05/supp-serian-ready-to-defend-seat-says-riot/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0057",
+      "entity_slug": "rubiah-wang",
+      "record_kind": "commitment",
+      "import_key": "MP-0057:rubiah-wang:orang-asli-water-projects-2026",
+      "title": "Implement 22 Orang Asli village water-supply projects",
+      "category": "Infrastructure",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-08-04",
+      "promise_url": "https://www.bernama.com/bm/news.php?id=2590336",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Rubiah announced RM3 million under RP1 RMK13 for system upgrades, pipe improvements and tube wells during 2026.",
+      "progress_note": "The funding and programme scope are reported. Completed-project counts and physical progress were not verified. The separate number of villages already served and earlier RMK12 spending are not completion of these 22 projects; the annual allocation is not converted into an exact completion deadline.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0057",
+      "entity_slug": "willie-mongin",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0057:willie-mongin:biya-jabir-road-tender",
+      "title": "Advance the Biya–Jabir road project to tender",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-09-21",
+      "evidence_url": "https://www.theborneopost.com/2026/09/21/four-high-impact-projects-underway-for-puncak-borneo-constituency/",
+      "description": "Willie reported obtaining federal approval and resolving land-compensation discussions, with the road project recently put out to tender.",
+      "progress_note": "A dated procurement-stage report, with funding and implementation shared by the relevant agencies. Tendering does not prove contract award, construction, a finished road or a completion percentage.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "supp",
+      "type": "party",
+      "parent_slug": "gabungan-parti-sarawak",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Sarawak United Peoples’ Party",
+      "short_name": "SUPP",
+      "description": "A component party of Gabungan Parti Sarawak (GPS).",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "SUPP · GPS membership and deputy president, June 2026",
+          "url": "https://www.theborneopost.com/2026/06/05/supp-serian-ready-to-defend-seat-says-riot/"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/supp.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Parti-Rakyat-Bersatu-Sarawak.webp"
+    }
+  ],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "rubiah-wang": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "willie-mongin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "richard-riot-jaem": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

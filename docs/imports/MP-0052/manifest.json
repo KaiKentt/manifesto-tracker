@@ -1,0 +1,213 @@
+{
+  "batch_id": "MP-0052",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0052",
+      "record_id": "MECO-02XAB",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "jonathan-yasin",
+      "name": "Jonathan Yasin",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Ranau",
+      "state": "Sabah",
+      "description": "Jonathan Yasin represents Ranau, Sabah, in the Dewan Rakyat. Parliament records affiliation with Gabungan Rakyat Sabah (GRS).",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4218",
+      "photo_path": "/portraits/jonathan-yasin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P179.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4218"
+        },
+        {
+          "label": "GRS MPs · current representation, 9 January 2026",
+          "url": "https://gagasanrakyat.my/empat-kerusi-parlimen-sabah-kekal-mahkamah-persekutuan-tolak-permohonan-bersatu/"
+        }
+      ],
+      "affiliation_note": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    },
+    {
+      "batch_id": "MP-0052",
+      "record_id": "MECO-49PCD",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "jeffrey-kitingan",
+      "name": "Jeffrey Kitingan",
+      "parent_slug": "star",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; President of STAR",
+      "constituency": "Keningau",
+      "state": "Sabah",
+      "description": "Jeffrey Kitingan represents Keningau, Sabah, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; President of STAR. Affiliated with STAR. STAR is separate from GRS following its October 2025 exit.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4219",
+      "photo_path": "/portraits/jeffrey-kitingan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P180.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4219"
+        },
+        {
+          "label": "STAR · coalition exit, 2 October 2025",
+          "url": "https://www.malaysiakini.com/news/756847"
+        },
+        {
+          "label": "STAR · current president and separate Sabah government support, 16 April 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/04/16/sabah-star-defends-kitingan-agency-role"
+        },
+        {
+          "label": "Federal government-bloc context · 3 March 2026",
+          "url": "https://theedgemalaysia.com/node/794820"
+        }
+      ],
+      "affiliation_note": "STAR’s October 2025 departure from GRS supersedes Parliament’s retained GRS party label. The party is a separate government-supporting organisation, not a current GRS component. State support and federal classification are distinct."
+    },
+    {
+      "batch_id": "MP-0052",
+      "record_id": "MECO-1BG4V",
+      "office_kind": "mp",
+      "parent_kind": "bloc",
+      "slug": "riduan-rubin",
+      "name": "Riduan Rubin",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tenom",
+      "state": "Sabah",
+      "description": "Riduan Rubin represents Tenom, Sabah, in the Dewan Rakyat. An independent MP supporting the federal government. KDM affiliation is reported separately; Parliament retains the independent label.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4220",
+      "photo_path": "/portraits/riduan-rubin.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P181.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4220"
+        },
+        {
+          "label": "Independent · government-bloc context, 3 March 2026",
+          "url": "https://theedgemalaysia.com/node/794820"
+        },
+        {
+          "label": "KDM affiliation reported separately · 15 August 2026",
+          "url": "https://www.malaysiakini.com/news/782229"
+        }
+      ],
+      "affiliation_note": "Parliament lists BEBAS. An August article counts him among KDM’s two MPs, while other reporting calls him independent. The conservative parliamentary independent label is retained under government support; formal party membership is left unresolved."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0052",
+      "entity_slug": "jonathan-yasin",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0052:jonathan-yasin:ranau-hospital-patient-support",
+      "title": "Continue the reported support for bedridden Hospital Ranau patients",
+      "category": "Health",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-19",
+      "evidence_url": "https://www.borneodailybulletin.com/jonathan-perkukuh-inisiatif-kebajikan-pembangunan-rakyat-ranau/",
+      "description": "Jonathan’s constituency welfare report states that its free-treatment support initiative for bedridden hospital patients remained active.",
+      "progress_note": "A January activity report, not a verified entitlement for every patient. No independently audited beneficiary count, expenditure total, completion target or later continuation record was established.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0052",
+      "entity_slug": "riduan-rubin",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0052:riduan-rubin:tenom-flood-relief-2026",
+      "title": "Deliver food and essentials to Tenom flood-relief centres",
+      "category": "Social Welfare",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-02-28",
+      "evidence_url": "https://www.bernama.com/en/general/news.php?id=2528698",
+      "description": "Riduan’s team reported initial deliveries to Melalap and Kemabong relief centres, with partner agencies and youth volunteers, plus water supplies for Kuala Tomani frontline services.",
+      "progress_note": "Achieved covers the reported initial relief deliveries. It does not claim all affected families were served, that flooding ended or that the MP alone delivered the response.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "star",
+      "type": "party",
+      "parent_slug": "government",
+      "parent_kind": "bloc",
+      "bloc": "government",
+      "name": "Parti Solidariti Tanah Airku",
+      "short_name": "STAR",
+      "description": "A separate government-supporting Sabah party. It left GRS in October 2025 and is not presented as a current GRS component.",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "STAR · GRS exit, October 2025",
+          "url": "https://www.malaysiakini.com/news/756847"
+        },
+        {
+          "label": "STAR · separate Sabah support, April 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/04/16/sabah-star-defends-kitingan-agency-role"
+        },
+        {
+          "label": "Federal government-bloc context · March 2026",
+          "url": "https://theedgemalaysia.com/node/794820"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/star.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Group-116.webp"
+    }
+  ],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "jonathan-yasin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current GRS coalition label is retained. Service addresses, event attendance and earlier Bersatu membership are not used to assign a current component party. No court judgment is converted into a delivery milestone."
+    },
+    "jeffrey-kitingan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "STAR’s October 2025 departure from GRS supersedes Parliament’s retained GRS party label. The party is a separate government-supporting organisation, not a current GRS component. State support and federal classification are distinct."
+    },
+    "riduan-rubin": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament lists BEBAS. An August article counts him among KDM’s two MPs, while other reporting calls him independent. The conservative parliamentary independent label is retained under government support; formal party membership is left unresolved."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

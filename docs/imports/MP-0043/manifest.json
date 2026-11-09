@@ -1,0 +1,223 @@
+{
+  "batch_id": "MP-0043",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0043",
+      "record_id": "MECO-8SS82",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "syed-saddiq-syed-abdul-rahman",
+      "name": "Syed Saddiq Syed Abdul Rahman",
+      "parent_slug": "muda",
+      "bloc": "opposition",
+      "position": "Member of the Dewan Rakyat; Founder and former president of MUDA",
+      "constituency": "Muar",
+      "state": "Johor",
+      "description": "Syed Saddiq Syed Abdul Rahman represents Muar, Johor, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; Founder and former president of MUDA. Affiliated with MUDA.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4185",
+      "photo_path": "/portraits/syed-saddiq-syed-abdul-rahman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P146.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4185"
+        },
+        {
+          "label": "MUDA · current October CSA signatory",
+          "url": "https://www.bernama.com/bm/am/news.php?id=2627381"
+        },
+        {
+          "label": "MUDA · independent opposition position, March 2026",
+          "url": "https://malaysiagazette.com/2026/03/28/konflik-asia-barat-muda-sokong-cadangan-dr-sam-tubuh-j-kuasa-dwipartisan/"
+        },
+        {
+          "label": "MUDA · March 2026 leadership election",
+          "url": "https://www.bernama.com/bm/news.php?id=2534534"
+        }
+      ],
+      "affiliation_note": "MUDA remains outside the government and outside PN. Signing the October CSA does not prove party membership of PH or a later budget vote. The party elected Amira Aisya president in March 2026; Syed Saddiq is not presented as its current president."
+    },
+    {
+      "batch_id": "MP-0043",
+      "record_id": "MECO-PEF78",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wee-ka-siong",
+      "name": "Wee Ka Siong",
+      "parent_slug": "mca",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; President of MCA",
+      "constituency": "Ayer Hitam",
+      "state": "Johor",
+      "description": "Wee Ka Siong represents Ayer Hitam, Johor, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; President of MCA. Affiliated with MCA.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4187",
+      "photo_path": "/portraits/wee-ka-siong.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P148.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4187"
+        },
+        {
+          "label": "MCA representative · Ramadan constituency funding, 4 March 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/03/04/dr-wee-provides-funding-for-community-activities-in-local-mosques-surau-in-ayer-hitam"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0043",
+      "record_id": "MECO-G2XF4",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "aminolhuda-hassan",
+      "name": "Aminolhuda Hassan",
+      "parent_slug": "amanah",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sri Gading",
+      "state": "Johor",
+      "description": "Aminolhuda Hassan represents Sri Gading, Johor, in the Dewan Rakyat. Affiliated with AMANAH.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4188",
+      "photo_path": "/portraits/aminolhuda-hassan.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P149.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4188"
+        },
+        {
+          "label": "AMANAH · Johor leadership, 20 June 2026",
+          "url": "https://www.astroawani.com/berita-politik/prn-johor-amanah-pertaruh-13-muka-baharu"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0043",
+      "entity_slug": "syed-saddiq-syed-abdul-rahman",
+      "record_kind": "commitment",
+      "import_key": "MP-0043:syed-saddiq-syed-abdul-rahman:muar-food-and-laptops",
+      "title": "Fund 1,000 food baskets and 30 laptops for Muar",
+      "category": "Social Welfare",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-06-23",
+      "promise_url": "https://www.siakapkeli.my/articles/syed-saddiq-salur-rm115000-hasil-kerja-sambilan-untuk-bantu-penduduk-muar",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Syed Saddiq pledged RM115,000 from filming work to buy the assistance items for constituents in need.",
+      "progress_note": "The article reports an intended contribution and shows some purchases. It does not verify that all baskets and laptops were delivered, so no completion percentage or achieved status is assigned.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0043",
+      "entity_slug": "syed-saddiq-syed-abdul-rahman",
+      "record_kind": "commitment",
+      "import_key": "MP-0043:syed-saddiq-syed-abdul-rahman:budget-2027-csa",
+      "title": "Support Supply Bill 2027 under the confidence-and-supply agreement",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://www.bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Signed the agreement committing support for the 2027 Supply Bill.",
+      "progress_note": "The agreement is documented. A subsequent budget vote or final passage was not established in this pass; signing is not counted as delivery of the bill or joining another party.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0043",
+      "entity_slug": "wee-ka-siong",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0043:wee-ka-siong:ramadan-mosque-surau-funding",
+      "title": "Provide Ramadan activity funding to Ayer Hitam mosques and suraus",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-03-04",
+      "evidence_url": "https://www.thestar.com.my/news/nation/2026/03/04/dr-wee-provides-funding-for-community-activities-in-local-mosques-surau-in-ayer-hitam",
+      "description": "Wee’s reported constituency funding supported imam and bilal activities across 29 mosques and 88 suraus.",
+      "progress_note": "A dated funding presentation report for this Ramadan round. It does not measure recipients’ later spending, religious outcomes or coverage of future annual rounds.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [
+    {
+      "slug": "muda",
+      "type": "party",
+      "parent_slug": "opposition",
+      "parent_kind": "bloc",
+      "bloc": "opposition",
+      "name": "Malaysian United Democratic Alliance",
+      "short_name": "MUDA",
+      "description": "An opposition party outside PN. The October 2026 confidence-and-supply agreement does not establish government or PH membership.",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "MUDA · current signatory and separate party identity",
+          "url": "https://www.bernama.com/bm/am/news.php?id=2627381"
+        },
+        {
+          "label": "MUDA · opposition position, March 2026",
+          "url": "https://malaysiagazette.com/2026/03/28/konflik-asia-barat-muda-sokong-cadangan-dr-sam-tubuh-j-kuasa-dwipartisan/"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/muda.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2026/06/MUDA.jpg"
+    }
+  ],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "syed-saddiq-syed-abdul-rahman": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "MUDA remains outside the government and outside PN. Signing the October CSA does not prove party membership of PH or a later budget vote. The party elected Amira Aisya president in March 2026; Syed Saddiq is not presented as its current president."
+    },
+    "wee-ka-siong": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "aminolhuda-hassan": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

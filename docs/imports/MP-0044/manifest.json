@@ -1,0 +1,129 @@
+{
+  "batch_id": "MP-0044",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0044",
+      "record_id": "MECO-402M7",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "onn-abu-bakar",
+      "name": "Onn Abu Bakar",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Batu Pahat",
+      "state": "Johor",
+      "description": "Onn Abu Bakar represents Batu Pahat, Johor, in the Dewan Rakyat. Affiliated with PKR.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4189",
+      "photo_path": "/portraits/onn-abu-bakar.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P150.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4189"
+        },
+        {
+          "label": "PKR · current parliamentary representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0044",
+      "record_id": "MECO-6E476",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "hasni-mohammad",
+      "name": "Hasni Mohammad",
+      "parent_slug": "umno",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; Chair of the Malaysian Highway Authority (LLM)",
+      "constituency": "Simpang Renggam",
+      "state": "Johor",
+      "description": "Hasni Mohammad represents Simpang Renggam, Johor, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; Chair of the Malaysian Highway Authority (LLM). Affiliated with UMNO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4190",
+      "photo_path": "/portraits/hasni-mohammad.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P151.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4190"
+        },
+        {
+          "label": "UMNO · personal party statement, 12 March 2026",
+          "url": "https://www.sinarharian.com.my/article/771440/berita/politik/rumah-bangsa-inisiatif-umno-untuk-semua---hasni"
+        },
+        {
+          "label": "LLM · chair’s current term, November 2025–November 2027",
+          "url": "https://www.llm.gov.my/corporate_info/director"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0044",
+      "record_id": "MECO-EXE3H",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wong-shu-qi",
+      "name": "Wong Shu Qi",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kluang",
+      "state": "Johor",
+      "description": "Wong Shu Qi represents Kluang, Johor, in the Dewan Rakyat. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4191",
+      "photo_path": "/portraits/wong-shu-qi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P152.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4191"
+        },
+        {
+          "label": "DAP · current Johor representatives",
+          "url": "https://dapmalaysia.org/johor-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "onn-abu-bakar": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "hasni-mohammad": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "wong-shu-qi": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

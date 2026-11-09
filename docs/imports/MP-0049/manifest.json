@@ -1,0 +1,217 @@
+{
+  "batch_id": "MP-0049",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0049",
+      "record_id": "MECO-4GK0S",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wetrom-bahanda",
+      "name": "Wetrom Bahanda",
+      "parent_slug": "kdm",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kota Marudu",
+      "state": "Sabah",
+      "description": "Wetrom Bahanda represents Kota Marudu, Sabah, in the Dewan Rakyat. Affiliated with KDM.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4207",
+      "photo_path": "/portraits/wetrom-bahanda.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P168.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4207"
+        },
+        {
+          "label": "KDM · current deputy president, 13 August 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/08/13/sabahs-bahanda-brothers-eyeing-return-to-bn"
+        },
+        {
+          "label": "KDM · Sabah state-government withdrawal, 15 August 2026",
+          "url": "https://www.malaysiakini.com/news/782229"
+        }
+      ],
+      "affiliation_note": "Parliament lists KDM and the August report identifies Wetrom as its deputy president. Speculation about joining BN is not recorded as a move. KDM’s withdrawal concerned Sabah’s state government; it is not treated as a federal withdrawal."
+    },
+    {
+      "batch_id": "MP-0049",
+      "record_id": "ROSTER-1C2EEB4E185C",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "isnaraissah-munirah-majilis",
+      "name": "Isnaraissah Munirah Majilis",
+      "parent_slug": "warisan",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kota Belud",
+      "state": "Sabah",
+      "description": "Isnaraissah Munirah Majilis represents Kota Belud, Sabah, in the Dewan Rakyat. Affiliated with WARISAN.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4208",
+      "photo_path": "/portraits/isnaraissah-munirah-majilis.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P169.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4208"
+        },
+        {
+          "label": "Representative · own constituency profile",
+          "url": "https://munirahmajilis.my/profil"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0049",
+      "record_id": "MECO-ACACF",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "madius-tangau",
+      "name": "Madius Tangau",
+      "parent_slug": "upko",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tuaran",
+      "state": "Sabah",
+      "description": "Madius Tangau represents Tuaran, Sabah, in the Dewan Rakyat. Affiliated with UPKO.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4209",
+      "photo_path": "/portraits/madius-tangau.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P170.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4209"
+        },
+        {
+          "label": "UPKO · Tuaran representative, 20 March 2026",
+          "url": "https://www.freemalaysiatoday.com/category/nation/2026/03/20/help-fund-suit-over-continental-shelf-rights-mp-urges-sabah-reps"
+        },
+        {
+          "label": "GRS · UPKO admission, 18 June 2026",
+          "url": "https://www.nst.com.my/amp/news/regional/2026/06/1466676/grs-accepts-upko-newest-component-party"
+        }
+      ],
+      "affiliation_note": "The 18 June 2026 admission of UPKO into GRS supersedes its earlier PH alignment. Former leadership titles are not presented as current."
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [
+    {
+      "slug": "kdm",
+      "type": "party",
+      "parent_slug": "government",
+      "parent_kind": "bloc",
+      "bloc": "government",
+      "name": "Parti Kesejahteraan Demokratik Masyarakat",
+      "short_name": "KDM",
+      "description": "A separate Sabah-based party supporting the federal government. Its August 2026 withdrawal concerned the GRS-led Sabah state government; it is not listed here as a GRS component.",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · current KDM representative",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4207"
+        },
+        {
+          "label": "KDM · state-government withdrawal, August 2026",
+          "url": "https://www.malaysiakini.com/news/782229"
+        },
+        {
+          "label": "Federal government composition · March 2026",
+          "url": "https://theedgemalaysia.com/node/794820"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/kdm.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Group-77.webp"
+    },
+    {
+      "slug": "warisan",
+      "type": "party",
+      "parent_slug": "government",
+      "parent_kind": "bloc",
+      "bloc": "government",
+      "name": "Parti Warisan",
+      "short_name": "WARISAN",
+      "description": "A Sabah-based party supporting the federal Unity Government. Its state-level opposition role is separate from federal alignment.",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "WARISAN · federal-government support confirmed, August 2026",
+          "url": "https://www.bernama.com/en/news.php?id=2589775"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/warisan.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Group-80.webp"
+    },
+    {
+      "slug": "upko",
+      "type": "party",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "United Progressive Kinabalu Organisation",
+      "short_name": "UPKO",
+      "description": "A component of Gabungan Rakyat Sabah (GRS), admitted on 18 June 2026.",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "GRS · UPKO admission, June 2026",
+          "url": "https://www.nst.com.my/amp/news/regional/2026/06/1466676/grs-accepts-upko-newest-component-party"
+        },
+        {
+          "label": "UPKO · current leadership",
+          "url": "https://www.upko.org/amt.html"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/upko.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Group-67.webp"
+    }
+  ],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "wetrom-bahanda": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament lists KDM and the August report identifies Wetrom as its deputy president. Speculation about joining BN is not recorded as a move. KDM’s withdrawal concerned Sabah’s state government; it is not treated as a federal withdrawal."
+    },
+    "isnaraissah-munirah-majilis": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "madius-tangau": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "The 18 June 2026 admission of UPKO into GRS supersedes its earlier PH alignment. Former leadership titles are not presented as current."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

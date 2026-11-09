@@ -1,0 +1,148 @@
+{
+  "batch_id": "MP-0048",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0048",
+      "record_id": "MECO-1F8Q6",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "wee-jeck-seng",
+      "name": "Wee Jeck Seng",
+      "parent_slug": "mca",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Tanjung Piai",
+      "state": "Johor",
+      "description": "Wee Jeck Seng represents Tanjung Piai, Johor, in the Dewan Rakyat. Affiliated with MCA.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4204",
+      "photo_path": "/portraits/wee-jeck-seng.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P165.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4204"
+        },
+        {
+          "label": "MCA · current vice-president, 20 August 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/08/20/new-rm1mil-allocation-welcomed"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0048",
+      "record_id": "ROSTER-FBE27356114F",
+      "office_kind": "mp",
+      "parent_kind": "bloc",
+      "slug": "suhaili-abdul-rahman",
+      "name": "Suhaili Abdul Rahman",
+      "parent_slug": "government",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Labuan",
+      "state": "Labuan",
+      "description": "Suhaili Abdul Rahman represents Labuan, Labuan, in the Dewan Rakyat. An independent MP supporting the federal government.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4205",
+      "photo_path": "/portraits/suhaili-abdul-rahman.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P166.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4205"
+        },
+        {
+          "label": "Independent government support · CSA, 29 October 2026",
+          "url": "https://www.bernama.com/bm/am/news.php?id=2627381"
+        }
+      ],
+      "affiliation_note": "Independent MP supporting the government; the October CSA is separate from party membership and does not prove a subsequent budget vote."
+    },
+    {
+      "batch_id": "MP-0048",
+      "record_id": "MECO-KNDVV",
+      "office_kind": "mp",
+      "parent_kind": null,
+      "slug": "verdon-bahanda",
+      "name": "Verdon Bahanda",
+      "parent_slug": null,
+      "bloc": "independent",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kudat",
+      "state": "Sabah",
+      "description": "Verdon Bahanda represents Kudat, Sabah, in the Dewan Rakyat. Parliament lists him as independent; no party or federal bloc is assigned in this review.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4206",
+      "photo_path": "/portraits/verdon-bahanda.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P167.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4206"
+        },
+        {
+          "label": "Independent status · personal statement, 13 August 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/08/13/sabahs-bahanda-brothers-eyeing-return-to-bn"
+        }
+      ],
+      "affiliation_note": "Parliament lists BEBAS and the August report identifies him as independent. Reported negotiations about joining BN are not a completed membership change. A current federal government/opposition commitment was not established, so bloc and party remain unassigned."
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0048",
+      "entity_slug": "suhaili-abdul-rahman",
+      "record_kind": "commitment",
+      "import_key": "MP-0048:suhaili-abdul-rahman:budget-2027-csa",
+      "title": "Support Supply Bill 2027 under the confidence-and-supply agreement",
+      "category": "Governance",
+      "status": null,
+      "progress": null,
+      "target_date": null,
+      "promise_date": "2026-10-29",
+      "promise_url": "https://www.bernama.com/bm/am/news.php?id=2627381",
+      "evidence_date": null,
+      "evidence_url": null,
+      "description": "Signed the agreement committing support for the 2027 Supply Bill.",
+      "progress_note": "The agreement is documented. A subsequent budget vote or final passage was not established in this pass; signing is not counted as delivery of the bill or joining another party.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "wee-jeck-seng": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "suhaili-abdul-rahman": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Independent MP supporting the government; the October CSA is separate from party membership and does not prove a subsequent budget vote."
+    },
+    "verdon-bahanda": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament lists BEBAS and the August report identifies him as independent. Reported negotiations about joining BN are not a completed membership change. A current federal government/opposition commitment was not established, so bloc and party remain unassigned."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

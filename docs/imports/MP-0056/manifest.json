@@ -1,0 +1,223 @@
+{
+  "batch_id": "MP-0056",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0056",
+      "record_id": "MECO-RGV1N",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mordi-bimol",
+      "name": "Mordi Bimol",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Deputy Minister of Youth and Sports",
+      "constituency": "Mas Gading",
+      "state": "Sarawak",
+      "description": "Mordi Bimol represents Mas Gading, Sarawak, in the Dewan Rakyat. Current role: Deputy Minister of Youth and Sports. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4231",
+      "photo_path": "/portraits/mordi-bimol.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P192.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4231"
+        },
+        {
+          "label": "DAP · current Sarawak representatives",
+          "url": "https://dapmalaysia.org/sarawak-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0056",
+      "record_id": "MECO-NAC5F",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "kelvin-yii-lee-wuen",
+      "name": "Kelvin Yii Lee Wuen",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Bandar Kuching",
+      "state": "Sarawak",
+      "description": "Kelvin Yii Lee Wuen represents Bandar Kuching, Sarawak, in the Dewan Rakyat. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4234",
+      "photo_path": "/portraits/kelvin-yii-lee-wuen.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P195.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4234"
+        },
+        {
+          "label": "DAP · current Sarawak representatives",
+          "url": "https://dapmalaysia.org/sarawak-representatives/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0056",
+      "record_id": "MECO-XSNEP",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "chong-chieng-jen",
+      "name": "Chong Chieng Jen",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Stampin",
+      "state": "Sarawak",
+      "description": "Chong Chieng Jen represents Stampin, Sarawak, in the Dewan Rakyat. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4235",
+      "photo_path": "/portraits/chong-chieng-jen.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P196.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4235"
+        },
+        {
+          "label": "DAP · current Sarawak representatives",
+          "url": "https://dapmalaysia.org/sarawak-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0056",
+      "entity_slug": "mordi-bimol",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0056:mordi-bimol:youth-budget-consultation-tour",
+      "title": "Complete six youth-budget consultation stops",
+      "category": "Governance",
+      "status": "in_progress",
+      "progress": 50,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-09-19",
+      "evidence_url": "https://www.bernama.com/radio/news.php?id=2609302",
+      "description": "Mordi reported three of six Jelajah Kita Dengar consultation stops completed, with Sabah, the Southern Zone and Sarawak still scheduled.",
+      "progress_note": "Progress is 3 completed stops / 6 planned stops = 50%, as reported on 19 September. This is a historical event-count snapshot. The remaining stops and delivery of a memorandum to the Prime Minister were not verified; their scheduled dates do not prove completion.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0056",
+      "entity_slug": "kelvin-yii-lee-wuen",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0056:kelvin-yii-lee-wuen:sgh-equipment-allocation",
+      "title": "Provide RM100,000 for Sarawak General Hospital equipment and facilities",
+      "category": "Health",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-27",
+      "evidence_url": "https://en.dapsarawak.org/rm100000-allocation-by-bandar-kuching-mp-boosts-equipment-and-facility-upgrades-at-sarawak-general-hospital/",
+      "description": "Kelvin’s office reported handing over the allocation for computers, seating and other essential hospital equipment.",
+      "progress_note": "The dated party report establishes the funding handover, not completed procurement, installed equipment or measured clinical improvements. The exact earlier handover day is not specified.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0056",
+      "entity_slug": "kelvin-yii-lee-wuen",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0056:kelvin-yii-lee-wuen:2025-constituency-allocation-report",
+      "title": "Publish the reported use of RM4.2 million in 2025 constituency allocations",
+      "category": "Governance",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-01-26",
+      "evidence_url": "https://www.theborneopost.com/2026/01/26/bandar-kuching-mp-releases-report-card-2025/",
+      "description": "Kelvin released his 2025 report card, describing education, healthcare, welfare and community initiatives funded from the constituency allocation.",
+      "progress_note": "Achieved covers publication of the report card. Spending figures are the MP’s reported 2025 totals, not an independent audit or a November 2026 measurement. The education budget share is not a completion percentage.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0056",
+      "entity_slug": "chong-chieng-jen",
+      "record_kind": "commitment",
+      "import_key": "MP-0056:chong-chieng-jen:stampin-classroom-smart-tvs",
+      "title": "Equip national-school classrooms in Stampin with smart TVs",
+      "category": "Education",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": "2027-12-31",
+      "promise_date": "2026-03-19",
+      "promise_url": "https://en.dapsarawak.org/all-schools-in-stampin-to-be-equipped-with-smart-tvs-by-next-year-says-chong/",
+      "evidence_date": "2026-09-30",
+      "evidence_url": "https://en.dapsarawak.org/rm202500-boosts-digital-learning-at-two-schools-in-stampin-parliament/",
+      "description": "Chong set a goal to extend the classroom digital-teaching initiative to 15 primary and three secondary national schools by 2026, or at the latest 2027.",
+      "progress_note": "The 30 September follow-up reports allocations for SK Satria Jaya and SK Sungai Stutong, with some Primary One classrooms still needing equipment. These school-specific figures do not establish all-constituency completion. The outer year-only deadline uses 31 December 2027; the earlier 2026 ambition is retained here.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "mordi-bimol": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "kelvin-yii-lee-wuen": {
+      "milestones_added": 2,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "chong-chieng-jen": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {
+    "MP-0056:mordi-bimol:youth-budget-consultation-tour": {
+      "numerator": 3,
+      "denominator": 6,
+      "unit": "completed youth-budget consultation stops",
+      "metric_date": "2026-09-19",
+      "source_url": "https://www.bernama.com/radio/news.php?id=2609302",
+      "note": "A historical same-scope count ratio, rounded to the nearest integer; not a current November measurement or a cost-weighted physical-completion figure."
+    }
+  },
+  "published_progress": {},
+  "target_sources": {
+    "MP-0056:chong-chieng-jen:stampin-classroom-smart-tvs": {
+      "target_date": "2027-12-31",
+      "date_precision": "year",
+      "source_date": "2026-03-19",
+      "url": "https://en.dapsarawak.org/all-schools-in-stampin-to-be-equipped-with-smart-tvs-by-next-year-says-chong/",
+      "note": "Published year schedule. An end-of-period marker is used for year-only dates; no exact-day promise is invented."
+    }
+  }
+}

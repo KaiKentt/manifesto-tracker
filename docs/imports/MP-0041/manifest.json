@@ -1,0 +1,150 @@
+{
+  "batch_id": "MP-0041",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0041",
+      "record_id": "MECO-88Y9S",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "r-yuneswaran",
+      "name": "R. Yuneswaran",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Deputy Minister of National Unity",
+      "constituency": "Segamat",
+      "state": "Johor",
+      "description": "R. Yuneswaran represents Segamat, Johor, in the Dewan Rakyat. Current role: Deputy Minister of National Unity. Affiliated with PKR.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4179",
+      "photo_path": "/portraits/r-yuneswaran.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P140.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4179"
+        },
+        {
+          "label": "PKR · current parliamentary representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0041",
+      "record_id": "MECO-MX9SH",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "zaliha-mustafa",
+      "name": "Zaliha Mustafa",
+      "parent_slug": "pkr",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sekijang",
+      "state": "Johor",
+      "description": "Zaliha Mustafa represents Sekijang, Johor, in the Dewan Rakyat. Affiliated with PKR.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4180",
+      "photo_path": "/portraits/zaliha-mustafa.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/Sekijang.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4180"
+        },
+        {
+          "label": "PKR · current parliamentary representatives",
+          "url": "https://keadilanrakyat.org/wakil-rakyat/"
+        },
+        {
+          "label": "Backbenchers Club · chair appointment, January 2026",
+          "url": "https://www.bernama.com/en/general/news.php?id=2515469"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0041",
+      "record_id": "MECO-GZSAT",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "pang-hok-liong",
+      "name": "Pang Hok Liong",
+      "parent_slug": "dap",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Labis",
+      "state": "Johor",
+      "description": "Pang Hok Liong represents Labis, Johor, in the Dewan Rakyat. Affiliated with DAP.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4181",
+      "photo_path": "/portraits/pang-hok-liong.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P142.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4181"
+        },
+        {
+          "label": "DAP · current Johor representatives",
+          "url": "https://dapmalaysia.org/johor-representatives/"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0041",
+      "entity_slug": "zaliha-mustafa",
+      "record_kind": "documented_activity",
+      "import_key": "MP-0041:zaliha-mustafa:temangau-bridge-preparation",
+      "title": "Advance preparations to rebuild Jambatan Temangau",
+      "category": "Infrastructure",
+      "status": "in_progress",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-21",
+      "evidence_url": "https://themalaysiapress.com/2026/05/21/jambatan-temangau-bakal-dibina-semula-legakan-22000-penduduk-kemelah-medoi/",
+      "description": "Zaliha reported that final preparations were underway for the RM3 million, 50-metre replacement bridge serving Kemelah and Medoi, following the 2023 flood damage.",
+      "progress_note": "A May pre-construction snapshot. PETRA, JPS and implementing agencies share responsibility. A construction start, finished bridge, exact deadline and numerical completion metric were not verified.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "r-yuneswaran": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "zaliha-mustafa": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "pang-hok-liong": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

@@ -1,0 +1,154 @@
+{
+  "batch_id": "MP-0055",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0055",
+      "record_id": "MECO-ZJCXS",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohd-shafie-apdal",
+      "name": "Mohd Shafie Apdal",
+      "parent_slug": "warisan",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; President of WARISAN",
+      "constituency": "Semporna",
+      "state": "Sabah",
+      "description": "Mohd Shafie Apdal represents Semporna, Sabah, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; President of WARISAN. Affiliated with WARISAN.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4228",
+      "photo_path": "/portraits/mohd-shafie-apdal.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P189.png",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4228"
+        },
+        {
+          "label": "WARISAN · current president, 25 October 2026",
+          "url": "https://www.utusanborneo.com.my/2026/10/25/shafie-tidak-tolak-campur-tangan-luar-dalam-pemilihan-warisan"
+        },
+        {
+          "label": "WARISAN · federal-government support, 3 August 2026",
+          "url": "https://www.bernama.com/en/news.php?id=2589775"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0055",
+      "record_id": "MECO-YVC7Y",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "lo-su-fui",
+      "name": "Lo Su Fui",
+      "parent_slug": "pbs",
+      "bloc": "government",
+      "position": "Deputy Minister in the Prime Minister’s Department (Federal Territories); Deputy President of PBS",
+      "constituency": "Tawau",
+      "state": "Sabah",
+      "description": "Lo Su Fui represents Tawau, Sabah, in the Dewan Rakyat. Current role: Deputy Minister in the Prime Minister’s Department (Federal Territories); Deputy President of PBS. Affiliated with PBS.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4229",
+      "photo_path": "/portraits/lo-su-fui.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/tawau%20P190.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4229"
+        },
+        {
+          "label": "PBS · current deputy president and GRS cooperation, 27 September 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/09/27/joachim-officially-takes-helm-of-pbs"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0055",
+      "record_id": "MECO-K58M4",
+      "office_kind": "mp",
+      "parent_kind": "alliance",
+      "slug": "andi-muhammad-suryady-bandy",
+      "name": "Andi Muhammad Suryady Bandy",
+      "parent_slug": "barisan-nasional",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Kalabakan",
+      "state": "Sabah",
+      "description": "Andi Muhammad Suryady Bandy represents Kalabakan, Sabah, in the Dewan Rakyat. Parliament records affiliation with Barisan Nasional (BN). Reports of suspended UMNO membership are recorded in the profile sources.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4230",
+      "photo_path": "/portraits/andi-muhammad-suryady-bandy.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P191.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4230"
+        },
+        {
+          "label": "UMNO membership suspension · 17 March 2026",
+          "url": "https://www.dailyexpress.com.my/news/277915/kalabakan-umno-opens-doors-to-former-suspended-members"
+        }
+      ],
+      "affiliation_note": "Parliament’s current BN label is retained. March 2026 reporting describes a continuing six-year UMNO suspension; active component-party membership or reinstatement was not established."
+    }
+  ],
+  "milestones": [],
+  "party_parents_added": [
+    {
+      "slug": "pbs",
+      "type": "party",
+      "parent_slug": "gabungan-rakyat-sabah",
+      "parent_kind": "alliance",
+      "bloc": "government",
+      "name": "Parti Bersatu Sabah",
+      "short_name": "PBS",
+      "description": "A component party of Gabungan Rakyat Sabah (GRS).",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "PBS · current leadership and GRS cooperation, September 2026",
+          "url": "https://www.thestar.com.my/news/nation/2026/09/27/joachim-officially-takes-helm-of-pbs"
+        },
+        {
+          "label": "SPR · current registered party emblems",
+          "url": "https://www.spr.gov.my/parti-parti-yang-berdaftar/"
+        }
+      ],
+      "logo_path": "/logos/pbs.webp",
+      "logo_source_url": "https://spr.gov.my/wp-content/uploads/2024/10/Parti-Bersatu-Sabah-PBS.png"
+    }
+  ],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "mohd-shafie-apdal": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "lo-su-fui": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "andi-muhammad-suryady-bandy": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Parliament’s current BN label is retained. March 2026 reporting describes a continuing six-year UMNO suspension; active component-party membership or reinstatement was not established."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}

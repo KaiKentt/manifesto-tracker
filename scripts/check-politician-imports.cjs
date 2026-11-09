@@ -43,6 +43,9 @@ for (const batch of batches) {
       assert.equal(p.bloc, 'independent');
       assert.equal(p.constituency, null);
       assert.equal(p.state, null);
+    } else if (p.office_kind === 'mp' && p.parent_slug === null && p.bloc === 'independent') {
+      assert.equal(p.parent_kind, null, 'An unassigned independent MP must not inherit a parent type.');
+      assert.ok(p.name && p.affiliation_note, 'An unassigned MP needs an explicit sourced affiliation review.');
     } else {
       assert.ok(p.parent_slug || existing?.parent_id);
       if (!p.name || !p.parent_slug) assert.equal(existing?.type, 'politician', 'An enrichment must retain an existing politician identity.');

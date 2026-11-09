@@ -1,0 +1,167 @@
+{
+  "batch_id": "MP-0058",
+  "checked_at": "2026-11-10",
+  "profiles": [
+    {
+      "batch_id": "MP-0058",
+      "record_id": "MECO-3KPVH",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "rodiyah-sapiee",
+      "name": "Rodiyah Sapiee",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Batang Sadong",
+      "state": "Sarawak",
+      "description": "Rodiyah Sapiee represents Batang Sadong, Sarawak, in the Dewan Rakyat. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4239",
+      "photo_path": "/portraits/rodiyah-sapiee.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P200.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4239"
+        },
+        {
+          "label": "PBB · Padungan branch leadership, 5 August 2026",
+          "url": "https://suarasarawak.my/pbb-padungan-bincang-persiapan-konvensyen-zon-selatan/"
+        }
+      ],
+      "affiliation_note": "Current PBB branch leadership is supported by August reporting, alongside Parliament’s GPS constituency listing."
+    },
+    {
+      "batch_id": "MP-0058",
+      "record_id": "MECO-AF303",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "mohamad-shafizan-kepli",
+      "name": "Mohamad Shafizan Kepli",
+      "parent_slug": "pbb",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat; SEDA Malaysia board member",
+      "constituency": "Batang Lupar",
+      "state": "Sarawak",
+      "description": "Mohamad Shafizan Kepli represents Batang Lupar, Sarawak, in the Dewan Rakyat. Current role: Member of the Dewan Rakyat; SEDA Malaysia board member. Affiliated with PBB.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4240",
+      "photo_path": "/portraits/mohamad-shafizan-kepli.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P201.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4240"
+        },
+        {
+          "label": "SEDA · current board member and PBB leadership",
+          "url": "https://www.seda.gov.my/ms/berkenaan-seda/anggota-pihak-berkuasa/"
+        }
+      ]
+    },
+    {
+      "batch_id": "MP-0058",
+      "record_id": "MECO-DWS2C",
+      "office_kind": "mp",
+      "parent_kind": "party",
+      "slug": "doris-sophia-brodi",
+      "name": "Doris Sophia Brodi",
+      "parent_slug": "prs",
+      "bloc": "government",
+      "position": "Member of the Dewan Rakyat",
+      "constituency": "Sri Aman",
+      "state": "Sarawak",
+      "description": "Doris Sophia Brodi represents Sri Aman, Sarawak, in the Dewan Rakyat. Affiliated with PRS.",
+      "website": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4241",
+      "photo_path": "/portraits/doris-sophia-brodi.webp",
+      "photo_source_url": "https://www.parlimen.gov.my/images/webuser/ahli/2022/P202%20Doris.jpg",
+      "photo_credit": "Parliament of Malaysia",
+      "profile_checked_at": "2026-11-10",
+      "profile_sources": [
+        {
+          "label": "Parliament · official current profile",
+          "url": "https://www.parlimen.gov.my/profile-ahli.html?uweb=dr&id=4241"
+        },
+        {
+          "label": "PRS · current women’s chief, July 2026",
+          "url": "https://ukas.sarawak.gov.my/web/subpage/news_view/45040"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "batch_id": "MP-0058",
+      "entity_slug": "rodiyah-sapiee",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0058:rodiyah-sapiee:semera-lot-pmr-hall",
+      "title": "Complete the PMR upgrade of Dewan Perpaduan Kampung Semera Lot",
+      "category": "Infrastructure",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-02-13",
+      "evidence_url": "https://ukas.sarawak.gov.my/web/subpage/news_view/34142",
+      "description": "The official report records the RM150,000 PMR 2025 hall upgrade as completed on 9 February, with Rodiyah witnessing its handover. Work included walls, cooling, toilets and lighting.",
+      "progress_note": "Achieved covers this named constituency project. Maha Enterprise carried out the work and SDO coordinated implementation; the MP is not credited as sole builder. Publication was 13 February, distinct from the reported 9 February completion date.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    },
+    {
+      "batch_id": "MP-0058",
+      "entity_slug": "mohamad-shafizan-kepli",
+      "record_kind": "documented_delivery",
+      "import_key": "MP-0058:mohamad-shafizan-kepli:lingga-gawai-contributions-2026",
+      "title": "Provide RM110,900 in Gawai support to 50 Lingga longhouses",
+      "category": "Community Development",
+      "status": "achieved",
+      "progress": null,
+      "target_date": null,
+      "promise_date": null,
+      "promise_url": null,
+      "evidence_date": "2026-05-23",
+      "evidence_url": "https://ukas.sarawak.gov.my/web/subpage/news_view/41272",
+      "description": "The official report records the Batang Lupar constituency contributions, presented through Shafizan’s representative, at RM100 per longhouse door.",
+      "progress_note": "Achieved covers the reported contribution round. Longhouse doors and recipient longhouses are different units; neither is a completion denominator. Final household distribution and use of the funds were not independently verified.",
+      "progress_checked_at": "2026-11-10",
+      "source_type": "editorial",
+      "is_sample": false
+    }
+  ],
+  "party_parents_added": [],
+  "methodology": "Commitments, documented activities and limited delivery reports are distinct. Evidence-only records have no invented earlier promise. Achieved covers the described handover, programme session or launch only. Shared agency responsibility, historical dates, count units, source limitations and missing follow-up evidence are explicit. No claim of exhaustive research is made.",
+  "missing_fields": {
+    "rodiyah-sapiee": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Current PBB branch leadership is supported by August reporting, alongside Parliament’s GPS constituency listing."
+    },
+    "mohamad-shafizan-kepli": {
+      "milestones_added": 1,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "verified_for_selected_records",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    },
+    "doris-sophia-brodi": {
+      "milestones_added": 0,
+      "scope": "Initial bounded source pass, up to two attributable milestones per person; additional commitments are not researched to completion.",
+      "milestone_research_status": "no_new_milestone_selected_in_reviewed_sources; not a claim that no public commitments exist",
+      "unselected_commitments": "Questions, general advocacy, speculative party changes, attendance and other politicians’ promises are not converted into personal delivery.",
+      "completion": "Only the explicitly dated, same-scope count ratios in progress_calculations are numeric. All other new percentages remain NULL; historical snapshots are not live November measurements.",
+      "party_membership": "Supported by linked current Parliament and party/representative sources."
+    }
+  },
+  "progress_calculations": {},
+  "published_progress": {},
+  "target_sources": {}
+}
