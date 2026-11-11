@@ -1,58 +1,85 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
+import localFont from "next/font/local";
 import { Suspense } from "react";
 import Link from "@/components/NavigationLink";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { AppShell } from "@/components/AppShell";
+import { LocaleProvider } from "@/components/LocaleProvider";
 import { SITE, isSupabaseConfigured } from "@/lib/config";
+import { HTML_LANG, OG_LOCALE } from "@/lib/i18n";
+import { getDictionary, getLocale } from "@/lib/i18n-server";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE.origin),
-  title: { default: `${SITE.name} — ${SITE.country}`, template: `%s · ${SITE.name}` },
-  description: "Track Malaysia’s election pledges and review public milestones from coalitions, parties and politicians.",
-  openGraph: { type: "website", siteName: SITE.name, locale: "en_MY" },
-};
+// Self-hosted (no request to Google Fonts), so text renders sooner and never shifts.
+const jakarta = localFont({
+  src: "./fonts/PlusJakartaSans-latin-variable.woff2",
+  weight: "200 800",
+  style: "normal",
+  display: "swap",
+  variable: "--font-jakarta",
+  fallback: ["ui-sans-serif", "system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
+});
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export async function generateMetadata(): Promise<Metadata> {
+  const [locale, t] = await Promise.all([getLocale(), getDictionary()]);
+  return {
+    metadataBase: new URL(SITE.origin),
+    title: { default: t.meta.homeTitle, template: `%s | ${t.brand.full}` },
+    description: t.meta.defaultDescription,
+    applicationName: t.brand.full,
+    openGraph: {
+      type: "website",
+      siteName: t.brand.full,
+      locale: OG_LOCALE[locale],
+      alternateLocale: [OG_LOCALE[locale === "en" ? "ms" : "en"]],
+    },
+    twitter: { card: "summary_large_image" },
+    verification: { google: "YoHXYCZsD5VRbAeDNCTiQdsIVcltfKLRLWfN4esu_rw" },
+  };
+}
+
+export const viewport: Viewport = { themeColor: "#ffffff" };
+
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const configured = isSupabaseConfigured();
+  const [locale, t] = await Promise.all([getLocale(), getDictionary()]);
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
-        />
-      </head>
+    <html lang={HTML_LANG[locale]} className={jakarta.variable}>
       <body className="flex min-h-screen flex-col">
-        <AppShell
-          configured={configured}
-          header={
-            configured ? (
-              <Suspense fallback={<header aria-label="Loading navigation" className="sticky top-0 z-30 h-16 border-b border-line bg-white" />}>
-                <Header />
-              </Suspense>
-            ) : null
-          }
-          setup={<SetupNotice />}
-          footer={
-            <footer className="border-t border-line bg-white">
-              <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-                <p>
-                  {SITE.name} is independent and non-partisan. <strong className="text-slate-600">Editorial</strong> records are curated with
-                  sources; <strong className="text-brand-700">self-reported</strong> records come from politicians and are not verified.
-                </p>
-                <div className="flex shrink-0 gap-4">
-                  <Link href="/search" className="hover:text-ink">Explore all profiles</Link>
-                  <Link href="/" className="hover:text-ink">About Manifesto</Link>
+        <LocaleProvider locale={locale}>
+          <AppShell
+            configured={configured}
+            header={
+              configured ? (
+                <Suspense fallback={<header aria-label="Loading navigation" className="sticky top-0 z-30 h-16 border-b border-line bg-white" />}>
+                  <Header />
+                </Suspense>
+              ) : null
+            }
+            setup={<SetupNotice />}
+            footer={
+              <footer className="border-t border-line bg-white">
+                <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
+                  <div className="space-y-1">
+                    <p className="font-semibold text-slate-600">{t.brand.full}</p>
+                    <p>
+                      {t.footer.about(SITE.name)} <strong className="text-slate-600">{t.footer.editorial}</strong>
+                      {t.footer.editorialRest}
+                      <strong className="text-brand-700">{t.footer.selfReported}</strong>
+                      {t.footer.selfReportedRest}
+                    </p>
+                  </div>
+                  <nav aria-label={t.footer.explore} className="flex shrink-0 gap-4">
+                    <Link href="/manifesto-pru" className="hover:text-ink">{t.footer.hub}</Link>
+                    <Link href="/search" className="hover:text-ink">{t.footer.explore}</Link>
+                  </nav>
                 </div>
-              </div>
-            </footer>
-          }
-        >
-          {children}
-        </AppShell>
+              </footer>
+            }
+          >
+            {children}
+          </AppShell>
+        </LocaleProvider>
       </body>
     </html>
   );

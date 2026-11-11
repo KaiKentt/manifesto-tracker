@@ -40,7 +40,7 @@ async function entitySlug(entityId: string) {
 
 function refresh(slug?: string) {
   revalidatePath("/dashboard");
-  revalidatePath("/tracker");
+  revalidatePath("/");
   if (slug) revalidatePath(`/e/${slug}`);
 }
 

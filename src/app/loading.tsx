@@ -1,6 +1,6 @@
 export default function Loading() {
   return (
-    <div role="status" aria-label="Loading page" className="space-y-6">
+    <div role="status" aria-label="Loading page" className="mx-auto w-full max-w-6xl space-y-6">
       <span className="sr-only">Loading page…</span>
       <div aria-hidden="true" className="space-y-6 motion-safe:animate-pulse">
         <div className="h-8 w-56 rounded-lg bg-slate-200" />

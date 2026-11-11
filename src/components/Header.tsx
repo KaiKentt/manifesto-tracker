@@ -2,16 +2,20 @@ import Image from "next/image";
 import Link from "@/components/NavigationLink";
 import { getViewer } from "@/lib/auth";
 import { signOut } from "@/actions/auth";
-import { SITE } from "@/lib/config";
+import { getDictionary, getLocale, getRequestPath } from "@/lib/i18n-server";
+import { localePath, stripLocale } from "@/lib/i18n";
+import { LanguageToggle } from "./LanguageToggle";
 
 export async function Header() {
-  const viewer = await getViewer();
+  const [viewer, locale, t, path] = await Promise.all([getViewer(), getLocale(), getDictionary(), getRequestPath()]);
   const role = viewer?.profile?.role;
+  const base = stripLocale(path);
+  const item = "rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink";
 
   return (
     <header className="sticky top-0 z-30 border-b border-line bg-white/85 backdrop-blur">
       <div className="mx-auto flex min-h-16 max-w-6xl items-center gap-3 px-4 py-1 sm:gap-4 sm:py-0">
-        <Link prefetch={true} href="/tracker" aria-label={SITE.name} className="flex shrink-0 items-center">
+        <Link prefetch={true} href="/" aria-label={t.brand.full} className="flex shrink-0 items-center">
           <Image
             src="/branding/manifesto-tracker-mark.webp"
             alt=""
@@ -32,39 +36,43 @@ export async function Header() {
           />
         </Link>
 
-        <nav aria-label="Main navigation" className="ml-auto flex min-w-0 flex-wrap items-center justify-end gap-1 text-sm font-medium">
-          <Link prefetch={true} href="/search" className="rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink">
-            Explore
+        <nav aria-label={t.nav.main} className="ml-auto flex min-w-0 flex-wrap items-center justify-end gap-1 text-sm font-medium">
+          <Link prefetch={true} href="/search" className={item}>
+            {t.nav.explore}
+          </Link>
+          <Link prefetch={true} href="/manifesto-pru" className={`hidden md:block ${item}`}>
+            {t.nav.hub}
           </Link>
           {viewer ? (
             <>
-              <Link prefetch={true} href="/dashboard" className="rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink">
-                Dashboard
+              <Link prefetch={true} href="/dashboard" className={item}>
+                {t.nav.dashboard}
               </Link>
               {role === "admin" ? (
-                <Link prefetch={true} href="/admin" className="rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink">
-                  Admin
+                <Link prefetch={true} href="/admin" className={item}>
+                  {t.nav.admin}
                 </Link>
               ) : null}
               {role === "rakyat" ? (
                 <Link prefetch={true} href="/upgrade" className="hidden rounded-lg px-2 py-2 sm:px-3 text-brand-700 hover:bg-brand-50 lg:block">
-                  For politicians
+                  {t.nav.forPoliticians}
                 </Link>
               ) : null}
               <form action={signOut}>
-                <button className="rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink">Log out</button>
+                <button className={item}>{t.nav.logOut}</button>
               </form>
             </>
           ) : (
             <>
-              <Link prefetch={true} href="/login" className="rounded-lg px-2 py-2 sm:px-3 text-slate-600 hover:bg-slate-100 hover:text-ink">
-                Log in
+              <Link prefetch={true} href="/login" className={item}>
+                {t.nav.logIn}
               </Link>
               <Link prefetch={true} href="/signup" className="btn-primary px-2.5 py-2 sm:px-3.5">
-                Sign up
+                {t.nav.signUp}
               </Link>
             </>
           )}
+          <LanguageToggle locale={locale} hrefs={{ en: localePath("en", base), ms: localePath("ms", base) }} label={t.nav.language} />
         </nav>
       </div>
     </header>

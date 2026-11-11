@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "@/components/NavigationLink";
-import { BLOC_LABEL, STATUS_LABEL, TYPE_LABEL, type StatusFilter } from "@/lib/config";
+import type { StatusFilter } from "@/lib/config";
+import { dictionary, formatDateFor } from "@/lib/dictionaries";
+import type { Locale } from "@/lib/i18n";
 import type { Bloc, EntityType, Milestone } from "@/lib/types";
 import { Portrait } from "./Portrait";
 import { statusCounts } from "@/lib/milestones";
@@ -75,57 +77,58 @@ export const STATUS_BAR: Record<StatusFilter, string> = {
   broken: "bg-rose-500",
 };
 
-export function StatusBadge({ status: raw }: { status: Milestone["status"] }) {
+export function StatusBadge({ status: raw, locale = "en" }: { status: Milestone["status"]; locale?: Locale }) {
   const status = raw ?? "unknown";
   return (
     <span className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5 text-xs font-semibold ${STATUS_STYLE[status]}`}>
       <span className={`h-1.5 w-1.5 rounded-full ${STATUS_BAR[status ?? "unknown"]}`} />
-      {STATUS_LABEL[status]}
+      {dictionary(locale).status[status]}
     </span>
   );
 }
 
-export function TypeBadge({ type }: { type: EntityType }) {
+export function TypeBadge({ type, locale = "en" }: { type: EntityType; locale?: Locale }) {
   return (
     <span className="rounded-md bg-slate-100 px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-600">
-      {TYPE_LABEL[type]}
+      {dictionary(locale).type[type]}
     </span>
   );
 }
 
-export function BlocBadge({ bloc }: { bloc: Bloc }) {
+export function BlocBadge({ bloc, locale = "en" }: { bloc: Bloc; locale?: Locale }) {
   const style =
     bloc === "government"
       ? "border-slate-300 text-slate-700"
       : bloc === "opposition"
         ? "border-slate-300 text-slate-700 border-dashed"
         : "border-line text-slate-500";
-  return <span className={`rounded-md border px-2 py-0.5 text-[11px] font-semibold ${style}`}>{BLOC_LABEL[bloc]}</span>;
+  return <span className={`rounded-md border px-2 py-0.5 text-[11px] font-semibold ${style}`}>{dictionary(locale).bloc[bloc]}</span>;
 }
 
-export function SourceBadge({ source }: { source: Milestone["source_type"] }) {
+export function SourceBadge({ source, locale = "en" }: { source: Milestone["source_type"]; locale?: Locale }) {
+  const t = dictionary(locale).source;
   return source === "editorial" ? (
-    <span className="text-xs font-medium text-slate-500" title="Curated by the Manifesto Tracker editorial team">
-      Editorial
+    <span className="text-xs font-medium text-slate-500" title={t.editorialTitle}>
+      {t.editorial}
     </span>
   ) : (
-    <span className="text-xs font-medium text-brand-700" title="Posted by the politician; not independently verified">
-      Self-reported
+    <span className="text-xs font-medium text-brand-700" title={t.selfReportedTitle}>
+      {t.selfReported}
     </span>
   );
 }
 
-export function SampleBadge() {
+export function SampleBadge({ locale = "en" }: { locale?: Locale }) {
   return (
     <span className="rounded-md bg-amber-100 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-amber-800">
-      Sample
+      {dictionary(locale).sample}
     </span>
   );
 }
 
 // ── Progress ─────────────────────────────────────────────────────────
-export function ProgressBar({ value, status }: { value: number | null; status: Milestone["status"] }) {
-  if (value === null) return <p className="text-xs text-muted">Progress percentage not established</p>;
+export function ProgressBar({ value, status, locale = "en" }: { value: number | null; status: Milestone["status"]; locale?: Locale }) {
+  if (value === null) return <p className="text-xs text-muted">{dictionary(locale).progress.none}</p>;
   return (
     <div className="flex items-center gap-3">
       <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-slate-100">
@@ -137,17 +140,18 @@ export function ProgressBar({ value, status }: { value: number | null; status: M
 }
 
 // ── Status mix: stacked bar + legend ─────────────────────────────────
-export function StatusMix({ milestones }: { milestones: Pick<Milestone, "status">[] }) {
+export function StatusMix({ milestones, locale = "en" }: { milestones: Pick<Milestone, "status">[]; locale?: Locale }) {
+  const labels = dictionary(locale).status;
   const counts = statusCounts(milestones);
   const total = milestones.length;
   const order: StatusFilter[] = ["achieved", "in_progress", "delayed", "pledged", "broken", "unknown"];
-  if (!total) return <p className="text-sm text-muted">No milestones tracked yet.</p>;
+  if (!total) return <p className="text-sm text-muted">{dictionary(locale).mix.empty}</p>;
   return (
     <div>
       <div className="flex h-2.5 overflow-hidden rounded-full bg-slate-100">
         {order.map((s) =>
           counts[s] ? (
-            <div key={s} className={STATUS_BAR[s]} style={{ width: `${(counts[s] / total) * 100}%` }} title={`${STATUS_LABEL[s]}: ${counts[s]}`} />
+            <div key={s} className={STATUS_BAR[s]} style={{ width: `${(counts[s] / total) * 100}%` }} title={`${labels[s]}: ${counts[s]}`} />
           ) : null,
         )}
       </div>
@@ -155,7 +159,7 @@ export function StatusMix({ milestones }: { milestones: Pick<Milestone, "status"
         {order.filter((s) => s !== "unknown" || counts.unknown > 0).map((s) => (
           <li key={s} className="flex items-center gap-1.5 text-xs text-slate-600">
             <span className={`h-2 w-2 rounded-full ${STATUS_BAR[s]}`} />
-            {STATUS_LABEL[s]} <span className="font-semibold tabular-nums text-ink">{counts[s]}</span>
+            {labels[s]} <span className="font-semibold tabular-nums text-ink">{counts[s]}</span>
           </li>
         ))}
       </ul>
@@ -196,11 +200,6 @@ export function BackLink({ href, children }: { href: string; children: React.Rea
   );
 }
 
-export function formatDate(value: string | null) {
-  if (!value) return null;
-  return new Date(value + (value.length === 10 ? "T00:00:00" : "")).toLocaleDateString("en-MY", {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  });
+export function formatDate(value: string | null, locale: Locale = "en") {
+  return formatDateFor(locale, value);
 }

@@ -32,7 +32,7 @@ export async function requireViewer(next: string): Promise<Viewer> {
 
 export async function requireAdmin(): Promise<Viewer> {
   const viewer = await requireViewer("/admin");
-  if (viewer.profile?.role !== "admin") redirect("/tracker");
+  if (viewer.profile?.role !== "admin") redirect("/");
   return viewer;
 }
 

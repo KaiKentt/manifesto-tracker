@@ -3,15 +3,18 @@ import { redirect } from "next/navigation";
 import { AuthForm } from "@/components/AuthForm";
 import { getViewer } from "@/lib/auth";
 import { safeRedirectPath } from "@/lib/redirects";
+import { localePath } from "@/lib/i18n";
+import { getDictionary, getLocale } from "@/lib/i18n-server";
 
-export const metadata: Metadata = { title: "Log in", robots: { index: false, follow: false } };
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getDictionary();
+  return { title: t.auth.loginTitle, robots: { index: false, follow: false } };
+}
 
 export default async function LoginPage({ searchParams }: { searchParams: Promise<{ next?: string; error?: string }> }) {
-  const { next = "/tracker", error } = await searchParams;
-  const safe = safeRedirectPath(next);
-  const notice = error === "google"
-    ? "Google sign-in could not be completed. Please try again or use your email."
-    : error === "confirm" ? "That confirmation link has expired. Log in or sign up again." : undefined;
+  const [{ next, error }, locale, t] = await Promise.all([searchParams, getLocale(), getDictionary()]);
+  const safe = safeRedirectPath(next ?? localePath(locale, "/"));
+  const notice = error === "google" ? t.auth.googleError : error === "confirm" ? t.auth.confirmError : undefined;
   if (await getViewer()) redirect(safe);
   return (
     <div className="py-6">

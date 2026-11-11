@@ -29,7 +29,7 @@ export async function toggleVote(targetType: "milestone" | "entity", targetId: s
   const table = targetType === "milestone" ? "milestones" : "entities";
   const { data: row } = await supabase.from(table).select("upvotes").eq("id", targetId).maybeSingle();
 
-  revalidatePath("/tracker", "page");
+  revalidatePath("/", "page");
   revalidatePath("/e/[slug]", "page");
   revalidatePath("/search", "page");
   revalidatePath("/dashboard", "page");

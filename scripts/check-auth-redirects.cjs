@@ -11,11 +11,11 @@ const code = ts.transpileModule(fs.readFileSync(path.join(__dirname, '../src/lib
 vm.runInNewContext(code, { module: moduleUnderTest, exports: moduleUnderTest.exports });
 const { safeRedirectPath } = moduleUnderTest.exports;
 
-// Missing or unsafe returns must open the tracker, while valid deep links stay intact.
+// Missing or unsafe returns must open the tracker homepage, while valid deep links stay intact.
 for (const value of [undefined, null, '', 'https://other.example/', '//other.example', '/\\other.example', '/\nother.example']) {
-  assert.equal(safeRedirectPath(value), '/tracker');
+  assert.equal(safeRedirectPath(value), '/');
 }
-for (const value of ['/tracker', '/dashboard', '/e/anwar-ibrahim?status=achieved', '/search?q=PKR', '/']) {
+for (const value of ['/ms', '/ms/e/pas', '/dashboard', '/e/anwar-ibrahim?status=achieved', '/search?q=PKR', '/']) {
   assert.equal(safeRedirectPath(value), value);
 }
-console.log('Passed default tracker destinations, unsafe return rejection and preserved deep links.');
+console.log('Passed default homepage destinations, unsafe return rejection and preserved deep links in both languages.');

@@ -5,22 +5,19 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { getVotedIds, getViewer } from "@/lib/auth";
 import { MILESTONE_SELECT, type Entity, type Milestone } from "@/lib/types";
+import { languageAlternates, localePath } from "@/lib/i18n";
+import { baseOpenGraph, getDictionary, getLocale } from "@/lib/i18n-server";
 import { EntityCard } from "@/components/EntityCard";
 import { MilestoneCard } from "@/components/MilestoneCard";
 import { EmptyState } from "@/components/ui";
 
 const PAGE_SIZE = 60;
 
-const TABS = [
-  { key: "all", label: "All", title: "Malaysia’s political profiles" },
-  { key: "alliance", label: "Coalitions", title: "Political coalitions in Malaysia" },
-  { key: "party", label: "Parties", title: "Political parties in Malaysia" },
-  { key: "politician", label: "Politicians", title: "Malaysian politicians and constituencies" },
-] as const;
+const TABS = ["all", "alliance", "party", "politician"] as const;
 
 type SearchParams = { q?: string | string[]; type?: string | string[]; page?: string | string[] };
 type SearchPageProps = { searchParams: Promise<SearchParams> };
-type ProfileType = (typeof TABS)[number]["key"];
+type ProfileType = (typeof TABS)[number];
 
 // Strip characters that have meaning in PostgREST filter syntax.
 function clean(q: string) {
@@ -29,10 +26,10 @@ function clean(q: string) {
 
 function readSearchOptions(params: SearchParams) {
   const q = typeof params.q === "string" ? clean(params.q) : "";
-  const tab = TABS.find(({ key }) => key === params.type) ?? TABS[0];
+  const type = TABS.find((key) => key === params.type) ?? "all";
   const requestedPage = typeof params.page === "string" && /^\d+$/.test(params.page) ? Number(params.page) : 1;
   const page = Number.isSafeInteger(requestedPage) && requestedPage > 0 && requestedPage <= 10000 ? requestedPage : 1;
-  return { q, tab, page };
+  return { q, type, page };
 }
 
 function searchHref(type: ProfileType, page = 1, q = "") {
@@ -45,17 +42,18 @@ function searchHref(type: ProfileType, page = 1, q = "") {
 }
 
 export async function generateMetadata({ searchParams }: SearchPageProps): Promise<Metadata> {
-  const { q, tab, page } = readSearchOptions(await searchParams);
+  const [{ q, type, page }, locale, t, og] = await Promise.all([searchParams.then(readSearchOptions), getLocale(), getDictionary(), baseOpenGraph()]);
+  const title = t.search.titles[type] + (page > 1 ? t.search.page(page) : "");
   return {
-    title: page > 1 ? `${tab.title} (page ${page})` : tab.title,
-    description: "Browse Malaysia’s political parties, coalitions and elected representatives. Find their profiles and recorded milestones.",
-    ...(q ? { robots: { index: false, follow: true } } : { alternates: { canonical: searchHref(tab.key, page) } }),
+    title,
+    description: t.meta.searchDescription,
+    ...(q ? { robots: { index: false, follow: true } } : { alternates: languageAlternates(locale, searchHref(type, page)) }),
+    openGraph: { ...og, type: "website", title, description: t.meta.searchDescription, url: localePath(locale, searchHref(type, page)) },
   };
 }
 
 export default async function SearchPage({ searchParams }: SearchPageProps) {
-  const { q, tab, page } = readSearchOptions(await searchParams);
-  const type = tab.key;
+  const [{ q, type, page }, locale, t] = await Promise.all([searchParams.then(readSearchOptions), getLocale(), getDictionary()]);
 
   const supabase = await createClient();
   let entityQuery = supabase.from("entities").select("*", { count: "exact" }).neq("type", "bloc").order("upvotes", { ascending: false }).order("name").order("id").range((page - 1) * PAGE_SIZE, page * PAGE_SIZE - 1);
@@ -70,12 +68,14 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
     getViewer(),
     entityQuery,
     supabase.from("entities").select("id, name, short_name"),
-    q ? supabase.from("milestones").select(MILESTONE_SELECT).ilike("title", `%${q}%`).order("upvotes", { ascending: false }).limit(8) : null,
+    q
+      ? supabase.from("milestones").select(MILESTONE_SELECT).eq("is_sample", false).ilike("title", `%${q}%`).order("upvotes", { ascending: false }).limit(8)
+      : null,
   ]);
 
   const total = count ?? 0;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-  if (page > totalPages) redirect(searchHref(type, totalPages, q));
+  if (page > totalPages) redirect(localePath(locale, searchHref(type, totalPages, q)));
 
   const entities = (entityRows ?? []) as Entity[];
   const milestones = ((milestoneRes?.data ?? []) as unknown as Milestone[]);
@@ -85,55 +85,56 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-extrabold tracking-tight">{q ? `Results for “${q}”` : tab.title}</h1>
-        <Form action="/search" className="mt-4 flex max-w-xl gap-2">
+        <h1 className="text-2xl font-extrabold tracking-tight">{q ? t.search.results(q) : t.search.titles[type]}</h1>
+        <Form action={localePath(locale, "/search")} role="search" className="mt-4 flex max-w-xl gap-2">
           {type !== "all" ? <input type="hidden" name="type" value={type} /> : null}
-          <input name="q" defaultValue={q} placeholder="Name, party, constituency or state" className="input h-11" />
-          <button className="btn-primary h-11">Search</button>
+          <label htmlFor="search-q" className="sr-only">{t.search.placeholder}</label>
+          <input id="search-q" name="q" defaultValue={q} placeholder={t.search.placeholder} className="input h-11" />
+          <button className="btn-primary h-11">{t.search.button}</button>
         </Form>
         <div className="mt-4 flex flex-wrap gap-2">
-          {TABS.map((t) => (
+          {TABS.map((key) => (
             <Link
-              key={t.key}
-              href={searchHref(t.key, 1, q)}
+              key={key}
+              href={searchHref(key, 1, q)}
               className={`rounded-full px-3.5 py-1.5 text-sm font-semibold transition ${
-                type === t.key ? "bg-ink text-white" : "border border-line bg-white text-slate-600 hover:text-ink"
+                type === key ? "bg-ink text-white" : "border border-line bg-white text-slate-600 hover:text-ink"
               }`}
             >
-              {t.label}
+              {t.search.tabs[key]}
             </Link>
           ))}
         </div>
       </div>
 
-      {entities.length ? <p className="text-sm text-muted">Showing {(page - 1) * PAGE_SIZE + 1}–{Math.min(page * PAGE_SIZE, total)} of {total} profiles</p> : null}
+      {entities.length ? <p className="text-sm text-muted">{t.search.showing((page - 1) * PAGE_SIZE + 1, Math.min(page * PAGE_SIZE, total), total)}</p> : null}
 
       {entities.length ? (
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {entities.map((e) => (
-            <EntityCard key={e.id} entity={e} parentName={e.parent_id ? nameOf.get(e.parent_id) : null} />
+            <EntityCard key={e.id} entity={e} parentName={e.parent_id ? nameOf.get(e.parent_id) : null} locale={locale} />
           ))}
         </div>
       ) : (
-        <EmptyState title="No profiles match that search">Try a shorter name, a party abbreviation, or a constituency.</EmptyState>
+        <EmptyState title={t.search.emptyTitle}>{t.search.emptyText}</EmptyState>
       )}
 
       {totalPages > 1 ? (
-        <nav aria-label="Profile pages" className="flex flex-wrap items-center justify-between gap-3">
-          <span className="text-sm text-muted">Page {page} of {totalPages}</span>
+        <nav aria-label={t.search.pages} className="flex flex-wrap items-center justify-between gap-3">
+          <span className="text-sm text-muted">{t.search.pageOf(page, totalPages)}</span>
           <div className="flex gap-2">
-            {page > 1 ? <Link href={searchHref(type, page - 1, q)} className="btn-ghost" aria-label="Previous profile page">Previous</Link> : null}
-            {page < totalPages ? <Link href={searchHref(type, page + 1, q)} className="btn-primary" aria-label="Next profile page">Next</Link> : null}
+            {page > 1 ? <Link href={searchHref(type, page - 1, q)} className="btn-ghost" aria-label={t.search.previousLabel}>{t.search.previous}</Link> : null}
+            {page < totalPages ? <Link href={searchHref(type, page + 1, q)} className="btn-primary" aria-label={t.search.nextLabel}>{t.search.next}</Link> : null}
           </div>
         </nav>
       ) : null}
 
       {milestones.length ? (
         <section>
-          <h2 className="section-title">Milestones mentioning “{q}”</h2>
+          <h2 className="section-title">{t.search.mentioning(q)}</h2>
           <div className="mt-4 grid gap-3 lg:grid-cols-2">
             {milestones.map((m) => (
-              <MilestoneCard key={m.id} milestone={m} voted={voted.has(m.id)} loggedIn={Boolean(viewer)} compact />
+              <MilestoneCard key={m.id} milestone={m} voted={voted.has(m.id)} loggedIn={Boolean(viewer)} compact locale={locale} />
             ))}
           </div>
         </section>

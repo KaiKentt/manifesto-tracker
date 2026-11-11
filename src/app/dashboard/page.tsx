@@ -60,7 +60,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
           ) : (
             <div className="mt-4">
               <EmptyState title="Nothing here yet">
-                Upvote milestones on the <Link href="/tracker" className="font-semibold text-brand-700">tracker dashboard</Link> to follow them here.
+                Upvote milestones on the <Link href="/" className="font-semibold text-brand-700">tracker</Link> to follow them here.
               </EmptyState>
             </div>
           )}

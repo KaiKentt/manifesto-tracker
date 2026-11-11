@@ -3,6 +3,8 @@
 import { useOptimistic, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { toggleVote } from "@/actions/votes";
+import { localePath } from "@/lib/i18n";
+import { useDictionary, useLocale } from "./LocaleProvider";
 
 export function UpvoteButton({
   targetType,
@@ -20,13 +22,15 @@ export function UpvoteButton({
   size?: "sm" | "md";
 }) {
   const router = useRouter();
+  const locale = useLocale();
+  const t = useDictionary().upvote;
   const [optimistic, setOptimistic] = useOptimistic({ count, voted });
   const [pending, startTransition] = useTransition();
   const [error, setError] = useState<string | null>(null);
 
   function onClick() {
     if (!loggedIn) {
-      router.push(`/login?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
+      router.push(`${localePath(locale, "/login")}?next=${encodeURIComponent(window.location.pathname + window.location.search)}`);
       return;
     }
     setError(null);
@@ -35,10 +39,10 @@ export function UpvoteButton({
       try {
         const res = await toggleVote(targetType, targetId);
         if (res.ok) setOptimistic({ voted: res.voted, count: res.count });
-        else if (res.reason === "login") router.push("/login");
-        else setError(res.message ?? "Could not save your vote");
+        else if (res.reason === "login") router.push(localePath(locale, "/login"));
+        else setError(res.message ?? t.failed);
       } catch {
-        setError("Could not save your vote. Please try again.");
+        setError(t.retry);
       }
     });
   }
@@ -51,7 +55,7 @@ export function UpvoteButton({
       disabled={pending}
       aria-pressed={optimistic.voted}
       aria-busy={pending}
-      title={error ?? (loggedIn ? (optimistic.voted ? "Remove upvote" : "Upvote") : "Log in to upvote")}
+      title={error ?? (loggedIn ? (optimistic.voted ? t.remove : t.upvote) : t.login)}
       className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border font-semibold tabular-nums transition ${pad} ${
         optimistic.voted
           ? "border-brand-600 bg-brand-600 text-white hover:bg-brand-700"
