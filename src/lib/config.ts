@@ -2,7 +2,8 @@
 
 export const SITE = {
   name: "Manifesto Tracker",
-  tagline: "Every promise, tracked in public.",
+  tagline: "Malaysia’s manifesto and PRU tracker",
+  origin: "https://manifesto.akar.asia",
   country: "Malaysia",
 };
 

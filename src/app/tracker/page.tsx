@@ -11,7 +11,12 @@ import { EntityCard } from "@/components/EntityCard";
 import { UpvoteButton } from "@/components/UpvoteButton";
 import { Avatar, StatTile, StatusMix } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Tracker" };
+export const metadata: Metadata = {
+  title: "Manifesto Malaysia dan Janji PRU",
+  description:
+    "Semak manifesto pilihan raya dan janji PRU di Malaysia. Lihat status, tarikh kemas kini dan sumber bagi gabungan, parti politik dan ahli politik.",
+  alternates: { canonical: "/tracker" },
+};
 
 export default async function TrackerPage() {
   const supabase = await createClient();
@@ -51,8 +56,8 @@ export default async function TrackerPage() {
         </div>
         <h1 className="mt-1 max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl">{SITE.tagline}</h1>
         <p className="mt-3 max-w-2xl text-muted">
-          Follow the pledges of the government and the opposition, then dig into any coalition, party or politician. Upvote the
-          promises that matter to you.
+          Compare election pledges from Malaysia’s government and opposition. Browse coalitions, parties and politicians to
+          see recorded milestones and the sources behind them.
         </p>
         <Form action="/search" className="mt-6 flex max-w-xl gap-2">
           <input name="q" placeholder="Try “PKR”, “Perikatan”, or a politician’s name" className="input h-12 text-base" />
@@ -158,6 +163,10 @@ export default async function TrackerPage() {
             Browse parties and politicians →
           </Link>
         </div>
+        <p lang="ms" className="mt-2 max-w-2xl text-sm text-muted">
+          Untuk menyemak janji Pilihan Raya Umum (PRU), pilih gabungan atau parti politik. Buka profil untuk menapis rekod
+          mengikut status dan merujuk pautan sumber yang tersedia.
+        </p>
         <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {alliances.map((a) => (
             <EntityCard key={a.id} entity={a} />

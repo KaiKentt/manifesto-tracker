@@ -7,15 +7,26 @@ import { CountUp } from "@/components/pitch/CountUp";
 import { PitchMotion } from "@/components/pitch/PitchMotion";
 import { monthLabel, monthRange, pct, rm } from "@/components/pitch/format";
 import { PITCH_MODEL as P } from "@/lib/pitch-data";
+import { SITE } from "@/lib/config";
 import type { Milestone } from "@/lib/types";
 import { Fragment, type CSSProperties } from "react";
 import "./pitch/pitch.css";
 
 export const metadata: Metadata = {
-  title: "Investor pitch",
+  title: { absolute: "Manifesto Malaysia & PRU | Manifesto Tracker by Akar" },
   description:
-    "Manifesto Tracker turns Malaysian election manifestos into a live public record of pledges, owners and evidence. Pre-seed raise of RM150,000.",
+    "Explore Malaysian election manifestos and track PRU pledges with Manifesto Tracker by Akar. Browse parties, coalitions and politicians, with progress and sources.",
+  alternates: { canonical: "/" },
+  verification: { google: "YoHXYCZsD5VRbAeDNCTiQdsIVcltfKLRLWfN4esu_rw" },
 };
+
+const websiteJsonLd = JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE.name,
+  alternateName: "Manifesto Tracker by Akar",
+  url: `${SITE.origin}/`,
+}).replace(/</g, "\\u003c");
 
 const at = (month: number) => P.months[month - 1];
 const M6 = at(6);
@@ -44,6 +55,7 @@ const SECTIONS = [
 export default function LandingPage() {
   return (
     <div className="pitch flex min-h-screen flex-col bg-white text-ink">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: websiteJsonLd }} />
       <a href="#top" className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-lg focus:bg-white focus:px-3 focus:py-2">
         Skip to content
       </a>
@@ -140,11 +152,11 @@ function Hero() {
       <div className="mx-auto grid max-w-6xl gap-14 px-4 pb-20 pt-14 sm:pt-20 lg:grid-cols-[1.08fr_0.92fr] lg:items-center lg:gap-16 lg:pb-28 lg:pt-24">
         <div>
           <h1 id="hero-title" className="text-[2.55rem] font-extrabold leading-[1.02] tracking-[-0.035em] sm:text-6xl lg:text-[4.1rem]">
-            <RiseWords text="From campaign promises to public accountability." />
+            <RiseWords text="Track Malaysia’s election manifestos." />
           </h1>
           <p className="hero-in mt-6 max-w-xl text-lg leading-relaxed text-white/75" style={delay(0.55)}>
-            Manifesto Tracker turns Malaysian election manifestos into a live public record: every pledge, who owns it, the evidence
-            behind it and what happened next.
+            Manifesto Tracker by Akar follows Malaysia’s election pledges, including promises made during the Pilihan Raya Umum
+            (PRU). Explore parties, coalitions and politicians to see recorded progress and its sources.
           </p>
           <div className="hero-in mt-9 flex flex-wrap gap-3" style={delay(0.7)}>
             <OpenTracker size="lg" tone="gold" />
@@ -153,7 +165,7 @@ function Hero() {
             </a>
           </div>
           <p className="hero-in mt-6 max-w-md text-sm text-white/55" style={delay(0.85)}>
-            The prototype is live. Its pledges are samples until editorial verification begins.
+            This preview shows a sample pledge. Open the tracker to browse public records and their sources.
           </p>
         </div>
         <PledgeDemo />

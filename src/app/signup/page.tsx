@@ -4,7 +4,7 @@ import { AuthForm } from "@/components/AuthForm";
 import { getViewer } from "@/lib/auth";
 import { safeRedirectPath } from "@/lib/redirects";
 
-export const metadata: Metadata = { title: "Sign up" };
+export const metadata: Metadata = { title: "Sign up", robots: { index: false, follow: false } };
 
 export default async function SignupPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
   const { next = "/tracker" } = await searchParams;

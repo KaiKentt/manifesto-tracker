@@ -9,7 +9,7 @@ import { AdminMilestoneForm } from "@/components/AdminMilestoneForm";
 import { SubmitButton } from "@/components/SubmitButton";
 import { EmptyState, StatTile, formatDate } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Admin" };
+export const metadata: Metadata = { title: "Admin", robots: { index: false, follow: false } };
 
 export default async function AdminPage() {
   await requireAdmin();

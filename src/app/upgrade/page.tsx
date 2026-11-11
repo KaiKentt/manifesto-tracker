@@ -5,7 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PLAN, isDemoMode } from "@/lib/config";
 import { UpgradeForm } from "@/components/UpgradeForm";
 
-export const metadata: Metadata = { title: "For politicians" };
+export const metadata: Metadata = { title: "For politicians", robots: { index: false, follow: false } };
 
 export default async function UpgradePage({ searchParams }: { searchParams: Promise<{ claim?: string; canceled?: string }> }) {
   const { claim, canceled } = await searchParams;

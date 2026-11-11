@@ -9,7 +9,7 @@ import { EntityCard } from "@/components/EntityCard";
 import { MilestoneForm, ProfileForm } from "@/components/DashboardForms";
 import { EmptyState, StatusBadge, formatDate } from "@/components/ui";
 
-export const metadata: Metadata = { title: "Dashboard" };
+export const metadata: Metadata = { title: "Dashboard", robots: { index: false, follow: false } };
 
 const REQUEST_LABEL: Record<PoliticianRequest["status"], string> = {
   awaiting_payment: "Waiting for payment confirmation",

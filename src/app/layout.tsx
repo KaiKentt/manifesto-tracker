@@ -7,8 +7,10 @@ import { AppShell } from "@/components/AppShell";
 import { SITE, isSupabaseConfigured } from "@/lib/config";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE.origin),
   title: { default: `${SITE.name} — ${SITE.country}`, template: `%s · ${SITE.name}` },
-  description: "Track the manifesto pledges of Malaysia's government, opposition, coalitions, parties and politicians.",
+  description: "Track Malaysia’s election pledges and review public milestones from coalitions, parties and politicians.",
+  openGraph: { type: "website", siteName: SITE.name, locale: "en_MY" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

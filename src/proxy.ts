@@ -31,7 +31,7 @@ export async function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // everything except static files, images and the Stripe webhook
-    "/((?!_next/static|_next/image|favicon.ico|api/stripe/webhook|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
+    // Skip static files, crawler metadata and the Stripe webhook.
+    "/((?!_next/static|_next/image|favicon.ico|robots\\.txt$|sitemap\\.xml$|api/stripe/webhook|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico)$).*)",
   ],
 };

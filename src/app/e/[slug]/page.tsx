@@ -18,8 +18,13 @@ type Params = { params: Promise<{ slug: string }>; searchParams: Promise<{ statu
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
   const data = await getEntityBySlug(slug);
-  if (!data) return { title: "Not found" };
-  return { title: `${data.name} — milestones`, description: data.description ?? `${TYPE_LABEL[data.type as Entity["type"]]} profile and tracked milestones.` };
+  if (!data) return { title: "Profile not found", robots: { index: false } };
+  const type = TYPE_LABEL[data.type];
+  return {
+    title: `${data.name} — ${type} Profile and Milestones`,
+    description: data.description?.trim() || `Explore the public profile and tracked milestones for ${data.name} in Malaysia.`,
+    alternates: { canonical: `/e/${encodeURIComponent(data.slug)}` },
+  };
 }
 
 export default async function EntityPage({ params, searchParams }: Params) {
